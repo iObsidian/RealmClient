@@ -89,9 +89,11 @@ public class MyPlayerToolTip extends ToolTip {
 
     public function makeNextClassQuestText(_arg_1:int, _arg_2:XML):void {
         this.nextClassQuest_ = new TextFieldDisplayConcrete().setSize(13).setColor(16549442).setTextWidth(174);
+
+
         this.nextClassQuest_.setStringBuilder(new LineBuilder().setParams(TextKey.MY_PLAYER_TOOL_TIP_NEXT_CLASS_QUEST, {
             "nextStarFame": _arg_1,
-            "character": _arg_2.DisplayId
+            "character":ClassToolTip.getDisplayId(_arg_2)
         }));
         this.nextClassQuest_.filters = [new DropShadowFilter(0, 0, 0)];
         addChild(this.nextClassQuest_);

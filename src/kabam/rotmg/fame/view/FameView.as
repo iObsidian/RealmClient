@@ -97,11 +97,11 @@ public class FameView extends Sprite {
         if (_arg_2) {
             _local_3.setParams(TextKey.DEATH_INFO_LONG, {
                 "date": _arg_1,
-                "killer": _arg_2
+                "killer":this.convertKillerString(_arg_2)
             });
         }
         else {
-            _local_3.setParams(TextKey.DEATH_INFO_SHORT, {"date": this.date});
+            _local_3.setParams(TextKey.DEATH_INFO_SHORT,{"date":_arg_1});
         }
         this.date.setStringBuilder(_local_3);
         this.date.x = (stage.stageWidth / 2);
@@ -109,13 +109,36 @@ public class FameView extends Sprite {
         this.infoContainer.addChild(this.date);
     }
 
+    private function convertKillerString(param1:String) : String
+    {
+        var _loc2_:Array = param1.split(".");
+        var _loc3_:String = _loc2_[0];
+        var _loc4_:String = _loc2_[1];
+        if(_loc4_ == null)
+        {
+            _loc4_ = _loc3_;
+        }
+        else
+        {
+            _loc4_ = _loc4_.substr(0,_loc4_.length - 1);
+            _loc4_ = _loc4_.replace(/_/g," ");
+            _loc4_ = _loc4_.replace(/APOS/g,"\'");
+            _loc4_ = _loc4_.replace(/BANG/g,"!");
+        }
+        if(ObjectLibrary.getPropsFromId(_loc4_) != null)
+        {
+            _loc4_ = ObjectLibrary.getPropsFromId(_loc4_).displayId_;
+        }
+        return _loc4_;
+    }
+
     public function setIcon(_arg_1:BitmapData):void {
         var _local_2:Sprite;
-        var _local_4:Bitmap;
         _local_2 = new Sprite();
         var _local_3:Sprite = new FameIconBackgroundDesign();
         _local_3.filters = [new DropShadowFilter(0, 0, 0, 0.5, 12, 12)];
         _local_2.addChild(_local_3);
+        var _local_4:Bitmap = new Bitmap(_arg_1);
         _local_4 = new Bitmap(_arg_1);
         _local_4.x = ((_local_2.width / 2) - (_local_4.width / 2));
         _local_4.y = ((_local_2.height / 2) - (_local_4.height / 2));

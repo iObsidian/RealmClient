@@ -29,8 +29,8 @@ public class ButtonPanel extends Panel {
     }
 
     private function alignButton():void {
-        this.button_.x = ((WIDTH / 2) - (this.button_.width / 2));
-        this.button_.y = ((HEIGHT - this.button_.height) - 4);
+        this.button_.x = int((WIDTH / 2) - (this.button_.width / 2));
+        this.button_.y = int((HEIGHT - this.button_.height) - 4);
     }
 
     protected function onButtonClick(_arg_1:MouseEvent):void {

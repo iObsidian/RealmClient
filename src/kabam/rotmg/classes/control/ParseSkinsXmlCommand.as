@@ -53,7 +53,7 @@ public class ParseSkinsXmlCommand {
         var _local_3:int = _arg_1.AnimatedTexture.Index;
         var _local_4:CharacterSkin = new CharacterSkin();
         _local_4.id = _arg_1.@type;
-        _local_4.name = _arg_1.DisplayId;
+        _local_4.name = _arg_1.DisplayId == undefined?_arg_1.@id:_arg_1.DisplayId;
         _local_4.unlockLevel = _arg_1.UnlockLevel;
         if (_arg_1.hasOwnProperty("NoSkinSelect")) {
             _local_4.skinSelectEnabled = false;
