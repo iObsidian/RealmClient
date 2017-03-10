@@ -19,7 +19,7 @@ public class AbilityVO {
     public function set type(_arg_1:uint):void {
         this._type = _arg_1;
         this._staticData = ObjectLibrary.getPetDataXMLByType(this._type);
-        this.name = this._staticData.DisplayId;
+        this.name = this._staticData.DisplayId == undefined?this._staticData.@id:this._staticData.DisplayId;
         this.description = this._staticData.Description;
     }
 

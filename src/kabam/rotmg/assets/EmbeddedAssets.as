@@ -124,6 +124,11 @@ public class EmbeddedAssets extends Object {
         d3LofiObjEmbed_ = EmbeddedAssets_d3LofiObjEmbed_;
         d3LofiObjBigEmbed_ = EmbeddedAssets_d3LofiObjBigEmbed_;
         cursorsEmbed_ = EmbeddedAssets_cursorsEmbed_;
+       stPatricksChars8x8Embed_ = EmbeddedAssets_stPatricksChars8x8Embed_;
+        stPatricksChars16x16Embed_ = EmbeddedAssets_stPatricksChars16x16Embed_;
+        stPatricksObjects8x8Embed_ = EmbeddedAssets_stPatricksObjects8x8Embed_;
+        stPatricksObjects16x16Embed_ = EmbeddedAssets_stPatricksObjects16x16Embed_;
+
         models_ = {
             "Monster Tank1": new monsterTank1Embed_(),
             "Monster Tank2": new monsterTank2Embed_(),
@@ -253,6 +258,13 @@ public class EmbeddedAssets extends Object {
     public static var d3LofiObjEmbed_:Class;
     public static var d3LofiObjBigEmbed_:Class;
     public static var cursorsEmbed_:Class;
+    public static var stPatricksChars8x8Embed_:Class;
+    public static var stPatricksChars16x16Embed_:Class;
+    public static var stPatricksObjects8x8Embed_:Class;
+    public static var stPatricksObjects16x16Embed_:Class;
+
+
+
     public static var models_:Object;
     internal static var monsterTank1Embed_:Class;
     internal static var monsterTank2Embed_:Class;

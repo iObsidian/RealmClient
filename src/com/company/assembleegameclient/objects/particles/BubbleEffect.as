@@ -24,7 +24,7 @@ public class BubbleEffect extends ParticleEffect {
         var _local_5:int;
         var _local_6:Number;
         var _local_7:Number;
-        var _local_8:Number;
+
         var _local_9:Number;
         var _local_11:BubbleParticle;
         var _local_12:Number;
@@ -38,12 +38,12 @@ public class BubbleEffect extends ParticleEffect {
         }
         _local_3 = int((this.lastUpdate_ / this.rate_));
         var _local_4:int = int((_arg_1 / this.rate_));
-        _local_8 = this.go_.x_;
+        var _loc8_:Number = this.go_.x_;
         _local_9 = this.go_.y_;
         if (this.lastUpdate_ < 0) {
             this.lastUpdate_ = Math.max(0, (_arg_1 - PERIOD_MAX));
         }
-        x_ = _local_8;
+        x_ = _loc8_;
         y_ = _local_9;
         var _local_10:int = _local_3;
         while (_local_10 < _local_4) {
@@ -52,7 +52,7 @@ public class BubbleEffect extends ParticleEffect {
             _local_11.restart(_local_5, _arg_1);
             _local_6 = (Math.random() * Math.PI);
             _local_7 = (Math.random() * 0.4);
-            _local_12 = (_local_8 + (_local_7 * Math.cos(_local_6)));
+            _local_12 = (_loc8_ + (_local_7 * Math.cos(_local_6)));
             _local_13 = (_local_9 + (_local_7 * Math.sin(_local_6)));
             map_.addObj(_local_11, _local_12, _local_13);
             _local_10++;

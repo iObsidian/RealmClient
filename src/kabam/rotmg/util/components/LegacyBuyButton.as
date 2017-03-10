@@ -154,7 +154,7 @@ public class LegacyBuyButton extends BuyButton {
     }
 
     private function updateIconPosition():void {
-        this.icon.x = ((this.text.x + this.text.width) + PADDING);
+        this.icon.x = this.text.x + this.text.width;
         this.icon.y = (((this.getHeight() - this.icon.height) - 1) * 0.5);
     }
 
@@ -178,7 +178,7 @@ public class LegacyBuyButton extends BuyButton {
     }
 
     private function getWidth():int {
-        return ((((this.fixedWidth) != -1) ? this.fixedWidth : Math.max(this._width, ((this.text.width + this.icon.width) + (3 * PADDING)))));
+        return this.fixedWidth != -1?int(this.fixedWidth):int(Math.max(this._width,this.text.width + this.icon.width + 4 * PADDING));
     }
 
     private function getHeight():int {

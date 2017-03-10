@@ -33,7 +33,7 @@ public class ParseClassesXmlCommand {
     private function populateCharacter(_arg_1:CharacterClass, _arg_2:XML):void {
         var _local_3:XML;
         _arg_1.id = _arg_2.@type;
-        _arg_1.name = _arg_2.DisplayId;
+        _arg_1.name = _arg_2.DisplayId == undefined?_arg_2.@id:_arg_2.DisplayId;
         _arg_1.description = _arg_2.Description;
         _arg_1.hitSound = _arg_2.HitSound;
         _arg_1.deathSound = _arg_2.DeathSound;

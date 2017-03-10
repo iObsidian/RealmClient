@@ -39,7 +39,7 @@ public class PetVO {
     }
 
     private static function getPetDataDisplayId(_arg_1:int):String {
-        return (ObjectLibrary.getPetDataXMLByType(_arg_1).DisplayId);
+        return ObjectLibrary.getPetDataXMLByType(_arg_1).@id;
     }
 
     public static function clone(_arg_1:PetVO):PetVO {

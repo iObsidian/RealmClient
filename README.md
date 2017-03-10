@@ -14,11 +14,20 @@ Help with bugs is always helpful. If you found one, make an issue. If you have a
 - Correct 3rd party libraries (versions might be a little off)
 - 99% bug free (only bugs left are from Kabam :v)
 
+
+
 # Requirements
 
 - IntelliJ IDEA Ultimate or similar Flash IDE
 - Flex SDK 4.6.0.23201 (http://download.macromedia.com/pub/flex/sdk/builds/flex4.6/flex_sdk_4.6.0.23201.zip)
 - Flash Projector Content Debugger (https://fpdownload.macromedia.com/pub/flashplayer/updaters/24/flashplayer_24_sa_debug.exe)
+
+# Tools required to update
+- JPEXS to decompile scripts
+- WinMerge to compare scripts
+- Trillix to export assets (export to fla)
+
+
 
 # Notes
 

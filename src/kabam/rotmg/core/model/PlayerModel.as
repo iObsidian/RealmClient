@@ -12,6 +12,7 @@ import org.osflash.signals.Signal;
 
 public class PlayerModel {
 
+    public static const CHARACTER_SLOT_PRICES:Array = [600,800,1000];
     public const creditsChanged:Signal = new Signal(int);
     public const fameChanged:Signal = new Signal(int);
     public const tokensChanged:Signal = new Signal(int);
@@ -143,7 +144,8 @@ public class PlayerModel {
     }
 
     public function getNextCharSlotPrice():int {
-        return (this.charList.nextCharSlotPrice_);
+        var _loc1_:int = Math.min(CHARACTER_SLOT_PRICES.length - 1,this.charList.maxNumChars_ - 1);
+        return CHARACTER_SLOT_PRICES[_loc1_];
     }
 
     public function getTotalFame():int {

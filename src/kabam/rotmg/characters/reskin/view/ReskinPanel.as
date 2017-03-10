@@ -10,6 +10,7 @@ import flash.filters.DropShadowFilter;
 import flash.text.TextFieldAutoSize;
 
 import kabam.rotmg.text.model.TextKey;
+import flash.events.Event;
 import kabam.rotmg.text.view.TextFieldDisplayConcrete;
 import kabam.rotmg.text.view.stringBuilder.LineBuilder;
 
@@ -24,8 +25,11 @@ public class ReskinPanel extends Panel {
     public const reskin:Signal = new Signal();
 
     public function ReskinPanel(_arg_1:GameSprite = null) {
+
         super(_arg_1);
         this.click.add(this.onClick);
+        addEventListener(Event.ADDED_TO_STAGE,this.onAddedToStage);
+        addEventListener(Event.REMOVED_FROM_STAGE,this.onRemovedFromStage);
     }
 
     private function onClick():void {
@@ -35,7 +39,8 @@ public class ReskinPanel extends Panel {
     private function makeTitle():TextFieldDisplayConcrete {
         var _local_1:TextFieldDisplayConcrete;
         _local_1 = new TextFieldDisplayConcrete().setSize(18).setColor(0xFFFFFF).setAutoSize(TextFieldAutoSize.CENTER);
-        _local_1.x = (WIDTH / 2);
+        _local_1.x = int(WIDTH / 2);
+        _local_1.y = 6;
         _local_1.setBold(true);
         _local_1.filters = [new DropShadowFilter(0, 0, 0)];
         _local_1.setStringBuilder(new LineBuilder().setParams(TextKey.RESKINPANEL_CHANGESKIN));
@@ -50,9 +55,22 @@ public class ReskinPanel extends Panel {
         return (_local_1);
     }
 
-    private function onTextSet():void {
-        this.button.x = ((WIDTH / 2) - (this.button.width / 2));
-        this.button.y = ((HEIGHT - this.button.height) - 4);
+    private function onTextSet() : void
+    {
+        this.button.x = int(WIDTH / 2 - this.button.width / 2);
+        this.button.y = HEIGHT - this.button.height - 4;
+    }
+
+    private function onAddedToStage(param1:Event) : void
+    {
+        removeEventListener(Event.ADDED_TO_STAGE,this.onAddedToStage);
+        stage.addEventListener(KeyboardEvent.KEY_DOWN,this.onKeyDown);
+    }
+
+    private function onRemovedFromStage(param1:Event) : void
+    {
+        removeEventListener(Event.REMOVED_FROM_STAGE,this.onRemovedFromStage);
+        stage.removeEventListener(KeyboardEvent.KEY_DOWN,this.onKeyDown);
     }
 
     private function onKeyDown(_arg_1:KeyboardEvent):void {
