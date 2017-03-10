@@ -39,4 +39,4 @@ Help with bugs is always helpful. If you found one, make an issue. If you have a
 - cp-nilly	(nilly) - lord and savior
 - Slick - leaches off others work
 - 059 - hooks me up with ~~needles~~ assets for every update
-- Alde - updated to 27.7.X11, or so he thinks
+- Alde - updated to 27.7.X11 and X11.1
