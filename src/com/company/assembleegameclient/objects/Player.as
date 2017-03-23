@@ -190,7 +190,7 @@ public class Player extends Character {
         this.rotate_ = _arg_1;
         this.relMoveVec_.x = _arg_2;
         this.relMoveVec_.y = _arg_3;
-
+        
         if (isConfused()) {
             _local_4 = this.relMoveVec_.x;
             this.relMoveVec_.x = -(this.relMoveVec_.y);
