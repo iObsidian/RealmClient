@@ -21,7 +21,7 @@ import kabam.rotmg.ui.view.TitleView;
 public class MapLoadingView extends Sprite {
 
     public static const MAX_DIFFICULTY:int = 5;
-    public static const FADE_OUT_TIME:Number = 0.58;
+    public static const FADE_OUT_TIME:Number = 0.0001;
 
     private var screen:DisplayObjectContainer;
     private var mapNameField:TextFieldDisplayConcrete;
@@ -32,7 +32,7 @@ public class MapLoadingView extends Sprite {
     private var animation:Animation;
 
     public function MapLoadingView():void {
-        this.addBackground();
+        //this.addBackground();
         this.makeLoadingScreen();
         addEventListener(Event.REMOVED_FROM_STAGE, this.onRemovedFromStage);
     }
