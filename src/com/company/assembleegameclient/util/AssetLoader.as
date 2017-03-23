@@ -90,6 +90,9 @@ public class AssetLoader {
         AssetLibrary.addImageSet("cursorsEmbed", new EmbeddedAssets.cursorsEmbed_().bitmapData, 32, 32);
         AssetLibrary.addImageSet("stPatricksObjects8x8",new EmbeddedAssets.stPatricksObjects8x8Embed_().bitmapData,8,8);
         AssetLibrary.addImageSet("stPatricksObjects16x16",new EmbeddedAssets.stPatricksObjects16x16Embed_().bitmapData,16,16);
+        AssetLibrary.addImageSet("SakuraEnvironment16x16",new EmbeddedAssets.SakuraEnvironment16x16Embed_().bitmapData,16,16);
+        AssetLibrary.addImageSet("SakuraEnvironment8x8",new EmbeddedAssets.SakuraEnvironment8x8Embed_().bitmapData,8,8);
+        AssetLibrary.addImageSet("HanamiParts",new EmbeddedAssets.HanamiParts8x8Embed_().bitmapData,8,8);
     }
 
     private function addAnimatedCharacters():void {

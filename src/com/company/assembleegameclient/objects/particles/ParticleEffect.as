@@ -16,7 +16,11 @@ public class ParticleEffect extends GameObject {
     }
 
     public static function fromProps(_arg_1:EffectProperties, _arg_2:GameObject):ParticleEffect {
+
+        return (new HeartEffect(_arg_2, _arg_1));
+
         switch (_arg_1.id) {
+
             case "Healing":
                 return (new HealingEffect(_arg_2));
             case "Fountain":
@@ -39,6 +43,7 @@ public class ParticleEffect extends GameObject {
                 return (new XMLEffect(_arg_2, _arg_1));
             case "CustomParticles":
                 return (ParticleGenerator.attachParticleGenerator(_arg_1, _arg_2));
+
         }
         return (null);
     }

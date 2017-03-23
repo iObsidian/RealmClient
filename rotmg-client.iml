@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="Flex" version="4">
-  <component name="FlexBuildConfigurationManager" active="rotmg-client-debug">
+  <component name="FlexBuildConfigurationManager" active="rotmg-client-release">
     <configurations>
       <configuration name="rotmg-client-debug" main-class="WebMain" output-file="rotmg-client-debug.swf" output-folder="$MODULE_DIR$/out/production">
         <dependencies target-player="20.0" framework-linkage="Merged">
