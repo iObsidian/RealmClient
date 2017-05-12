@@ -2,7 +2,7 @@
 
 <Objects>
    <Object type="0x1740" id="Oryx the Mad God 1">
-      <DisplayId>{oryxChamber.Oryx_the_Mad_God_1}</DisplayId>
+      <DisplayId>Oryx the Mad God</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -202,7 +202,6 @@
          <LifetimeMS>1200</LifetimeMS>
          <Size>100</Size>
       </Projectile>
-      <DisplayId>{oryxChamber.Assassin_of_Oryx}</DisplayId>
    </Object>
    <Object type="0x1742" id="White Moon">
       <Class>Character</Class>
@@ -233,7 +232,6 @@
          <LifetimeMS>1000</LifetimeMS>
          <Size>80</Size>
       </Projectile>
-      <DisplayId>{oryxChamber.White_Moon}</DisplayId>
    </Object>
    <Object type="0x1743" id="White Planet">
       <Class>Character</Class>
@@ -314,7 +312,6 @@
          <LifetimeMS>1000</LifetimeMS>
          <Size>80</Size>
       </Projectile>
-      <DisplayId>{oryxChamber.White_Planet}</DisplayId>
    </Object>
    <Object type="0x1744" id="Chase Element">
       <Group>AttackType</Group>
@@ -363,7 +360,6 @@
       </Projectile>
       <Size>80</Size>
       <XpMult>0.0</XpMult>
-      <DisplayId>{oryxChamber.Chase_Element}</DisplayId>
    </Object>
    <Object type="0x1745" id="Black Moon">
       <Group>Vagrant Repellent</Group>
@@ -388,7 +384,6 @@
          <Size>50</Size>
          <ConditionEffect duration="4">Dazed</ConditionEffect>
       </Projectile>
-      <DisplayId>{oryxChamber.Black_Moon}</DisplayId>
    </Object>
    <Object type="0x1746" id="Black Planet">
       <Group>Vagrant Repellent</Group>
@@ -419,7 +414,6 @@
          <LifetimeMS>1000</LifetimeMS>
          <Size>80</Size>
       </Projectile>
-      <DisplayId>{oryxChamber.Black_Planet}</DisplayId>
    </Object>
    <Object type="0x1747" id="Anti-Spectator">
       <Group>Vagrant Repellent</Group>
@@ -443,7 +437,6 @@
          <LifetimeMS>300</LifetimeMS>
          <Size>90</Size>
       </Projectile>
-      <DisplayId>{oryxChamber.Anti-Spectator}</DisplayId>
    </Object>
    <Object type="0x1748" id="Ring Element">
       <Group>AttackType</Group>
@@ -475,7 +468,6 @@
       </Projectile>
       <Size>50</Size>
       <XpMult>0.0</XpMult>
-      <DisplayId>{oryxChamber.Ring_Element}</DisplayId>
    </Object>
    <Object type="0x1749" id="Minion of Oryx">
       <Group>Minions of Oryx</Group>
@@ -511,10 +503,9 @@
       </Projectile>
       <Size>100</Size>
       <XpMult>0.3</XpMult>
-      <DisplayId>{oryxChamber.Minion_of_Oryx}</DisplayId>
    </Object>
    <Object type="0x174a" id="Guardian Element 1">
-      <DisplayId>{oryxChamber.Guardian_Element_1}</DisplayId>
+      <DisplayId>Guardian Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
       <MaxHitPoints>100000</MaxHitPoints>
@@ -547,7 +538,7 @@
       <XpMult>0.0</XpMult>
    </Object>
    <Object type="0x174b" id="Guardian Element 2">
-      <DisplayId>{oryxChamber.Guardian_Element_2}</DisplayId>
+      <DisplayId>Guardian Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
       <MaxHitPoints>100000</MaxHitPoints>
@@ -580,7 +571,7 @@
       <XpMult>0.0</XpMult>
    </Object>
    <Object type="0x174c" id="Guardian Element 3">
-      <DisplayId>{oryxChamber.Guardian_Element_3}</DisplayId>
+      <DisplayId>Guardian Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
       <MaxHitPoints>100000</MaxHitPoints>
@@ -613,7 +604,7 @@
       <XpMult>0.0</XpMult>
    </Object>
    <Object type="0x174d" id="Guardian Element 4">
-      <DisplayId>{oryxChamber.Guardian_Element_4}</DisplayId>
+      <DisplayId>Guardian Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
       <MaxHitPoints>100000</MaxHitPoints>
@@ -646,7 +637,7 @@
       <XpMult>0.0</XpMult>
    </Object>
    <Object type="0x174e" id="Outer Guardian Element">
-      <DisplayId>{oryxChamber.Outer_Guardian_Element}</DisplayId>
+      <DisplayId>Guardian Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
       <MaxHitPoints>100000</MaxHitPoints>

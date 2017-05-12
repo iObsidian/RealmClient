@@ -21,7 +21,6 @@
          <Speed>80</Speed>
          <LifetimeMS>600</LifetimeMS>
       </Projectile>
-      <DisplayId>{abyssOfDemons.Malphas_Protector}</DisplayId>
    </Object>
    <Object type="0x0909" id="Malphas Missile">
       <Group>Missiles</Group>
@@ -43,7 +42,6 @@
       <Size>140</Size>
       <Defense>30</Defense>
       <XpMult>0.0</XpMult>
-      <DisplayId>{abyssOfDemons.Malphas_Missile}</DisplayId>
    </Object>
    <Object type="0x090a" id="Archdemon Malphas">
       <Group>Demons</Group>
@@ -98,7 +96,6 @@
          <MultiHit/>
          <ConditionEffect duration="4">Weak</ConditionEffect>
       </Projectile>
-      <DisplayId>{abyssOfDemons.Archdemon_Malphas}</DisplayId>
    </Object>
    <Object type="0x090b" id="Malphas Flamer">
       <Group>Flamers</Group>
@@ -124,7 +121,6 @@
       <Size>100</Size>
       <Defense>6</Defense>
       <XpMult>0.0</XpMult>
-      <DisplayId>{abyssOfDemons.Malphas_Flamer}</DisplayId>
    </Object>
    <Object type="0x1733" id="Archdemon Summoner">
       <Class>Character</Class>
@@ -135,7 +131,6 @@
       <NoMiniMap/>
       <MaxHitPoints>10</MaxHitPoints>
       <Size>0</Size>
-      <DisplayId>{abyssOfDemons.Archdemon_Summoner}</DisplayId>
    </Object>
    <Object type="0x1734" id="Archdemon GroundShot">
       <Class>Character</Class>
@@ -145,7 +140,6 @@
       </Texture>
       <MaxHitPoints>10</MaxHitPoints>
       <Size>0</Size>
-      <DisplayId>{abyssOfDemons.Archdemon_GroundShot}</DisplayId>
    </Object>
    <Object type="0x1735" id="Archdemon SafeGround">
       <Class>Character</Class>
@@ -155,7 +149,6 @@
       </Texture>
       <MaxHitPoints>10</MaxHitPoints>
       <Size>0</Size>
-      <DisplayId>{abyssOfDemons.Archdemon_SafeGround}</DisplayId>
    </Object>
    <Object type="0x673" id="White Demon of the Abyss">
       <Group>Greater Demons</Group>
@@ -181,7 +174,6 @@
          <ArmorPiercing/>
          <MultiHit/>
       </Projectile>
-      <DisplayId>{abyssOfDemons.White_Demon_of_the_Abyss}</DisplayId>
    </Object>
    <Object type="0x66d" id="Imp of the Abyss">
       <Group>Abyss Demons</Group>
@@ -203,7 +195,6 @@
          <Speed>70</Speed>
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
-      <DisplayId>{abyssOfDemons.Imp_of_the_Abyss}</DisplayId>
    </Object>
    <Object type="0x66e" id="Demon of the Abyss">
       <Group>Abyss Demons</Group>
@@ -225,7 +216,6 @@
          <LifetimeMS>3000</LifetimeMS>
          <Size>140</Size>
       </Projectile>
-      <DisplayId>{abyssOfDemons.Demon_of_the_Abyss}</DisplayId>
    </Object>
    <Object type="0x66f" id="Demon Warrior of the Abyss">
       <Group>Abyss Demons</Group>
@@ -246,7 +236,6 @@
          <Speed>60</Speed>
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
-      <DisplayId>{abyssOfDemons.Demon_Warrior_of_the_Abyss}</DisplayId>
    </Object>
    <Object type="0x670" id="Demon Mage of the Abyss">
       <Group>Abyss Demons</Group>
@@ -267,7 +256,6 @@
          <Speed>80</Speed>
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
-      <DisplayId>{abyssOfDemons.Demon_Mage_of_the_Abyss}</DisplayId>
    </Object>
    <Object type="0x671" id="Brute of the Abyss">
       <Group>Abyss Brutes</Group>
@@ -288,7 +276,6 @@
          <Speed>120</Speed>
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
-      <DisplayId>{abyssOfDemons.Brute_of_the_Abyss}</DisplayId>
    </Object>
    <Object type="0x672" id="Brute Warrior of the Abyss">
       <Group>Abyss Brutes</Group>
@@ -309,7 +296,6 @@
          <Speed>120</Speed>
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
-      <DisplayId>{abyssOfDemons.Brute_Warrior_of_the_Abyss}</DisplayId>
    </Object>
    <Object type="0x0e1e" id="AbyssIdolDead">
       <Class>Character</Class>
@@ -323,7 +309,6 @@
       <XpMult>0.0</XpMult>
       <Size>0</Size>
       <MaxHitPoints>10</MaxHitPoints>
-      <DisplayId>{abyssOfDemons.AbyssIdolDead}</DisplayId>
    </Object>
    <Object type="0x0e1d" id="Abyss Idol">
       <Class>Character</Class>
@@ -361,7 +346,6 @@
          <LifetimeMS>1600</LifetimeMS>
          <Size>100</Size>
       </Projectile>
-      <DisplayId>{abyssOfDemons.Abyss_Idol}</DisplayId>
    </Object>
    <Object type="0x0e1c" id="AbyssExitGuarder">
       <Class>Character</Class>
@@ -375,7 +359,6 @@
       <XpMult>0.0</XpMult>
       <Size>0</Size>
       <MaxHitPoints>10</MaxHitPoints>
-      <DisplayId>{abyssOfDemons.AbyssExitGuarder}</DisplayId>
    </Object>
    <Object type="0x0e1b" id="LavaTrigger">
       <Class>Character</Class>
@@ -389,7 +372,6 @@
       <XpMult>0.0</XpMult>
       <Size>0</Size>
       <MaxHitPoints>10</MaxHitPoints>
-      <DisplayId>{abyssOfDemons.LavaTrigger}</DisplayId>
    </Object>
    <Object type="0x0e1a" id="AbyssTreasureLavaBomb">
       <Class>Character</Class>
@@ -403,6 +385,5 @@
       <MaxHitPoints>10</MaxHitPoints>
       <XpMult>0.0</XpMult>
       <Size>0</Size>
-      <DisplayId>{abyssOfDemons.AbyssTreasureLavaBomb}</DisplayId>
    </Object>
 </Objects>

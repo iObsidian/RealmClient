@@ -1,111 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x0dc0" id="Great Temple Snake">
-      <Class>Character</Class>
-      <Enemy/>
-      <Size>100</Size>
-      <ShadowSize>90</ShadowSize>
-      <MaxHitPoints>50</MaxHitPoints>
-      <Defense>20</Defense>
-      <XpMult>0.1</XpMult>
-      <HitSound>monster/wooden_walls_hit</HitSound>
-      <DeathSound>monster/stone_walls_death</DeathSound>
-      <AnimatedTexture>
-         <File>chars8x8rEncounters</File>
-         <Index>20</Index>
-      </AnimatedTexture>
-      <Projectile id="0">
-         <ObjectId>Snake Shot Yellow</ObjectId>
-         <Damage>20</Damage>
-         <Speed>55</Speed>
-         <Size>60</Size>
-         <LifetimeMS>800</LifetimeMS>
-      </Projectile>
-      <Projectile id="1">
-         <ObjectId>Snake Shot Yellow</ObjectId>
-         <Damage>15</Damage>
-         <Speed>45</Speed>
-         <Size>60</Size>
-         <LifetimeMS>800</LifetimeMS>
-      </Projectile>
-      <DisplayId>{forbiddenJungle.Great_Temple_Snake}</DisplayId>
-   </Object>
-   <Object type="0x0dc1" id="Great Snake Egg">
-      <Class>Character</Class>
-      <Enemy/>
-      <Size>100</Size>
-      <ShadowSize>90</ShadowSize>
-      <MaxHitPoints>50</MaxHitPoints>
-      <Defense>20</Defense>
-      <XpMult>0.0</XpMult>
-      <HitSound>monster/wooden_walls_hit</HitSound>
-      <DeathSound>monster/stone_walls_death</DeathSound>
-      <Texture>
-         <File>lofiEnvironment3</File>
-         <Index>0x8a</Index>
-      </Texture>
-      <Animation prob="1.0" period="0.0">
-         <Frame time="0.4">
-            <Texture>
-               <File>lofiEnvironment3</File>
-               <Index>0x2f</Index>
-            </Texture>
-         </Frame>
-         <Frame time="0.2">
-            <Texture>
-               <File>lofiEnvironment3</File>
-               <Index>0x36</Index>
-            </Texture>
-         </Frame>
-         <Frame time="0.2">
-            <Texture>
-               <File>lofiEnvironment3</File>
-               <Index>0x37</Index>
-            </Texture>
-         </Frame>
-         <Frame time="0.2">
-            <Texture>
-               <File>lofiEnvironment3</File>
-               <Index>0x36</Index>
-            </Texture>
-         </Frame>
-      </Animation>
-      <DisplayId>{forbiddenJungle.Great_Snake_Egg}</DisplayId>
-   </Object>
-   <Object type="0x0dc2" id="Great Coil Snake">
-      <Class>Character</Class>
-      <Enemy/>
-      <Group>Heros</Group>
-      <Size>100</Size>
-      <ShadowSize>90</ShadowSize>
-      <MaxHitPoints>900</MaxHitPoints>
-      <Defense>15</Defense>
-      <Quest/>
-      <Level>8</Level>
-      <XpMult>3.0</XpMult>
-      <HitSound>monster/wooden_walls_hit</HitSound>
-      <DeathSound>monster/stone_walls_death</DeathSound>
-      <AnimatedTexture>
-         <File>chars16x16rEncounters</File>
-         <Index>15</Index>
-      </AnimatedTexture>
-      <Projectile id="0">
-         <ObjectId>Snake Shot</ObjectId>
-         <Damage>50</Damage>
-         <Speed>65</Speed>
-         <Size>100</Size>
-         <LifetimeMS>16000</LifetimeMS>
-      </Projectile>
-      <Projectile id="1">
-         <ObjectId>Ghost Shot</ObjectId>
-         <Damage>40</Damage>
-         <Speed>45</Speed>
-         <Size>90</Size>
-         <LifetimeMS>1000</LifetimeMS>
-      </Projectile>
-      <DisplayId>{forbiddenJungle.Great_Coil_Snake}</DisplayId>
-   </Object>
    <Object type="0x0dc3" id="Mixcoatl the Masked God">
       <Enemy/>
       <Class>Character</Class>
@@ -184,7 +79,6 @@
          <Size>80</Size>
          <LifetimeMS>1200</LifetimeMS>
       </Projectile>
-      <DisplayId>{forbiddenJungle.Mixcoatl_the_Masked_God}</DisplayId>
    </Object>
    <Object type="0x0dc4" id="Boss Totem">
       <Enemy/>
@@ -206,7 +100,6 @@
          <LifetimeMS>1600</LifetimeMS>
          <PassesCover/>
       </Projectile>
-      <DisplayId>{forbiddenJungle.Boss_Totem}</DisplayId>
    </Object>
    <Object type="0x0dc5" id="Jungle Spear">
       <Class>GameObject</Class>
@@ -243,7 +136,6 @@
       <Static/>
       <Size>80</Size>
       <ShadowSize>60</ShadowSize>
-      <DisplayId>{forbiddenJungle.Jungle_Spear}</DisplayId>
    </Object>
    <Object type="0x0dc6" id="Jungle Brazier">
       <Class>GameObject</Class>
@@ -275,7 +167,6 @@
       <Static/>
       <OccupySquare/>
       <ShadowSize>80</ShadowSize>
-      <DisplayId>{forbiddenJungle.Jungle_Brazier}</DisplayId>
    </Object>
    <Object type="0x0dc7" id="Jungle Summoner">
       <Class>Character</Class>
@@ -289,7 +180,6 @@
       <Defense>0</Defense>
       <XpMult>0</XpMult>
       <NoMiniMap/>
-      <DisplayId>{forbiddenJungle.Jungle_Summoner}</DisplayId>
    </Object>
    <Object type="0x0dc8" id="Jungle Invisible Solid">
       <Class>GameObject</Class>
@@ -302,7 +192,6 @@
       <NoMiniMap/>
       <Size>0</Size>
       <ShadowSize>0</ShadowSize>
-      <DisplayId>{forbiddenJungle.Jungle_Invisible_Solid}</DisplayId>
    </Object>
    <Object type="0x0dc9" id="Jungle Grass Solid">
       <Class>GameObject</Class>
@@ -326,7 +215,6 @@
       </RandomTexture>
       <Static/>
       <OccupySquare/>
-      <DisplayId>{forbiddenJungle.Jungle_Grass_Solid}</DisplayId>
    </Object>
    <Object type="0x0dca" id="Jungle Flowers Solid">
       <Class>GameObject</Class>
@@ -352,7 +240,6 @@
       <OccupySquare/>
       <NoMiniMap/>
       <Static/>
-      <DisplayId>{forbiddenJungle.Jungle_Flowers_Solid}</DisplayId>
    </Object>
    <Object type="0x0dcb" id="Jungle Plant Unbreakable">
       <Class>GameObject</Class>
@@ -374,7 +261,6 @@
       <OccupySquare/>
       <HitSound>monster/trees_hit</HitSound>
       <DeathSound>monster/tress_death</DeathSound>
-      <DisplayId>{forbiddenJungle.Jungle_Plant_Unbreakable}</DisplayId>
    </Object>
    <Object type="0x0dcc" id="Totem Spirit">
       <Enemy/>
@@ -399,7 +285,6 @@
          <Size>90</Size>
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
-      <DisplayId>{forbiddenJungle.Totem_Spirit}</DisplayId>
    </Object>
    <Object type="0x0dcd" id="Jungle Totem">
       <Enemy/>
@@ -421,7 +306,6 @@
          <Size>100</Size>
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
-      <DisplayId>{forbiddenJungle.Jungle_Totem}</DisplayId>
    </Object>
    <Object type="0x0dce" id="Basilisk Baby">
       <Enemy/>
@@ -446,7 +330,6 @@
          <Amplitude>0.05</Amplitude>
          <Frequency>5</Frequency>
       </Projectile>
-      <DisplayId>{forbiddenJungle.Basilisk_Baby}</DisplayId>
    </Object>
    <Object type="0x0dcf" id="Basilisk">
       <Enemy/>
@@ -498,7 +381,6 @@
          <LifetimeMS>800</LifetimeMS>
          <PassesCover/>
       </Projectile>
-      <DisplayId>{forbiddenJungle.Basilisk}</DisplayId>
    </Object>
    <Object type="0x0dd0" id="Mask Shaman">
       <Enemy/>
@@ -523,7 +405,6 @@
          <ConditionEffect duration="4">Hallucinating</ConditionEffect>
          <ConditionEffect duration="1">Quiet</ConditionEffect>
       </Projectile>
-      <DisplayId>{forbiddenJungle.Mask_Shaman}</DisplayId>
    </Object>
    <Object type="0x0dd1" id="Mask Warrior">
       <Enemy/>
@@ -546,7 +427,6 @@
          <Size>80</Size>
          <LifetimeMS>800</LifetimeMS>
       </Projectile>
-      <DisplayId>{forbiddenJungle.Mask_Warrior}</DisplayId>
    </Object>
    <Object type="0x0dd2" id="Mask Hunter">
       <Enemy/>
@@ -569,7 +449,6 @@
          <Size>80</Size>
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
-      <DisplayId>{forbiddenJungle.Mask_Hunter}</DisplayId>
    </Object>
    <Object type="0x0dd3" id="Jungle Fire">
       <Enemy/>
@@ -642,7 +521,6 @@
          <Size>80</Size>
          <LifetimeMS>1200</LifetimeMS>
       </Projectile>
-      <DisplayId>{forbiddenJungle.Jungle_Fire}</DisplayId>
    </Object>
    <Object type="0x0dd4" id="Jungle Ground Flowers">
       <Class>GameObject</Class>
@@ -666,7 +544,6 @@
       </RandomTexture>
       <DrawOnGround/>
       <Static/>
-      <DisplayId>{forbiddenJungle.Jungle_Ground_Flowers}</DisplayId>
    </Object>
    <Object type="0x0dd5" id="Jungle Grass">
       <Class>GameObject</Class>
@@ -689,7 +566,6 @@
          </Texture>
       </RandomTexture>
       <Static/>
-      <DisplayId>{forbiddenJungle.Jungle_Grass}</DisplayId>
    </Object>
    <Object type="0x0dd6" id="Jungle Flower Bright">
       <Class>GameObject</Class>
@@ -704,7 +580,6 @@
          </Texture>
       </RandomTexture>
       <Static/>
-      <DisplayId>{forbiddenJungle.Jungle_Flower_Bright}</DisplayId>
    </Object>
    <Object type="0x0dd7" id="Jungle Plant">
       <Class>GameObject</Class>
@@ -723,7 +598,6 @@
          </Texture>
       </RandomTexture>
       <Static/>
-      <DisplayId>{forbiddenJungle.Jungle_Plant}</DisplayId>
    </Object>
    <Object type="0x0dd8" id="Jungle Plant Solid">
       <Class>GameObject</Class>
@@ -749,7 +623,6 @@
       <XpMult>0.0</XpMult>
       <HitSound>monster/trees_hit</HitSound>
       <DeathSound>monster/tress_death</DeathSound>
-      <DisplayId>{forbiddenJungle.Jungle_Plant_Solid}</DisplayId>
    </Object>
    <Object type="0x0dd9" id="Jungle Rock">
       <Class>GameObject</Class>
@@ -775,7 +648,6 @@
       <OccupySquare/>
       <HitSound>monster/trees_hit</HitSound>
       <DeathSound>monster/tress_death</DeathSound>
-      <DisplayId>{forbiddenJungle.Jungle_Rock}</DisplayId>
    </Object>
    <Object type="0x0dda" id="Jungle Tree Big">
       <Class>GameObject</Class>
@@ -801,6 +673,5 @@
       <OccupySquare/>
       <HitSound>monster/trees_hit</HitSound>
       <DeathSound>monster/tress_death</DeathSound>
-      <DisplayId>{forbiddenJungle.Jungle_Tree_Big}</DisplayId>
    </Object>
 </Objects>

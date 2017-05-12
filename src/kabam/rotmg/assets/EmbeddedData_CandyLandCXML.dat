@@ -17,7 +17,6 @@
       <Terrain>MidPlains</Terrain>
       <XpMult>2.5</XpMult>
       <SpawnProb>0.04</SpawnProb>
-      <DisplayId>{candyLand.Candy_Gnome}</DisplayId>
    </Object>
    <Object type="0x5e48" id="MegaRototo">
       <Group>Candy Boss</Group>
@@ -63,7 +62,6 @@
          <LifetimeMS>1800</LifetimeMS>
          <Size>130</Size>
       </Projectile>
-      <DisplayId>{candyLand.MegaRototo}</DisplayId>
    </Object>
    <Object type="0x5e47" id="Spoiled Creampuff">
       <Group>Candy Boss</Group>
@@ -95,7 +93,6 @@
          <LifetimeMS>1000</LifetimeMS>
          <Size>160</Size>
       </Projectile>
-      <DisplayId>{candyLand.Spoiled_Creampuff}</DisplayId>
    </Object>
    <Object type="0x5e46" id="Desire Troll">
       <Group>Candy Boss</Group>
@@ -147,7 +144,6 @@
          <LifetimeMS>600</LifetimeMS>
          <Size>110</Size>
       </Projectile>
-      <DisplayId>{candyLand.Desire_Troll}</DisplayId>
    </Object>
    <Object type="0x5e45" id="Swoll Fairy">
       <Group>Candy Boss</Group>
@@ -188,7 +184,6 @@
          <Boomerang/>
          <ConditionEffect duration="2">Confused</ConditionEffect>
       </Projectile>
-      <DisplayId>{candyLand.Swoll_Fairy}</DisplayId>
    </Object>
    <Object type="0x5e44" id="Gigacorn">
       <Group>Candy Boss</Group>
@@ -223,7 +218,6 @@
          <ArmorPiercing/>
          <MultiHit/>
       </Projectile>
-      <DisplayId>{candyLand.Gigacorn}</DisplayId>
    </Object>
    <Object type="0x5e43" id="Candyland Boss Spawner">
       <Enemy/>
@@ -237,7 +231,6 @@
       <NoMiniMap/>
       <MaxHitPoints>10000</MaxHitPoints>
       <XpMult>0</XpMult>
-      <DisplayId>{candyLand.Candyland_Boss_Spawner}</DisplayId>
    </Object>
    <Object type="0x5e42" id="Gumball Machine">
       <Class>Character</Class>
@@ -257,7 +250,6 @@
       <MaxHitPoints>1000</MaxHitPoints>
       <Defense>10</Defense>
       <XpMult>0.0</XpMult>
-      <DisplayId>{candyLand.Gumball_Machine}</DisplayId>
    </Object>
    <Object type="0x5e41" id="Cupcake">
       <Group>Candy Creature</Group>
@@ -282,7 +274,6 @@
          <ArmorPiercing/>
          <MultiHit/>
       </Projectile>
-      <DisplayId>{candyLand.Cupcake}</DisplayId>
    </Object>
    <Object type="0x5e40" id="Unicorn">
       <Group>Candy Creature</Group>
@@ -313,7 +304,6 @@
          <Size>100</Size>
          <MultiHit/>
       </Projectile>
-      <DisplayId>{candyLand.Unicorn}</DisplayId>
    </Object>
    <Object type="0x5e3e" id="Hard Candy">
       <Group>Candy Creature</Group>
@@ -338,7 +328,6 @@
          <Size>80</Size>
          <MultiHit/>
       </Projectile>
-      <DisplayId>{candyLand.Hard_Candy}</DisplayId>
    </Object>
    <Object type="0x5e39" id="Beefy Fairy">
       <Group>Candy Creature</Group>
@@ -367,7 +356,6 @@
          <MultiHit/>
          <ConditionEffect duration="2">Confused</ConditionEffect>
       </Projectile>
-      <DisplayId>{candyLand.Beefy_Fairy}</DisplayId>
    </Object>
    <Object type="0x5e38" id="Fairy">
       <Group>Candy Creature</Group>
@@ -394,7 +382,6 @@
          <MultiHit/>
          <ConditionEffect duration="0.6">Confused</ConditionEffect>
       </Projectile>
-      <DisplayId>{candyLand.Fairy}</DisplayId>
    </Object>
    <Object type="0x5e37" id="Wishing Troll">
       <Group>Candy Creature</Group>
@@ -421,7 +408,6 @@
          <ConditionEffect duration="3">Hexed</ConditionEffect>
          <MultiHit/>
       </Projectile>
-      <DisplayId>{candyLand.Wishing_Troll}</DisplayId>
    </Object>
    <Object type="0x5e36" id="Spilled Icecream">
       <Group>Candy Creature</Group>
@@ -445,7 +431,6 @@
          <Size>60</Size>
          <MultiHit/>
       </Projectile>
-      <DisplayId>{candyLand.Spilled_Icecream}</DisplayId>
    </Object>
    <Object type="0x5e35" id="Big Creampuff">
       <Group>Candy Creature</Group>
@@ -476,7 +461,6 @@
          <LifetimeMS>1000</LifetimeMS>
          <Size>100</Size>
       </Projectile>
-      <DisplayId>{candyLand.Big_Creampuff}</DisplayId>
    </Object>
    <Object type="0x5e34" id="Small Creampuff">
       <Group>Candy Creature</Group>
@@ -508,7 +492,6 @@
          <Size>60</Size>
          <ConditionEffect duration="1.2">Slowed</ConditionEffect>
       </Projectile>
-      <DisplayId>{candyLand.Small_Creampuff}</DisplayId>
    </Object>
    <Object type="0x5e33" id="Tiny Rototo">
       <Group>Candy Creature</Group>
@@ -539,7 +522,6 @@
          <LifetimeMS>500</LifetimeMS>
          <Size>90</Size>
       </Projectile>
-      <DisplayId>{candyLand.Tiny_Rototo}</DisplayId>
    </Object>
    <Object type="0x5e32" id="Rototo">
       <Group>Candy Creature</Group>
@@ -576,7 +558,6 @@
          <LifetimeMS>1200</LifetimeMS>
          <Size>100</Size>
       </Projectile>
-      <DisplayId>{candyLand.Rototo}</DisplayId>
    </Object>
    <Object type="0x5e31" id="Candyland Spawner">
       <Enemy/>
@@ -590,7 +571,6 @@
       <NoMiniMap/>
       <MaxHitPoints>10000</MaxHitPoints>
       <XpMult>0</XpMult>
-      <DisplayId>{candyLand.Candyland_Spawner}</DisplayId>
    </Object>
    <Object type="0x5e2f" id="Butterfly">
       <Enemy/>
@@ -620,6 +600,5 @@
       <Size>80</Size>
       <ShadowSize>30</ShadowSize>
       <NoMiniMap/>
-      <DisplayId>{candyLand.Butterfly}</DisplayId>
    </Object>
 </Objects>

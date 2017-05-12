@@ -2,7 +2,7 @@
 
 <Objects>
    <Object type="0x7461" id="Puppet Master v2">
-      <DisplayId>{puppetMasterEncore.Puppet_Master_v2}</DisplayId>
+      <DisplayId>The Puppet Master</DisplayId>
       <Class>Character</Class>
       <Group>Master</Group>
       <Enemy/>
@@ -76,7 +76,7 @@
       </Projectile>
    </Object>
    <Object type="0x74a1" id="HomingFire">
-      <DisplayId>{puppetMasterEncore.HomingFire}</DisplayId>
+      <DisplayId>Cursed Blast</DisplayId>
       <Class>Character</Class>
       <Group>Statue</Group>
       <Enemy/>
@@ -107,7 +107,7 @@
       </Projectile>
    </Object>
    <Object type="0x74a3" id="Encore Huntress Statue">
-      <DisplayId>{puppetMasterEncore.Encore_Huntress_Statue}</DisplayId>
+      <DisplayId>Huntress Puppet</DisplayId>
       <Class>Character</Class>
       <Group>Statues</Group>
       <Enemy/>
@@ -122,7 +122,7 @@
       <NoMiniMap/>
    </Object>
    <Object type="0x7464" id="Encore Huntress">
-      <DisplayId>{puppetMasterEncore.Encore_Huntress}</DisplayId>
+      <DisplayId>Huntress Puppet</DisplayId>
       <Class>Character</Class>
       <Group>Statues</Group>
       <Enemy/>
@@ -160,7 +160,7 @@
       </Projectile>
    </Object>
    <Object type="0x7465" id="Huntress Trap">
-      <DisplayId>{puppetMasterEncore.Huntress_Trap}</DisplayId>
+      <DisplayId>Encore Trap</DisplayId>
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -184,7 +184,7 @@
       </Projectile>
    </Object>
    <Object type="0x74a4" id="Encore Trickster Statue">
-      <DisplayId>{puppetMasterEncore.Encore_Trickster_Statue}</DisplayId>
+      <DisplayId>Trickster Puppet</DisplayId>
       <Class>Character</Class>
       <Group>Statues</Group>
       <Enemy/>
@@ -199,7 +199,7 @@
       <NoMiniMap/>
    </Object>
    <Object type="0x746e" id="Encore Trickster">
-      <DisplayId>{puppetMasterEncore.Encore_Trickster}</DisplayId>
+      <DisplayId>Trickster Puppet</DisplayId>
       <Class>Character</Class>
       <Group>Statues</Group>
       <Enemy/>
@@ -235,7 +235,7 @@
       </Projectile>
    </Object>
    <Object type="0x748a" id="Puppet Clone">
-      <DisplayId>{puppetMasterEncore.Puppet_Clone}</DisplayId>
+      <DisplayId>Puppet Clone</DisplayId>
       <Class>Character</Class>
       <Group>Statues</Group>
       <Enemy/>
@@ -260,7 +260,7 @@
       </Projectile>
    </Object>
    <Object type="0x74a5" id="Confuse Puppet Statue">
-      <DisplayId>{puppetMasterEncore.Confuse_Puppet_Statue}</DisplayId>
+      <DisplayId>Puppet of Chaos</DisplayId>
       <Class>Character</Class>
       <Group>Statues</Group>
       <Enemy/>
@@ -275,7 +275,7 @@
       <NoMiniMap/>
    </Object>
    <Object type="0x7474" id="Confuse Puppet">
-      <DisplayId>{puppetMasterEncore.Confuse_Puppet}</DisplayId>
+      <DisplayId>Puppet of Chaos</DisplayId>
       <Class>Character</Class>
       <Group>Statue</Group>
       <Enemy/>
@@ -324,7 +324,7 @@
       </Projectile>
    </Object>
    <Object type="0x74a6" id="Bleed Puppet Statue">
-      <DisplayId>{puppetMasterEncore.Bleed_Puppet_Statue}</DisplayId>
+      <DisplayId>Puppet of Pain</DisplayId>
       <Class>Character</Class>
       <Group>Statues</Group>
       <Enemy/>
@@ -339,7 +339,7 @@
       <NoMiniMap/>
    </Object>
    <Object type="0x7489" id="Bleed Puppet">
-      <DisplayId>{puppetMasterEncore.Bleed_Puppet}</DisplayId>
+      <DisplayId>Puppet of Pain</DisplayId>
       <Class>Character</Class>
       <Group>Statue</Group>
       <Enemy/>

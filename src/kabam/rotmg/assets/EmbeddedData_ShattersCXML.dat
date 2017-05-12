@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x0727e" id="The Shatters">
-      <Class>Portal</Class>
-      <IntergamePortal/>
-      <DungeonName>The Shatters</DungeonName>
-      <Texture>
-         <File>lofiObj3</File>
-         <Index>0x44e</Index>
-      </Texture>
-      <DisplayId>{shatters.The_Shatters}</DisplayId>
-   </Object>
    <Object type="0x717a" id="shtrs Wooden Gate">
       <Class>Wall</Class>
       <RandomTexture>
@@ -44,7 +34,6 @@
       <OccupySquare/>
       <EnemyOccupySquare/>
       <BlocksSight/>
-      <DisplayId>{shatters.shtrs_Wooden_Gate}</DisplayId>
    </Object>
    <Object type="0x717b" id="shtrs Shattered Walls">
       <Class>Wall</Class>
@@ -75,7 +64,6 @@
       <OccupySquare/>
       <EnemyOccupySquare/>
       <BlocksSight/>
-      <DisplayId>{shatters.shtrs_Shattered_Walls}</DisplayId>
    </Object>
    <Object type="0x717e" id="shtrs Abandoned Switch 1">
       <Class>GameObject</Class>
@@ -87,7 +75,6 @@
       <MaxHitPoints>5000</MaxHitPoints>
       <Defense>200</Defense>
       <XpMult>0.0</XpMult>
-      <DisplayId>{shatters.shtrs_Abandoned_Switch_1}</DisplayId>
    </Object>
    <Object type="0x724a" id="shtrs Abandoned Switch 2">
       <Class>GameObject</Class>
@@ -99,7 +86,6 @@
       <MaxHitPoints>5000</MaxHitPoints>
       <Defense>200</Defense>
       <XpMult>0.0</XpMult>
-      <DisplayId>{shatters.shtrs_Abandoned_Switch_2}</DisplayId>
    </Object>
    <Object type="0x724b" id="shtrs Abandoned Switch 3">
       <Class>GameObject</Class>
@@ -111,7 +97,6 @@
       <MaxHitPoints>5000</MaxHitPoints>
       <Defense>200</Defense>
       <XpMult>0.0</XpMult>
-      <DisplayId>{shatters.shtrs_Abandoned_Switch_3}</DisplayId>
    </Object>
    <Object type="0x724c" id="shtrs Abandoned Switch 4">
       <Class>GameObject</Class>
@@ -123,7 +108,6 @@
       <MaxHitPoints>5000</MaxHitPoints>
       <Defense>200</Defense>
       <XpMult>0.0</XpMult>
-      <DisplayId>{shatters.shtrs_Abandoned_Switch_4}</DisplayId>
    </Object>
    <Object type="0x724d" id="shtrs Abandoned Switch 5">
       <Class>GameObject</Class>
@@ -135,7 +119,6 @@
       <MaxHitPoints>5000</MaxHitPoints>
       <Defense>200</Defense>
       <XpMult>0.0</XpMult>
-      <DisplayId>{shatters.shtrs_Abandoned_Switch_5}</DisplayId>
    </Object>
    <Object type="0x724e" id="shtrs Abandoned Switch 6">
       <Class>GameObject</Class>
@@ -147,7 +130,6 @@
       <MaxHitPoints>5000</MaxHitPoints>
       <Defense>200</Defense>
       <XpMult>0.0</XpMult>
-      <DisplayId>{shatters.shtrs_Abandoned_Switch_6}</DisplayId>
    </Object>
    <Object type="0x727c" id="shtrs Abandoned Switch 7">
       <Class>GameObject</Class>
@@ -159,7 +141,6 @@
       <MaxHitPoints>5000</MaxHitPoints>
       <Defense>200</Defense>
       <XpMult>0.0</XpMult>
-      <DisplayId>{shatters.shtrs_Abandoned_Switch_7}</DisplayId>
    </Object>
    <Object type="0x727d" id="shtrs Abandoned Switch 8">
       <Class>GameObject</Class>
@@ -171,7 +152,6 @@
       <MaxHitPoints>5000</MaxHitPoints>
       <Defense>200</Defense>
       <XpMult>0.0</XpMult>
-      <DisplayId>{shatters.shtrs_Abandoned_Switch_8}</DisplayId>
    </Object>
    <Object type="0x736e" id="shtrs Abandoned Switch 10">
       <Class>GameObject</Class>
@@ -183,7 +163,6 @@
       <MaxHitPoints>5000</MaxHitPoints>
       <Defense>200</Defense>
       <XpMult>0.0</XpMult>
-      <DisplayId>{shatters.shtrs_Abandoned_Switch_10}</DisplayId>
    </Object>
    <Object type="0x736f" id="shtrs Abandoned Switch 9">
       <Class>GameObject</Class>
@@ -195,7 +174,6 @@
       <MaxHitPoints>5000</MaxHitPoints>
       <Defense>200</Defense>
       <XpMult>0.0</XpMult>
-      <DisplayId>{shatters.shtrs_Abandoned_Switch_9}</DisplayId>
    </Object>
    <Object type="0x717d" id="shtrs Unborken Column">
       <Class>GameObject</Class>
@@ -219,10 +197,9 @@
       <MaxHitPoints>5000</MaxHitPoints>
       <Defense>200</Defense>
       <XpMult>0.0</XpMult>
-      <DisplayId>{shatters.shtrs_Unborken_Column}</DisplayId>
    </Object>
    <Object type="0x726b" id="shtrs Bridge Titanum">
-      <DisplayId>{shatters.shtrs_Bridge_Titanum}</DisplayId>
+      <DisplayId>Titanum</DisplayId>
       <Class>Character</Class>
       <Group>Spawners</Group>
       <Enemy/>
@@ -263,7 +240,6 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{shatters.shtrs_Mage_Closer_1}</DisplayId>
    </Object>
    <Object type="0x736d" id="shtrs Mage Bridge Check">
       <Class>Character</Class>
@@ -276,7 +252,6 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{shatters.shtrs_Mage_Bridge_Check}</DisplayId>
    </Object>
    <Object type="0x717c" id="shtrs Final Fight Check">
       <Class>Character</Class>
@@ -289,7 +264,6 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{shatters.shtrs_Final_Fight_Check}</DisplayId>
    </Object>
    <Object type="0x722e" id="shtrs KillWall 1">
       <Class>Character</Class>
@@ -302,7 +276,6 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{shatters.shtrs_KillWall_1}</DisplayId>
    </Object>
    <Object type="0x722f" id="shtrs KillWall 2">
       <Class>Character</Class>
@@ -315,7 +288,6 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{shatters.shtrs_KillWall_2}</DisplayId>
    </Object>
    <Object type="0x731d" id="shtrs KillWall 3">
       <Class>Character</Class>
@@ -328,7 +300,6 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{shatters.shtrs_KillWall_3}</DisplayId>
    </Object>
    <Object type="0x725a" id="shtrs KillWall 4">
       <Class>Character</Class>
@@ -341,7 +312,6 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{shatters.shtrs_KillWall_4}</DisplayId>
    </Object>
    <Object type="0x734b" id="shtrs KillWall 7">
       <Class>Character</Class>
@@ -354,10 +324,9 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{shatters.shtrs_KillWall_7}</DisplayId>
    </Object>
    <Object type="0x727a" id="shtrs MagiGenerators">
-      <DisplayId>{shatters.shtrs_MagiGenerators}</DisplayId>
+      <DisplayId>Magi-Generator</DisplayId>
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -410,7 +379,6 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{shatters.shtrs_KillWall_6}</DisplayId>
    </Object>
    <Object type="0x725b" id="shtrs Bridge Closer">
       <Class>Character</Class>
@@ -423,7 +391,6 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{shatters.shtrs_Bridge_Closer}</DisplayId>
    </Object>
    <Object type="0x725c" id="shtrs Player Check">
       <Class>Character</Class>
@@ -436,7 +403,6 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{shatters.shtrs_Player_Check}</DisplayId>
    </Object>
    <Object type="0x726f" id="shtrs Spawn Bridge">
       <Class>Character</Class>
@@ -449,7 +415,6 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{shatters.shtrs_Spawn_Bridge}</DisplayId>
    </Object>
    <Object type="0x728e" id="shtrs Bridge Review Board">
       <Class>Character</Class>
@@ -462,7 +427,6 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{shatters.shtrs_Bridge_Review_Board}</DisplayId>
    </Object>
    <Object type="0x725f" id="shtrs Goo Spawner">
       <Class>Character</Class>
@@ -475,7 +439,6 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{shatters.shtrs_Goo_Spawner}</DisplayId>
    </Object>
    <Object type="0x730c" id="shtrs Player Check Archmage">
       <Class>Character</Class>
@@ -488,7 +451,6 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{shatters.shtrs_Player_Check_Archmage}</DisplayId>
    </Object>
    <Object type="0x734c" id="shtrs Monster Cluster">
       <Class>Character</Class>
@@ -501,10 +463,9 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{shatters.shtrs_Monster_Cluster}</DisplayId>
    </Object>
    <Object type="0x726a" id="shtrs Blobomb">
-      <DisplayId>{shatters.shtrs_Blobomb}</DisplayId>
+      <DisplayId>Blobomb</DisplayId>
       <Class>Character</Class>
       <Enemy/>
       <AnimatedTexture>
@@ -526,7 +487,7 @@
       </Projectile>
    </Object>
    <Object type="0x725d" id="shtrs Bridge Obelisk A">
-      <DisplayId>{shatters.shtrs_Bridge_Obelisk_A}</DisplayId>
+      <DisplayId>Titanum of Hate</DisplayId>
       <Class>Character</Class>
       <Group>Spawners</Group>
       <Enemy/>
@@ -550,7 +511,7 @@
       </Projectile>
    </Object>
    <Object type="0x725e" id="shtrs Bridge Obelisk B">
-      <DisplayId>{shatters.shtrs_Bridge_Obelisk_B}</DisplayId>
+      <DisplayId>Titanum of Despair</DisplayId>
       <Class>Character</Class>
       <Group>Spawners</Group>
       <Enemy/>
@@ -574,7 +535,7 @@
       </Projectile>
    </Object>
    <Object type="0x726c" id="shtrs Bridge Obelisk C">
-      <DisplayId>{shatters.shtrs_Bridge_Obelisk_C}</DisplayId>
+      <DisplayId>Paladin Obelisk</DisplayId>
       <Class>Character</Class>
       <Group>Spawners</Group>
       <Enemy/>
@@ -596,7 +557,7 @@
       </Projectile>
    </Object>
    <Object type="0x726d" id="shtrs Bridge Obelisk D">
-      <DisplayId>{shatters.shtrs_Bridge_Obelisk_D}</DisplayId>
+      <DisplayId>Titanum of Lies</DisplayId>
       <Class>Character</Class>
       <Group>Spawners</Group>
       <Enemy/>
@@ -620,7 +581,7 @@
       </Projectile>
    </Object>
    <Object type="0x726e" id="shtrs Bridge Obelisk E">
-      <DisplayId>{shatters.shtrs_Bridge_Obelisk_E}</DisplayId>
+      <DisplayId>Titanum of Cruelty</DisplayId>
       <Class>Character</Class>
       <Group>Spawners</Group>
       <Enemy/>
@@ -644,7 +605,7 @@
       </Projectile>
    </Object>
    <Object type="0x728f" id="shtrs Bridge Obelisk F">
-      <DisplayId>{shatters.shtrs_Bridge_Obelisk_F}</DisplayId>
+      <DisplayId>Paladin Obelisk</DisplayId>
       <Class>Character</Class>
       <Group>Spawners</Group>
       <Enemy/>
@@ -666,7 +627,7 @@
       </Projectile>
    </Object>
    <Object type="0x710a" id="shtrs Titanum">
-      <DisplayId>{shatters.shtrs_Titanum}</DisplayId>
+      <DisplayId>Titanum</DisplayId>
       <Class>Character</Class>
       <Group>Spawners</Group>
       <Enemy/>
@@ -683,7 +644,7 @@
       <ParalyzeImmune/>
    </Object>
    <Object type="0x715a" id="shtrs Paladin Obelisk">
-      <DisplayId>{shatters.shtrs_Paladin_Obelisk}</DisplayId>
+      <DisplayId>Paladin Obelisk</DisplayId>
       <Class>Character</Class>
       <Group>Spawners</Group>
       <Enemy/>
@@ -700,7 +661,7 @@
       <ParalyzeImmune/>
    </Object>
    <Object type="0x710d" id="shtrs Ice Mage">
-      <DisplayId>{shatters.shtrs_Ice_Mage}</DisplayId>
+      <DisplayId>Forgotten Ice Mage</DisplayId>
       <Class>Character</Class>
       <Group>Ice Mages</Group>
       <Enemy/>
@@ -724,7 +685,7 @@
       </Projectile>
    </Object>
    <Object type="0x711a" id="shtrs Ice Adept">
-      <DisplayId>{shatters.shtrs_Ice_Adept}</DisplayId>
+      <DisplayId>Ice Adept</DisplayId>
       <Class>Character</Class>
       <Group>Ice Mages</Group>
       <Enemy/>
@@ -755,7 +716,7 @@
       </Projectile>
    </Object>
    <Object type="0x711e" id="shtrs Glassier Archmage">
-      <DisplayId>{shatters.shtrs_Glassier_Archmage}</DisplayId>
+      <DisplayId>Glacier Archmage</DisplayId>
       <Class>Character</Class>
       <Group>Archmages</Group>
       <Enemy/>
@@ -803,7 +764,7 @@
       </Projectile>
    </Object>
    <Object type="0x710b" id="shtrs Fire Mage">
-      <DisplayId>{shatters.shtrs_Fire_Mage}</DisplayId>
+      <DisplayId>Fire Mage</DisplayId>
       <Class>Character</Class>
       <Group>Fire Mages</Group>
       <Enemy/>
@@ -835,7 +796,7 @@
       </Projectile>
    </Object>
    <Object type="0x711b" id="shtrs Fire Adept">
-      <DisplayId>{shatters.shtrs_Fire_Adept}</DisplayId>
+      <DisplayId>Fire Adept</DisplayId>
       <Class>Character</Class>
       <Group>Fire Mages</Group>
       <Enemy/>
@@ -867,7 +828,7 @@
       </Projectile>
    </Object>
    <Object type="0x711c" id="shtrs Archmage of Flame">
-      <DisplayId>{shatters.shtrs_Archmage_of_Flame}</DisplayId>
+      <DisplayId>Archmage of Flame</DisplayId>
       <Class>Character</Class>
       <Group>Archmages</Group>
       <Enemy/>
@@ -904,7 +865,7 @@
       </Projectile>
    </Object>
    <Object type="0x710e" id="shtrs Stone Mage">
-      <DisplayId>{shatters.shtrs_Stone_Mage}</DisplayId>
+      <DisplayId>Stone Mage</DisplayId>
       <Class>Character</Class>
       <Group>Stone Monster</Group>
       <Enemy/>
@@ -935,7 +896,7 @@
       </Projectile>
    </Object>
    <Object type="0x711d" id="shtrs Stone Knight">
-      <DisplayId>{shatters.shtrs_Stone_Knight}</DisplayId>
+      <DisplayId>Stone Knight</DisplayId>
       <Class>Character</Class>
       <Group>Stone Monster</Group>
       <Enemy/>
@@ -962,7 +923,7 @@
       </Projectile>
    </Object>
    <Object type="0x713c" id="shtrs Stone Paladin">
-      <DisplayId>{shatters.shtrs_Stone_Paladin}</DisplayId>
+      <DisplayId>Stone Paladin</DisplayId>
       <Class>Character</Class>
       <Group>Stone Paladin</Group>
       <Enemy/>
@@ -982,7 +943,7 @@
       </Projectile>
    </Object>
    <Object type="0x727f" id="shtrs Spike">
-      <DisplayId>{shatters.shtrs_Spike}</DisplayId>
+      <DisplayId>Spike</DisplayId>
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -1003,7 +964,7 @@
       </Projectile>
    </Object>
    <Object type="0x728a" id="shtrs Ice Shield">
-      <DisplayId>{shatters.shtrs_Ice_Shield}</DisplayId>
+      <DisplayId>Ice Sphere</DisplayId>
       <Class>Character</Class>
       <Group>Ice Mages</Group>
       <Enemy/>
@@ -1031,7 +992,7 @@
       </Projectile>
    </Object>
    <Object type="0x728b" id="shtrs Ice Portal">
-      <DisplayId>{shatters.shtrs_Ice_Portal}</DisplayId>
+      <DisplayId>Ice Portal</DisplayId>
       <Class>Character</Class>
       <Group>Ice Mages</Group>
       <Enemy/>
@@ -1052,7 +1013,7 @@
       </Projectile>
    </Object>
    <Object type="0x728c" id="shtrs Fire Portal">
-      <DisplayId>{shatters.shtrs_Fire_Portal}</DisplayId>
+      <DisplayId>Fire Portal</DisplayId>
       <Class>Character</Class>
       <Group>Ice Mages</Group>
       <Enemy/>
@@ -1073,7 +1034,7 @@
       </Projectile>
    </Object>
    <Object type="0x729b" id="shtrs S Archmage of Flame">
-      <DisplayId>{shatters.shtrs_S_Archmage_of_Flame}</DisplayId>
+      <DisplayId>Archmage of Flame</DisplayId>
       <Class>Character</Class>
       <Group>Archmages</Group>
       <Enemy/>
@@ -1110,7 +1071,7 @@
       </Projectile>
    </Object>
    <Object type="0x729c" id="shtrs S Glassier Archmage">
-      <DisplayId>{shatters.shtrs_S_Glassier_Archmage}</DisplayId>
+      <DisplayId>Glassier Archmage</DisplayId>
       <Class>Character</Class>
       <Group>Archmages</Group>
       <Enemy/>
@@ -1157,7 +1118,7 @@
       </Projectile>
    </Object>
    <Object type="0x717f" id="shtrs Eyeguy">
-      <DisplayId>{shatters.shtrs_Eyeguy}</DisplayId>
+      <DisplayId>Eyes of the King</DisplayId>
       <Class>Character</Class>
       <Group>Finders</Group>
       <Enemy/>
@@ -1182,7 +1143,7 @@
       </Projectile>
    </Object>
    <Object type="0x714b" id="shtrs Bridge Sentinel">
-      <DisplayId>{shatters.shtrs_Bridge_Sentinel}</DisplayId>
+      <DisplayId>The Forgotten Sentinel</DisplayId>
       <Class>Character</Class>
       <Group>Stones</Group>
       <Enemy/>
@@ -1262,7 +1223,7 @@
       </Projectile>
    </Object>
    <Object type="0x715d" id="shtrs Twilight Archmage">
-      <DisplayId>{shatters.shtrs_Twilight_Archmage}</DisplayId>
+      <DisplayId>Twilight Archmage</DisplayId>
       <Class>Character</Class>
       <Group>Stone Monster</Group>
       <Enemy/>
@@ -1374,7 +1335,6 @@
          <MaxDamage>130</MaxDamage>
          <LifetimeMS>6000</LifetimeMS>
       </Projectile>
-      <DisplayId>{shatters.shtrs_Royal_Guardian_L}</DisplayId>
    </Object>
    <Object type="0x731b" id="shtrs Royal Guardian J">
       <DisplayID>Royal Guardian</DisplayID>
@@ -1396,10 +1356,9 @@
          <LifetimeMS>6000</LifetimeMS>
          <ConditionEffect duration="4">Slowed</ConditionEffect>
       </Projectile>
-      <DisplayId>{shatters.shtrs_Royal_Guardian_J}</DisplayId>
    </Object>
    <Object type="0x716f" id="shtrs The Forgotten King">
-      <DisplayId>{shatters.shtrs_The_Forgotten_King}</DisplayId>
+      <DisplayId>The Forgotten King</DisplayId>
       <Class>Character</Class>
       <Group>Stone Monster</Group>
       <Enemy/>
@@ -1458,7 +1417,7 @@
    </Object>
    <Object type="0x728d" id="shtrs Firebomb">
       <Class>Character</Class>
-      <DisplayId>{shatters.shtrs_Firebomb}</DisplayId>
+      <DisplayId>Fire Bomb</DisplayId>
       <Enemy/>
       <Texture>
          <File>lofiObj3</File>
@@ -1587,7 +1546,7 @@
       <Size>100</Size>
    </Object>
    <Object type="0x729d" id="shtrs Inferno">
-      <DisplayId>{shatters.shtrs_Inferno}</DisplayId>
+      <DisplayId>Inferno</DisplayId>
       <Class>Character</Class>
       <Group>Archmage Phoenixes</Group>
       <Enemy/>
@@ -1618,7 +1577,7 @@
       </Projectile>
    </Object>
    <Object type="0x729e" id="shtrs Blizzard">
-      <DisplayId>{shatters.shtrs_Blizzard}</DisplayId>
+      <DisplayId>Blizzard</DisplayId>
       <Class>Character</Class>
       <Group>Archmage Phoenixes</Group>
       <Enemy/>
@@ -1652,7 +1611,6 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{shatters.shtrs_BirdSpawn_1}</DisplayId>
    </Object>
    <Object type="0x730a" id="shtrs BirdSpawn 2">
       <Class>Character</Class>
@@ -1665,7 +1623,6 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{shatters.shtrs_BirdSpawn_2}</DisplayId>
    </Object>
    <Object type="0x730b" id="shtrs Bird Check">
       <Class>Character</Class>
@@ -1678,10 +1635,9 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{shatters.shtrs_Bird_Check}</DisplayId>
    </Object>
    <Object type="0x730d" id="shtrs Ice Shield 2">
-      <DisplayId>{shatters.shtrs_Ice_Shield_2}</DisplayId>
+      <DisplayId>Ice Sphere</DisplayId>
       <Class>Character</Class>
       <Group>Ice Mages</Group>
       <Enemy/>
@@ -1710,7 +1666,7 @@
       </Projectile>
    </Object>
    <Object type="0x730e" id="shtrs Ice Portal 2">
-      <DisplayId>{shatters.shtrs_Ice_Portal_2}</DisplayId>
+      <DisplayId>Ice Portal</DisplayId>
       <Class>Character</Class>
       <Group>Ice Mages</Group>
       <Enemy/>
@@ -1731,7 +1687,7 @@
       </Projectile>
    </Object>
    <Object type="0x730f" id="shtrs Fire Portal 2">
-      <DisplayId>{shatters.shtrs_Fire_Portal_2}</DisplayId>
+      <DisplayId>Fire Portal</DisplayId>
       <Class>Character</Class>
       <Group>Ice Mages</Group>
       <Enemy/>
@@ -1752,7 +1708,7 @@
       </Projectile>
    </Object>
    <Object type="0x731c" id="shtrs The Cursed Crown">
-      <DisplayId>{shatters.shtrs_The_Cursed_Crown}</DisplayId>
+      <DisplayId>The Cursed Crown</DisplayId>
       <Class>Character</Class>
       <Group>Stone Monster</Group>
       <Enemy/>
@@ -1813,7 +1769,7 @@
       </AltTexture>
    </Object>
    <Object type="0x731e" id="shtrs Green Crystal">
-      <DisplayId>{shatters.shtrs_Green_Crystal}</DisplayId>
+      <DisplayId>Green Crystal</DisplayId>
       <Class>Character</Class>
       <Group>Crystals</Group>
       <Enemy/>
@@ -1827,7 +1783,7 @@
       <XpMult>0.0</XpMult>
    </Object>
    <Object type="0x731f" id="shtrs Yellow Crystal">
-      <DisplayId>{shatters.shtrs_Yellow_Crystal}</DisplayId>
+      <DisplayId>Yellow Crystal</DisplayId>
       <Class>Character</Class>
       <Group>Crystals</Group>
       <Enemy/>
@@ -1849,7 +1805,7 @@
       </Projectile>
    </Object>
    <Object type="0x732a" id="shtrs Red Crystal">
-      <DisplayId>{shatters.shtrs_Red_Crystal}</DisplayId>
+      <DisplayId>Red Crystal</DisplayId>
       <Class>Character</Class>
       <Group>Crystals</Group>
       <Enemy/>
@@ -1863,7 +1819,7 @@
       <XpMult>0.0</XpMult>
    </Object>
    <Object type="0x732b" id="shtrs Blue Crystal">
-      <DisplayId>{shatters.shtrs_Blue_Crystal}</DisplayId>
+      <DisplayId>Blue Crystal</DisplayId>
       <Class>Character</Class>
       <Group>Crystals</Group>
       <Enemy/>
@@ -1887,7 +1843,6 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{shatters.shtrs_Crystal_Check}</DisplayId>
    </Object>
    <Object type="0x732d" id="shtrs Add Lava">
       <Class>Character</Class>
@@ -1900,7 +1855,6 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{shatters.shtrs_Add_Lava}</DisplayId>
    </Object>
    <Object type="0x732e" id="shtrs Final Mediator Lava">
       <Class>Character</Class>
@@ -1913,10 +1867,9 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{shatters.shtrs_Final_Mediator_Lava}</DisplayId>
    </Object>
    <Object type="0x732f" id="shtrs Laser1">
-      <DisplayId>{shatters.shtrs_Laser1}</DisplayId>
+      <DisplayId>The Forgotten King</DisplayId>
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -1935,7 +1888,7 @@
       </Projectile>
    </Object>
    <Object type="0x733a" id="shtrs Laser2">
-      <DisplayId>{shatters.shtrs_Laser2}</DisplayId>
+      <DisplayId>The Forgotten King</DisplayId>
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -1954,7 +1907,7 @@
       </Projectile>
    </Object>
    <Object type="0x733b" id="shtrs Laser3">
-      <DisplayId>{shatters.shtrs_Laser3}</DisplayId>
+      <DisplayId>The Forgotten King</DisplayId>
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -1973,7 +1926,7 @@
       </Projectile>
    </Object>
    <Object type="0x733c" id="shtrs Laser4">
-      <DisplayId>{shatters.shtrs_Laser4}</DisplayId>
+      <DisplayId>The Forgotten King</DisplayId>
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -1992,7 +1945,7 @@
       </Projectile>
    </Object>
    <Object type="0x733d" id="shtrs Laser5">
-      <DisplayId>{shatters.shtrs_Laser5}</DisplayId>
+      <DisplayId>The Forgotten King</DisplayId>
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -2011,7 +1964,7 @@
       </Projectile>
    </Object>
    <Object type="0x733e" id="shtrs Laser6">
-      <DisplayId>{shatters.shtrs_Laser6}</DisplayId>
+      <DisplayId>The Forgotten King</DisplayId>
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -2030,7 +1983,7 @@
       </Projectile>
    </Object>
    <Object type="0x733f" id="shtrs Lava Souls">
-      <DisplayId>{shatters.shtrs_Lava_Souls}</DisplayId>
+      <DisplayId>Helpless Souls</DisplayId>
       <Class>Character</Class>
       <Enemy/>
       <AnimatedTexture>
@@ -2063,7 +2016,6 @@
       <XpMult>0.0</XpMult>
       <StasisImmune/>
       <ParalyzeImmune/>
-      <DisplayId>{shatters.shtrs_Soul_Spawner}</DisplayId>
    </Object>
    <Object type="0x737d" id="shtrs Bridge Balloon Spawner">
       <Class>Character</Class>
@@ -2076,7 +2028,6 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{shatters.shtrs_Bridge_Balloon_Spawner}</DisplayId>
    </Object>
    <Object type="0x737e" id="shtrs Mage Balloon Spawner">
       <Class>Character</Class>
@@ -2089,7 +2040,6 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{shatters.shtrs_Mage_Balloon_Spawner}</DisplayId>
    </Object>
    <Object type="0x737f" id="shtrs King Balloon Spawner">
       <Class>Character</Class>
@@ -2102,10 +2052,9 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{shatters.shtrs_King_Balloon_Spawner}</DisplayId>
    </Object>
    <Object type="0x731a" id="shtrs Loot Balloon Bridge">
-      <DisplayId>{shatters.shtrs_Loot_Balloon_Bridge}</DisplayId>
+      <DisplayId>Sentinel Chest</DisplayId>
       <Class>Character</Class>
       <Group>Ice Mages</Group>
       <Enemy/>
@@ -2119,7 +2068,7 @@
       <XpMult>0.0</XpMult>
    </Object>
    <Object type="0x737b" id="shtrs Loot Balloon Mage">
-      <DisplayId>{shatters.shtrs_Loot_Balloon_Mage}</DisplayId>
+      <DisplayId>Mage Chest</DisplayId>
       <Class>Character</Class>
       <Group>Ice Mages</Group>
       <Enemy/>
@@ -2133,7 +2082,7 @@
       <XpMult>0.0</XpMult>
    </Object>
    <Object type="0x737c" id="shtrs Loot Balloon King">
-      <DisplayId>{shatters.shtrs_Loot_Balloon_King}</DisplayId>
+      <DisplayId>King Chest</DisplayId>
       <Class>Character</Class>
       <Group>Ice Mages</Group>
       <Enemy/>
@@ -2156,6 +2105,5 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{shatters.shtrs_Pause_Watcher}</DisplayId>
    </Object>
 </Objects>

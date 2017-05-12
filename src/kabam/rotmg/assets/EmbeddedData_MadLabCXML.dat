@@ -10,7 +10,6 @@
       <NoMiniMap/>
       <Size>0</Size>
       <StasisImmune/>
-      <DisplayId>{madLab.Mad_Scientist_Summoner}</DisplayId>
    </Object>
    <Object type="0x0976" id="Dr Terrible">
       <Enemy/>
@@ -44,7 +43,6 @@
          <Size>100</Size>
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
-      <DisplayId>{madLab.Dr_Terrible}</DisplayId>
    </Object>
    <Object type="0x0892" id="Monster Cage">
       <Class>GameObject</Class>
@@ -68,7 +66,6 @@
          </Texture>
       </AltTexture>
       <StasisImmune/>
-      <DisplayId>{madLab.Monster_Cage}</DisplayId>
    </Object>
    <Object type="0x0997" id="Mad Gas Controller">
       <Class>Character</Class>
@@ -81,7 +78,6 @@
       <MaxHitPoints>10</MaxHitPoints>
       <Size>0</Size>
       <StasisImmune/>
-      <DisplayId>{madLab.Mad_Gas_Controller}</DisplayId>
    </Object>
    <Object type="0x0993" id="Red Gas Spawner UL">
       <Class>Character</Class>
@@ -103,7 +99,6 @@
          <Size>100</Size>
          <LifetimeMS>6000</LifetimeMS>
       </Projectile>
-      <DisplayId>{madLab.Red_Gas_Spawner_UL}</DisplayId>
    </Object>
    <Object type="0x0994" id="Red Gas Spawner UR">
       <Class>Character</Class>
@@ -125,7 +120,6 @@
          <Size>100</Size>
          <LifetimeMS>5000</LifetimeMS>
       </Projectile>
-      <DisplayId>{madLab.Red_Gas_Spawner_UR}</DisplayId>
    </Object>
    <Object type="0x0995" id="Red Gas Spawner LL">
       <Class>Character</Class>
@@ -147,7 +141,6 @@
          <Size>100</Size>
          <LifetimeMS>5000</LifetimeMS>
       </Projectile>
-      <DisplayId>{madLab.Red_Gas_Spawner_LL}</DisplayId>
    </Object>
    <Object type="0x0996" id="Red Gas Spawner LR">
       <Class>Character</Class>
@@ -169,7 +162,6 @@
          <Size>100</Size>
          <LifetimeMS>5000</LifetimeMS>
       </Projectile>
-      <DisplayId>{madLab.Red_Gas_Spawner_LR}</DisplayId>
    </Object>
    <Object type="0x0978" id="Green Potion">
       <Enemy/>
@@ -193,7 +185,6 @@
          <Size>75</Size>
          <LifetimeMS>4000</LifetimeMS>
       </Projectile>
-      <DisplayId>{madLab.Green_Potion}</DisplayId>
    </Object>
    <Object type="0x12aa" id="Turret Attack">
       <Enemy/>
@@ -219,7 +210,6 @@
          <Size>75</Size>
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
-      <DisplayId>{madLab.Turret_Attack}</DisplayId>
    </Object>
    <Object type="0x0979" id="Mini Bot">
       <Enemy/>
@@ -243,11 +233,10 @@
          <LifetimeMS>2000</LifetimeMS>
          <ConditionEffect duration=".5">Confused</ConditionEffect>
       </Projectile>
-      <DisplayId>{madLab.Mini_Bot}</DisplayId>
    </Object>
    <Object type="0x1e25" id="Dr Terrible Mini Bot">
       <Enemy/>
-      <DisplayId>{madLab.Dr_Terrible_Mini_Bot}</DisplayId>
+      <DisplayId>Mini Bot</DisplayId>
       <Class>Character</Class>
       <Group>Mad Lab</Group>
       <AnimatedTexture>
@@ -305,11 +294,10 @@
          <Size>100</Size>
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
-      <DisplayId>{madLab.Rampage_Cyborg}</DisplayId>
    </Object>
    <Object type="0x1e24" id="Dr Terrible Rampage Cyborg">
       <Enemy/>
-      <DisplayId>{madLab.Dr_Terrible_Rampage_Cyborg}</DisplayId>
+      <DisplayId>Rampage Cyborg</DisplayId>
       <Class>Character</Class>
       <Group>Mad Lab</Group>
       <AnimatedTexture>
@@ -366,11 +354,10 @@
          <Size>100</Size>
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
-      <DisplayId>{madLab.Escaped_Experiment}</DisplayId>
    </Object>
    <Object type="0x1e23" id="Dr Terrible Escaped Experiment">
       <Enemy/>
-      <DisplayId>{madLab.Dr_Terrible_Escaped_Experiment}</DisplayId>
+      <DisplayId>Escaped Experiment</DisplayId>
       <Class>Character</Class>
       <Group>Mad Lab</Group>
       <AnimatedTexture>
@@ -420,7 +407,6 @@
          <Size>100</Size>
          <LifetimeMS>1200</LifetimeMS>
       </Projectile>
-      <DisplayId>{madLab.Enforcer_Bot_3000}</DisplayId>
    </Object>
    <Object type="0x0983" id="Crusher Abomination">
       <Enemy/>
@@ -464,7 +450,6 @@
          <Size>175</Size>
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
-      <DisplayId>{madLab.Crusher_Abomination}</DisplayId>
    </Object>
    <Object type="0x0990" id="West Automated Defense Turret">
       <Class>GameObject</Class>
@@ -482,7 +467,6 @@
          <LifetimeMS>5000</LifetimeMS>
          <ConditionEffect duration=".5">Confused</ConditionEffect>
       </Projectile>
-      <DisplayId>{madLab.West_Automated_Defense_Turret}</DisplayId>
    </Object>
    <Object type="0x0991" id="East Automated Defense Turret">
       <Class>GameObject</Class>
@@ -500,10 +484,9 @@
          <LifetimeMS>5000</LifetimeMS>
          <ConditionEffect duration=".5">Confused</ConditionEffect>
       </Projectile>
-      <DisplayId>{madLab.East_Automated_Defense_Turret}</DisplayId>
    </Object>
    <Object type="0x0992" id="Mad Lab Open Wall">
-      <DisplayId>{madLab.Mad_Lab_Open_Wall}</DisplayId>
+      <DisplayId>Horrific Creation</DisplayId>
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -524,7 +507,6 @@
       <MaxHitPoints>10</MaxHitPoints>
       <Size>0</Size>
       <StasisImmune/>
-      <DisplayId>{madLab.Horrific_Creation_Summoner}</DisplayId>
    </Object>
    <Object type="0x5e1c" id="Horrific Creation">
       <Enemy/>
@@ -629,7 +611,6 @@
          <Damage>200</Damage>
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
-      <DisplayId>{madLab.Horrific_Creation}</DisplayId>
    </Object>
    <Object type="0x099a" id="F.E.R.A.L.">
       <Enemy/>
@@ -697,43 +678,6 @@
          <LifetimeMS>1500</LifetimeMS>
          <Size>100</Size>
       </Projectile>
-      <DisplayId>{madLab.F.E.R.A.L.}</DisplayId>
-   </Object>
-   <Object type="0x0890" id="Mad Lab Portal">
-      <Class>Portal</Class>
-      <IntergamePortal/>
-      <DungeonName>Mad Lab</DungeonName>
-      <Texture>
-         <File>lofiObj3</File>
-         <Index>0x1ab</Index>
-      </Texture>
-      <Animation prob="1" period="1">
-         <Frame time="0.25">
-            <Texture>
-               <File>lofiObj3</File>
-               <Index>0x1ac</Index>
-            </Texture>
-         </Frame>
-         <Frame time="0.25">
-            <Texture>
-               <File>lofiObj3</File>
-               <Index>0x1ad</Index>
-            </Texture>
-         </Frame>
-         <Frame time="0.25">
-            <Texture>
-               <File>lofiObj3</File>
-               <Index>0x1ae</Index>
-            </Texture>
-         </Frame>
-         <Frame time="0.25">
-            <Texture>
-               <File>lofiObj3</File>
-               <Index>0x1ad</Index>
-            </Texture>
-         </Frame>
-      </Animation>
-      <DisplayId>{madLab.Mad_Lab_Portal}</DisplayId>
    </Object>
    <Object type="0x0891" id="FERAL Controller">
       <Texture>
@@ -741,7 +685,6 @@
          <Index>0</Index>
       </Texture>
       <NoMiniMap/>
-      <DisplayId>{madLab.FERAL_Controller}</DisplayId>
    </Object>
    <Object type="0x1e20" id="FERAL Death">
       <Class>Character</Class>
@@ -752,7 +695,6 @@
       <Size>0</Size>
       <ShadowSize>0</ShadowSize>
       <NoMiniMap/>
-      <DisplayId>{madLab.FERAL_Death}</DisplayId>
    </Object>
    <Object type="0x1e15" id="Hexxer">
       <Class>Character</Class>
@@ -765,7 +707,6 @@
       <NoMiniMap/>
       <StasisImmune/>
       <Effect color="0x00c631" rate="20" life=".45" lifeVariance=".1" speed="0" speedVariance=".5" size="5" rise="1" riseVariance=".1" rangeX="1.9" rangeY="1.9">CustomParticles</Effect>
-      <DisplayId>{madLab.Hexxer}</DisplayId>
    </Object>
    <Object type="0x1e16" id="DeHexxer">
       <Class>Character</Class>
@@ -778,7 +719,6 @@
       <ShadowSize>0</ShadowSize>
       <StasisImmune/>
       <Effect color="0x0079eb" rate="20" life=".45" lifeVariance=".1" speed="0" speedVariance=".5" size="5" rise="1" riseVariance=".1" rangeX="1.9" rangeY="1.9">CustomParticles</Effect>
-      <DisplayId>{madLab.DeHexxer}</DisplayId>
    </Object>
    <Object type="0x1e22" id="Dr Terrible Bubble">
       <Class>GameObject</Class>
@@ -802,6 +742,5 @@
          </Texture>
       </AltTexture>
       <StasisImmune/>
-      <DisplayId>{madLab.Dr_Terrible_Bubble}</DisplayId>
    </Object>
 </Objects>

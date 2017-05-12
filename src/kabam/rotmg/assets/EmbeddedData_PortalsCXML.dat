@@ -55,6 +55,17 @@
          <Index>0x7c</Index>
       </Texture>
    </Object>
+   <Object type="0x5f34" id="Forest Maze Portal">
+      <Class>Portal</Class>
+      <IntergamePortal/>
+      <DisplayId>Forest Maze</DisplayId>
+      <DungeonName>Forest Maze</DungeonName>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x3dd</Index>
+      </Texture>
+      <ShadowSize>0</ShadowSize>
+   </Object>
    <Object type="0x0718" id="Snake Pit Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
@@ -191,6 +202,36 @@
       <Texture>
          <File>lofiEnvironment</File>
          <Index>0x5d</Index>
+      </Texture>
+   </Object>
+   <Object type="0x634" id="Oryx Chamber Portal">
+      <Class>Portal</Class>
+      <IntergamePortal/>
+      <DisplayId>Oryx's Chamber</DisplayId>
+      <DungeonName>Oryx's Chamber</DungeonName>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x7c</Index>
+      </Texture>
+   </Object>
+   <Object type="0xbb7" id="Oryx Chicken Chamber Portal">
+      <Class>Portal</Class>
+      <IntergamePortal/>
+      <DisplayId>Chicken Chamber</DisplayId>
+      <DungeonName>Chicken Chamber</DungeonName>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x7c</Index>
+      </Texture>
+   </Object>
+   <Object type="0x242" id="Wine Cellar Portal">
+      <Class>Portal</Class>
+      <IntergamePortal/>
+      <DisplayId>Wine Cellar</DisplayId>
+      <DungeonName>Wine Cellar</DungeonName>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x7c</Index>
       </Texture>
    </Object>
    <Object type="0x0721" id="Locked Wine Cellar Portal">
@@ -353,6 +394,16 @@
          <Index>0x192</Index>
       </Texture>
    </Object>
+   <Object type="0x5e2e" id="Treasure Cave Portal">
+      <Class>Portal</Class>
+      <IntergamePortal/>
+      <DisplayId>Cave of A Thousand Treasures</DisplayId>
+      <DungeonName>Cave of A Thousand Treasures</DungeonName>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x20f</Index>
+      </Texture>
+   </Object>
    <Object type="0x074a" id="Candyland Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
@@ -408,6 +459,153 @@
             <Texture>
                <File>lofiObj3</File>
                <Index>0x318</Index>
+            </Texture>
+         </Frame>
+      </Animation>
+   </Object>
+   <Object type="0x5f25" id="Haunted Cemetery Gates Portal">
+      <Class>Portal</Class>
+      <Size>120</Size>
+      <IntergamePortal/>
+      <DisplayId>Gates</DisplayId>
+      <DungeonName>Haunted Cemetery Gates</DungeonName>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x30a</Index>
+      </Texture>
+      <Animation prob="0.6" period="1.8">
+         <Frame time="0.2">
+            <Texture>
+               <File>lofiObj3</File>
+               <Index>0x30b</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.2">
+            <Texture>
+               <File>lofiObj3</File>
+               <Index>0x30c</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.6">
+            <Texture>
+               <File>lofiObj3</File>
+               <Index>0x30d</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.2">
+            <Texture>
+               <File>lofiObj3</File>
+               <Index>0x30c</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.2">
+            <Texture>
+               <File>lofiObj3</File>
+               <Index>0x30b</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.4">
+            <Texture>
+               <File>lofiObj3</File>
+               <Index>0x30a</Index>
+            </Texture>
+         </Frame>
+      </Animation>
+   </Object>
+   <Object type="0x5f26" id="Haunted Cemetery Graves Portal">
+      <Class>Portal</Class>
+      <Size>130</Size>
+      <IntergamePortal/>
+      <DisplayId>Graves</DisplayId>
+      <DungeonName>Haunted Cemetery Graves</DungeonName>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x30a</Index>
+      </Texture>
+      <Animation prob="0.8" period="1.8">
+         <Frame time="0.2">
+            <Texture>
+               <File>lofiObj3</File>
+               <Index>0x30b</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.2">
+            <Texture>
+               <File>lofiObj3</File>
+               <Index>0x30c</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.6">
+            <Texture>
+               <File>lofiObj3</File>
+               <Index>0x30d</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.2">
+            <Texture>
+               <File>lofiObj3</File>
+               <Index>0x30c</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.2">
+            <Texture>
+               <File>lofiObj3</File>
+               <Index>0x30b</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.4">
+            <Texture>
+               <File>lofiObj3</File>
+               <Index>0x30a</Index>
+            </Texture>
+         </Frame>
+      </Animation>
+   </Object>
+   <Object type="0x5f29" id="Haunted Cemetery Final Rest Portal">
+      <Class>Portal</Class>
+      <Size>140</Size>
+      <IntergamePortal/>
+      <DisplayId>Final Battle</DisplayId>
+      <DungeonName>Haunted Cemetery Final Battle</DungeonName>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x30a</Index>
+      </Texture>
+      <Animation prob="1" period="2">
+         <Frame time="0.2">
+            <Texture>
+               <File>lofiObj3</File>
+               <Index>0x30b</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.2">
+            <Texture>
+               <File>lofiObj3</File>
+               <Index>0x30c</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.6">
+            <Texture>
+               <File>lofiObj3</File>
+               <Index>0x30d</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.2">
+            <Texture>
+               <File>lofiObj3</File>
+               <Index>0x30c</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.2">
+            <Texture>
+               <File>lofiObj3</File>
+               <Index>0x30b</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.6">
+            <Texture>
+               <File>lofiObj3</File>
+               <Index>0x30a</Index>
             </Texture>
          </Frame>
       </Animation>
@@ -468,6 +666,16 @@
       <Texture>
          <File>lofiObj3</File>
          <Index>0x4FE</Index>
+      </Texture>
+   </Object>
+   <Object type="0x0727e" id="The Shatters">
+      <DisplayId>The Shatters</DisplayId>
+      <Class>Portal</Class>
+      <IntergamePortal/>
+      <DungeonName>The Shatters</DungeonName>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x44e</Index>
       </Texture>
    </Object>
    <Object type="0x7466" id="Puppet Encore Portal">
@@ -552,6 +760,46 @@
       </Texture>
       <Size>60</Size>
    </Object>
+   <Object type="0x075c" id="Woodland Labyrinth">
+      <Class>Portal</Class>
+      <IntergamePortal/>
+      <DisplayId>Woodland Labyrinth</DisplayId>
+      <DungeonName>Woodland Labyrinth</DungeonName>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x3e5</Index>
+      </Texture>
+   </Object>
+   <Object type="0x075d" id="Deadwater Docks">
+      <Class>Portal</Class>
+      <IntergamePortal/>
+      <DisplayId>Deadwater Docks</DisplayId>
+      <DungeonName>Deadwater Docks</DungeonName>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x3ea</Index>
+      </Texture>
+   </Object>
+   <Object type="0x708b" id="Bilgewater's Grotto Portal">
+      <Class>Portal</Class>
+      <IntergamePortal/>
+      <DisplayId>Bilgewater's Grotto</DisplayId>
+      <DungeonName>Bilgewater's Grotto</DungeonName>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x3ea</Index>
+      </Texture>
+   </Object>
+   <Object type="0x072e" id="The Crawling Depths">
+      <Class>Portal</Class>
+      <IntergamePortal/>
+      <DisplayId>The Crawling Depths</DisplayId>
+      <DungeonName>The Crawling Depths</DungeonName>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x3e8</Index>
+      </Texture>
+   </Object>
    <Object type="0x23e" id="Toxic Sewers Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
@@ -568,17 +816,6 @@
       <IntergamePortal/>
       <DisplayId>The Hive</DisplayId>
       <DungeonName>The Hive</DungeonName>
-      <Texture>
-         <File>lofiObj3</File>
-         <Index>0x58a</Index>
-      </Texture>
-      <ShadowSize>0</ShadowSize>
-   </Object>
-   <Object type="0x137" id="Mountain Temple Portal">
-      <Class>Portal</Class>
-      <IntergamePortal/>
-      <DisplayId>Mountain Temple</DisplayId>
-      <DungeonName>Mountain Temple</DungeonName>
       <Texture>
          <File>lofiObj3</File>
          <Index>0x58a</Index>

@@ -12,7 +12,6 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{nexusDestroyed.destnex_Observer_1}</DisplayId>
    </Object>
    <Object type="0x718b" id="destnex Observer 2">
       <Class>Character</Class>
@@ -25,7 +24,6 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{nexusDestroyed.destnex_Observer_2}</DisplayId>
    </Object>
    <Object type="0x718c" id="destnex Observer 3">
       <Class>Character</Class>
@@ -38,7 +36,6 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{nexusDestroyed.destnex_Observer_3}</DisplayId>
    </Object>
    <Object type="0x718d" id="destnex Observer 4">
       <Class>Character</Class>
@@ -51,10 +48,9 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{nexusDestroyed.destnex_Observer_4}</DisplayId>
    </Object>
    <Object type="0x718e" id="Oryx the Mad God Deux">
-      <DisplayId>{nexusDestroyed.Oryx_the_Mad_God_Deux}</DisplayId>
+      <DisplayId>Oryx the Mad God</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -141,7 +137,7 @@
       </Projectile>
    </Object>
    <Object type="0x718f" id="Murderous Megamoth Deux">
-      <DisplayId>{nexusDestroyed.Murderous_Megamoth_Deux}</DisplayId>
+      <DisplayId>Murderous Megamoth</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -198,7 +194,6 @@
          <Size>50</Size>
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
-      <DisplayId>{nexusDestroyed.Mini_Larva_Deux}</DisplayId>
    </Object>
    <Object type="0x719a" id="Lord Ruthven Deux">
       <Enemy/>
@@ -249,10 +244,9 @@
          <LifetimeMS>3400</LifetimeMS>
          <MultiHit/>
       </Projectile>
-      <DisplayId>{nexusDestroyed.Lord_Ruthven_Deux}</DisplayId>
    </Object>
    <Object type="0x719b" id="NM Green Dragon God Deux">
-      <DisplayId>{nexusDestroyed.NM_Green_Dragon_God_Deux}</DisplayId>
+      <DisplayId>Limoz the Veridian Dragon</DisplayId>
       <Group>Group3</Group>
       <Enemy/>
       <Quest/>
@@ -408,7 +402,6 @@
          <MultiHit/>
          <ConditionEffect duration="4">Weak</ConditionEffect>
       </Projectile>
-      <DisplayId>{nexusDestroyed.Archdemon_Malphas_Deux}</DisplayId>
    </Object>
    <Object type="0x723b" id="Malphas Protector Deux">
       <Group>Demons</Group>
@@ -430,7 +423,6 @@
          <Speed>80</Speed>
          <LifetimeMS>600</LifetimeMS>
       </Projectile>
-      <DisplayId>{nexusDestroyed.Malphas_Protector_Deux}</DisplayId>
    </Object>
    <Object type="0x723a" id="Malphas Flamer Deux">
       <Group>Flamers</Group>
@@ -456,7 +448,6 @@
       <Size>100</Size>
       <Defense>6</Defense>
       <XpMult>0.0</XpMult>
-      <DisplayId>{nexusDestroyed.Malphas_Flamer_Deux}</DisplayId>
    </Object>
    <Object type="0x719d" id="Stheno the Snake Queen Deux">
       <Class>Character</Class>
@@ -494,7 +485,6 @@
          <ConditionEffect duration="1.4">Blind</ConditionEffect>
          <MultiHit/>
       </Projectile>
-      <DisplayId>{nexusDestroyed.Stheno_the_Snake_Queen_Deux}</DisplayId>
    </Object>
    <Object type="0x723e" id="Stheno Pet Deux">
       <Class>Character</Class>
@@ -519,7 +509,6 @@
          <ConditionEffect duration="2">Slowed</ConditionEffect>
          <MultiHit/>
       </Projectile>
-      <DisplayId>{nexusDestroyed.Stheno_Pet_Deux}</DisplayId>
    </Object>
    <Object type="0x723f" id="Stheno Swarm Deux">
       <Class>Character</Class>
@@ -543,7 +532,6 @@
          <LifetimeMS>1000</LifetimeMS>
          <MultiHit/>
       </Projectile>
-      <DisplayId>{nexusDestroyed.Stheno_Swarm_Deux}</DisplayId>
    </Object>
    <Object type="0x719e" id="Golden Oryx Effigy Deux">
       <Class>Character</Class>
@@ -590,7 +578,6 @@
          <LifetimeMS>3000</LifetimeMS>
          <Size>150</Size>
       </Projectile>
-      <DisplayId>{nexusDestroyed.Golden_Oryx_Effigy_Deux}</DisplayId>
    </Object>
    <Object type="0x723d" id="Treasure Oryx Defender Deux">
       <Class>Character</Class>
@@ -612,7 +599,6 @@
          <LifetimeMS>3000</LifetimeMS>
          <Size>125</Size>
       </Projectile>
-      <DisplayId>{nexusDestroyed.Treasure_Oryx_Defender_Deux}</DisplayId>
    </Object>
    <Object type="0x723c" id="Gold Planet Deux">
       <Class>Character</Class>
@@ -644,7 +630,6 @@
          <Size>150</Size>
       </Projectile>
       f
-      <DisplayId>{nexusDestroyed.Gold_Planet_Deux}</DisplayId>
    </Object>
    <Object type="0x719f" id="destnex Paladin Grave">
       <Class>GameObject</Class>
@@ -654,7 +639,6 @@
       </Texture>
       <Static/>
       <OccupySquare/>
-      <DisplayId>{nexusDestroyed.destnex_Paladin_Grave}</DisplayId>
    </Object>
    <Object type="0x720a" id="destnex Warrior Grave">
       <Class>GameObject</Class>
@@ -664,7 +648,6 @@
       </Texture>
       <Static/>
       <OccupySquare/>
-      <DisplayId>{nexusDestroyed.destnex_Warrior_Grave}</DisplayId>
    </Object>
    <Object type="0x720b" id="destnex Priest Grave">
       <Class>GameObject</Class>
@@ -674,7 +657,6 @@
       </Texture>
       <Static/>
       <OccupySquare/>
-      <DisplayId>{nexusDestroyed.destnex_Priest_Grave}</DisplayId>
    </Object>
    <Object type="0x720c" id="destnex Knight Grave">
       <Class>GameObject</Class>
@@ -684,7 +666,6 @@
       </Texture>
       <Static/>
       <OccupySquare/>
-      <DisplayId>{nexusDestroyed.destnex_Knight_Grave}</DisplayId>
    </Object>
    <Object type="0x720d" id="destnex Necromancer Grave">
       <Class>GameObject</Class>
@@ -694,7 +675,6 @@
       </Texture>
       <Static/>
       <OccupySquare/>
-      <DisplayId>{nexusDestroyed.destnex_Necromancer_Grave}</DisplayId>
    </Object>
    <Object type="0x720e" id="destnex Assassin Grave">
       <Class>GameObject</Class>
@@ -704,7 +684,6 @@
       </Texture>
       <Static/>
       <OccupySquare/>
-      <DisplayId>{nexusDestroyed.destnex_Assassin_Grave}</DisplayId>
    </Object>
    <Object type="0x720f" id="destnex Sorcerer Grave">
       <Class>GameObject</Class>
@@ -714,7 +693,6 @@
       </Texture>
       <Static/>
       <OccupySquare/>
-      <DisplayId>{nexusDestroyed.destnex_Sorcerer_Grave}</DisplayId>
    </Object>
    <Object type="0x721a" id="destnex Trickster Grave">
       <Class>GameObject</Class>
@@ -724,7 +702,6 @@
       </Texture>
       <Static/>
       <OccupySquare/>
-      <DisplayId>{nexusDestroyed.destnex_Trickster_Grave}</DisplayId>
    </Object>
    <Object type="0x721b" id="destnex Wizard Grave">
       <Class>GameObject</Class>
@@ -734,7 +711,6 @@
       </Texture>
       <Static/>
       <OccupySquare/>
-      <DisplayId>{nexusDestroyed.destnex_Wizard_Grave}</DisplayId>
    </Object>
    <Object type="0x721c" id="destnex Rogue Grave">
       <Class>GameObject</Class>
@@ -744,7 +720,6 @@
       </Texture>
       <Static/>
       <OccupySquare/>
-      <DisplayId>{nexusDestroyed.destnex_Rogue_Grave}</DisplayId>
    </Object>
    <Object type="0x721d" id="destnex Mystic Grave">
       <Class>GameObject</Class>
@@ -754,7 +729,6 @@
       </Texture>
       <Static/>
       <OccupySquare/>
-      <DisplayId>{nexusDestroyed.destnex_Mystic_Grave}</DisplayId>
    </Object>
    <Object type="0x721e" id="destnex Huntress Grave">
       <Class>GameObject</Class>
@@ -764,7 +738,6 @@
       </Texture>
       <Static/>
       <OccupySquare/>
-      <DisplayId>{nexusDestroyed.destnex_Huntress_Grave}</DisplayId>
    </Object>
    <Object type="0x721f" id="destnex Archer Grave">
       <Class>GameObject</Class>
@@ -774,7 +747,6 @@
       </Texture>
       <Static/>
       <OccupySquare/>
-      <DisplayId>{nexusDestroyed.destnex_Archer_Grave}</DisplayId>
    </Object>
    <Object type="0x722a" id="destnex Ninja Grave">
       <Class>GameObject</Class>
@@ -784,10 +756,9 @@
       </Texture>
       <Static/>
       <OccupySquare/>
-      <DisplayId>{nexusDestroyed.destnex_Ninja_Grave}</DisplayId>
    </Object>
    <Object type="0x722b" id="NM Green Dragon Shield Deux">
-      <DisplayId>{nexusDestroyed.NM_Green_Dragon_Shield_Deux}</DisplayId>
+      <DisplayId>Abundant Shield</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -807,7 +778,7 @@
       </Projectile>
    </Object>
    <Object type="0x722c" id="NM Green Dragon Shield Counter Deux">
-      <DisplayId>{nexusDestroyed.NM_Green_Dragon_Shield_Counter_Deux}</DisplayId>
+      <DisplayId>Abundant Shield</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <Texture>

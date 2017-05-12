@@ -13,7 +13,6 @@
       <Size>0</Size>
       <MaxHitPoints>100</MaxHitPoints>
       <StasisImmune/>
-      <DisplayId>{snakePit.Snakepit_Guard_Spawner}</DisplayId>
    </Object>
    <Object type="0x0e27" id="Snakepit Button">
       <Class>Character</Class>
@@ -35,7 +34,6 @@
       <XpMult>0.0</XpMult>
       <Size>100</Size>
       <ShadowSize>0</ShadowSize>
-      <DisplayId>{snakePit.Snakepit_Button}</DisplayId>
    </Object>
    <Object type="0x0e26" id="Snakepit Guard">
       <Class>Character</Class>
@@ -74,7 +72,6 @@
          <Size>150</Size>
          <ConditionEffect duration="4">Dazed</ConditionEffect>
       </Projectile>
-      <DisplayId>{snakePit.Snakepit_Guard}</DisplayId>
    </Object>
    <Object type="0x0e25" id="Snakepit Dart Thrower">
       <Class>Character</Class>
@@ -97,7 +94,6 @@
          <Size>100</Size>
          <ConditionEffect duration="4">Bleeding</ConditionEffect>
       </Projectile>
-      <DisplayId>{snakePit.Snakepit_Dart_Thrower}</DisplayId>
    </Object>
    <Object type="0x0917" id="Stheno the Snake Queen">
       <Class>Character</Class>
@@ -134,7 +130,6 @@
          <ConditionEffect duration="1.4">Blind</ConditionEffect>
          <MultiHit/>
       </Projectile>
-      <DisplayId>{snakePit.Stheno_the_Snake_Queen}</DisplayId>
    </Object>
    <Object type="0x0918" id="Stheno Pet">
       <Class>Character</Class>
@@ -159,7 +154,6 @@
          <ConditionEffect duration="2">Slowed</ConditionEffect>
          <MultiHit/>
       </Projectile>
-      <DisplayId>{snakePit.Stheno_Pet}</DisplayId>
    </Object>
    <Object type="0x0919" id="Stheno Swarm">
       <Class>Character</Class>
@@ -183,7 +177,6 @@
          <LifetimeMS>1000</LifetimeMS>
          <MultiHit/>
       </Projectile>
-      <DisplayId>{snakePit.Stheno_Swarm}</DisplayId>
    </Object>
    <Object type="0x0223" id="Pit Snake">
       <Group>Pit Snakes</Group>
@@ -205,7 +198,6 @@
          <Damage>10</Damage>
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
-      <DisplayId>{snakePit.Pit_Snake}</DisplayId>
    </Object>
    <Object type="0x0224" id="Pit Viper">
       <Group>Pit Snakes</Group>
@@ -227,7 +219,6 @@
          <Damage>20</Damage>
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
-      <DisplayId>{snakePit.Pit_Viper}</DisplayId>
    </Object>
    <Object type="0x0225" id="Fire Python">
       <Group>Pythons</Group>
@@ -248,7 +239,6 @@
          <Damage>25</Damage>
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
-      <DisplayId>{snakePit.Fire_Python}</DisplayId>
    </Object>
    <Object type="0x0226" id="Brown Python">
       <Group>Pythons</Group>
@@ -269,7 +259,6 @@
          <Damage>25</Damage>
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
-      <DisplayId>{snakePit.Brown_Python}</DisplayId>
    </Object>
    <Object type="0x0227" id="Yellow Python">
       <Group>Pythons</Group>
@@ -290,7 +279,6 @@
          <Damage>25</Damage>
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
-      <DisplayId>{snakePit.Yellow_Python}</DisplayId>
    </Object>
    <Object type="0x0228" id="Greater Pit Snake">
       <Group>Greater Pit Snakes</Group>
@@ -311,7 +299,6 @@
          <Damage>50</Damage>
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
-      <DisplayId>{snakePit.Greater_Pit_Snake}</DisplayId>
    </Object>
    <Object type="0x0229" id="Greater Pit Viper">
       <Group>Greater Pit Snakes</Group>
@@ -332,6 +319,5 @@
          <Damage>50</Damage>
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
-      <DisplayId>{snakePit.Greater_Pit_Viper}</DisplayId>
    </Object>
 </Objects>

@@ -17,7 +17,7 @@
       <StasisImmune/>
       <Quest/>
       <Level>1</Level>
-      <XpMult>0.8</XpMult>
+      <XpMult>1.4</XpMult>
       <NoArticle/>
       <Projectile id="0">
          <ObjectId>Green Magic</ObjectId>

@@ -2,7 +2,7 @@
 
 <Objects>
    <Object type="0x0d40" id="Tomb Portal of Cowardice">
-      <DisplayId>{tombOfTheAncients.Tomb_Portal_of_Cowardice}</DisplayId>
+      <DisplayId>Portal of Cowardice</DisplayId>
       <Class>Portal</Class>
       <IntergamePortal/>
       <Texture>
@@ -33,7 +33,6 @@
          <MultiHit/>
          <Size>140</Size>
       </Projectile>
-      <DisplayId>{tombOfTheAncients.Red_Swarm_Minions}</DisplayId>
    </Object>
    <Object type="0x0d11" id="Red Swarm Masters">
       <Group>Tomb Swarms</Group>
@@ -77,7 +76,6 @@
          <ArmorPiercing/>
          <MultiHit/>
       </Projectile>
-      <DisplayId>{tombOfTheAncients.Red_Swarm_Masters}</DisplayId>
    </Object>
    <Object type="0x0d12" id="Yellow Swarm Minions">
       <Enemy/>
@@ -101,7 +99,6 @@
          <ConditionEffect duration="1">Blind</ConditionEffect>
          <Size>140</Size>
       </Projectile>
-      <DisplayId>{tombOfTheAncients.Yellow_Swarm_Minions}</DisplayId>
    </Object>
    <Object type="0x0d13" id="Yellow Swarm Masters">
       <Group>Tomb Swarms</Group>
@@ -149,7 +146,6 @@
          <ConditionEffect duration="2">Confused</ConditionEffect>
          <MultiHit/>
       </Projectile>
-      <DisplayId>{tombOfTheAncients.Yellow_Swarm_Masters}</DisplayId>
    </Object>
    <Object type="0x0d14" id="Blue Swarm Minions">
       <Enemy/>
@@ -173,7 +169,6 @@
          <MultiHit/>
          <Size>140</Size>
       </Projectile>
-      <DisplayId>{tombOfTheAncients.Blue_Swarm_Minions}</DisplayId>
    </Object>
    <Object type="0x0d15" id="Blue Swarm Masters">
       <Group>Tomb Swarms</Group>
@@ -219,7 +214,6 @@
          <ConditionEffect duration="1.2">Weak</ConditionEffect>
          <MultiHit/>
       </Projectile>
-      <DisplayId>{tombOfTheAncients.Blue_Swarm_Masters}</DisplayId>
    </Object>
    <Object type="0x0d16" id="Jackal Warrior">
       <Group>Tomb Jackals</Group>
@@ -241,7 +235,6 @@
          <Speed>60</Speed>
          <LifetimeMS>800</LifetimeMS>
       </Projectile>
-      <DisplayId>{tombOfTheAncients.Jackal_Warrior}</DisplayId>
    </Object>
    <Object type="0x0d17" id="Jackal Veteran">
       <Group>Tomb Jackals</Group>
@@ -263,7 +256,6 @@
          <Speed>80</Speed>
          <LifetimeMS>800</LifetimeMS>
       </Projectile>
-      <DisplayId>{tombOfTheAncients.Jackal_Veteran}</DisplayId>
    </Object>
    <Object type="0x0d18" id="Jackal Assassin">
       <Group>Tomb Jackals</Group>
@@ -286,7 +278,6 @@
          <LifetimeMS>800</LifetimeMS>
          <Wavy/>
       </Projectile>
-      <DisplayId>{tombOfTheAncients.Jackal_Assassin}</DisplayId>
    </Object>
    <Object type="0x0d19" id="Jackal Lord">
       <Enemy/>
@@ -307,7 +298,6 @@
          <Speed>80</Speed>
          <LifetimeMS>1200</LifetimeMS>
       </Projectile>
-      <DisplayId>{tombOfTheAncients.Jackal_Lord}</DisplayId>
    </Object>
    <Object type="0x0d1a" id="Bloated Mummy">
       <Group>Tomb Mummies</Group>
@@ -338,7 +328,6 @@
          <LifetimeMS>3500</LifetimeMS>
          <Size>140</Size>
       </Projectile>
-      <DisplayId>{tombOfTheAncients.Bloated_Mummy}</DisplayId>
    </Object>
    <Object type="0x0d1b" id="Scarab">
       <Group>Scarabs</Group>
@@ -368,10 +357,9 @@
          <ConditionEffect duration="0.8">Paralyzed</ConditionEffect>
          <Size>40</Size>
       </Projectile>
-      <DisplayId>{tombOfTheAncients.Scarab}</DisplayId>
    </Object>
    <Object type="0x0d1c" id="Sphinx Artifact 1">
-      <DisplayId>{tombOfTheAncients.Sphinx_Artifact_1}</DisplayId>
+      <DisplayId>Sphinx Artifact</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -400,7 +388,7 @@
       </Projectile>
    </Object>
    <Object type="0x0d1d" id="Sphinx Artifact 2">
-      <DisplayId>{tombOfTheAncients.Sphinx_Artifact_2}</DisplayId>
+      <DisplayId>Sphinx Artifact</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -429,7 +417,7 @@
       </Projectile>
    </Object>
    <Object type="0x0d1e" id="Sphinx Artifact 3">
-      <DisplayId>{tombOfTheAncients.Sphinx_Artifact_3}</DisplayId>
+      <DisplayId>Sphinx Artifact</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -458,7 +446,7 @@
       </Projectile>
    </Object>
    <Object type="0x0d1f" id="Nile Artifact 1">
-      <DisplayId>{tombOfTheAncients.Nile_Artifact_1}</DisplayId>
+      <DisplayId>Nile Artifact</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -478,7 +466,7 @@
       </Projectile>
    </Object>
    <Object type="0x0d20" id="Nile Artifact 2">
-      <DisplayId>{tombOfTheAncients.Nile_Artifact_2}</DisplayId>
+      <DisplayId>Nile Artifact</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -498,7 +486,7 @@
       </Projectile>
    </Object>
    <Object type="0x0d21" id="Nile Artifact 3">
-      <DisplayId>{tombOfTheAncients.Nile_Artifact_3}</DisplayId>
+      <DisplayId>Nile Artifact</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -518,7 +506,7 @@
       </Projectile>
    </Object>
    <Object type="0x0d22" id="Pyramid Artifact 1">
-      <DisplayId>{tombOfTheAncients.Pyramid_Artifact_1}</DisplayId>
+      <DisplayId>Pyramid Artifact</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -539,7 +527,7 @@
       </Projectile>
    </Object>
    <Object type="0x0d23" id="Pyramid Artifact 2">
-      <DisplayId>{tombOfTheAncients.Pyramid_Artifact_2}</DisplayId>
+      <DisplayId>Pyramid Artifact</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -560,7 +548,7 @@
       </Projectile>
    </Object>
    <Object type="0x0d24" id="Pyramid Artifact 3">
-      <DisplayId>{tombOfTheAncients.Pyramid_Artifact_3}</DisplayId>
+      <DisplayId>Pyramid Artifact</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -590,13 +578,12 @@
       <Defense>0</Defense>
       <XpMult>0.0</XpMult>
       <NoMiniMap/>
-      <DisplayId>{tombOfTheAncients.Tomb_Boss_Anchor}</DisplayId>
    </Object>
    <Object type="0x0d3d" id="Tomb Support Statue">
       <Group>Tomb Boss Statues</Group>
       <Enemy/>
       <Class>Character</Class>
-      <DisplayId>{tombOfTheAncients.Tomb_Support_Statue}</DisplayId>
+      <DisplayId>Nut Statue</DisplayId>
       <Size>140</Size>
       <MaxHitPoints>100000</MaxHitPoints>
       <Texture>
@@ -608,7 +595,7 @@
       <Group>Tomb Boss Statues</Group>
       <Enemy/>
       <Class>Character</Class>
-      <DisplayId>{tombOfTheAncients.Tomb_Attacker_Statue}</DisplayId>
+      <DisplayId>Geb Statue</DisplayId>
       <Size>140</Size>
       <MaxHitPoints>100000</MaxHitPoints>
       <Texture>
@@ -620,7 +607,7 @@
       <Group>Tomb Boss Statues</Group>
       <Enemy/>
       <Class>Character</Class>
-      <DisplayId>{tombOfTheAncients.Tomb_Defender_Statue}</DisplayId>
+      <DisplayId>Bes Statue</DisplayId>
       <Size>140</Size>
       <MaxHitPoints>100000</MaxHitPoints>
       <Texture>
@@ -632,7 +619,7 @@
       <Group>Tomb Bosses</Group>
       <Enemy/>
       <Class>Character</Class>
-      <DisplayId>{tombOfTheAncients.Tomb_Support}</DisplayId>
+      <DisplayId>Nut</DisplayId>
       <Quest/>
       <Level>1</Level>
       <AnimatedTexture>
@@ -730,7 +717,7 @@
       <Group>Tomb Bosses</Group>
       <Enemy/>
       <Class>Character</Class>
-      <DisplayId>{tombOfTheAncients.Tomb_Attacker}</DisplayId>
+      <DisplayId>Geb</DisplayId>
       <Quest/>
       <Level>1</Level>
       <AnimatedTexture>
@@ -800,7 +787,7 @@
       <Group>Tomb Bosses</Group>
       <Enemy/>
       <Class>Character</Class>
-      <DisplayId>{tombOfTheAncients.Tomb_Defender}</DisplayId>
+      <DisplayId>Bes</DisplayId>
       <Quest/>
       <Level>1</Level>
       <AnimatedTexture>
@@ -862,7 +849,7 @@
       <Group>Support Beam</Group>
       <Enemy/>
       <Class>Character</Class>
-      <DisplayId>{tombOfTheAncients.Active_Sarcophagus}</DisplayId>
+      <DisplayId>Sarcophagus</DisplayId>
       <Quest/>
       <Level>20</Level>
       <Texture>
@@ -891,7 +878,7 @@
       <Group>Beam Priests</Group>
       <Enemy/>
       <Class>Character</Class>
-      <DisplayId>{tombOfTheAncients.Beam_Priest}</DisplayId>
+      <DisplayId>Worshipping Priest</DisplayId>
       <AnimatedTexture>
          <File>chars8x8rEncounters</File>
          <Index>5</Index>
@@ -924,7 +911,7 @@
       <Group>Beam Priests</Group>
       <Enemy/>
       <Class>Character</Class>
-      <DisplayId>{tombOfTheAncients.Beam_Priestess}</DisplayId>
+      <DisplayId>Worshipping Priestess</DisplayId>
       <AnimatedTexture>
          <File>chars8x8rEncounters</File>
          <Index>6</Index>
@@ -957,7 +944,7 @@
       <Group>Tomb Treasure</Group>
       <Enemy/>
       <Class>Character</Class>
-      <DisplayId>{tombOfTheAncients.Inactive_Sarcophagus}</DisplayId>
+      <DisplayId>Treasure Sarcophagus</DisplayId>
       <Texture>
          <File>lofiChar216x16</File>
          <Index>0x0f</Index>
@@ -974,7 +961,7 @@
       <Group>Tomb Treasure</Group>
       <Enemy/>
       <Class>Character</Class>
-      <DisplayId>{tombOfTheAncients.Canopic_Jar_1}</DisplayId>
+      <DisplayId>Canopic Jar</DisplayId>
       <Texture>
          <File>lofiObj4</File>
          <Index>0xb0</Index>
@@ -991,7 +978,7 @@
       <Group>Tomb Treasure</Group>
       <Enemy/>
       <Class>Character</Class>
-      <DisplayId>{tombOfTheAncients.Canopic_Jar_2}</DisplayId>
+      <DisplayId>Canopic Jar</DisplayId>
       <Texture>
          <File>lofiObj4</File>
          <Index>0xb1</Index>
@@ -1008,7 +995,7 @@
       <Group>Tomb Treasure</Group>
       <Enemy/>
       <Class>Character</Class>
-      <DisplayId>{tombOfTheAncients.Canopic_Jar_3}</DisplayId>
+      <DisplayId>Canopic Jar</DisplayId>
       <Texture>
          <File>lofiObj4</File>
          <Index>0xb2</Index>
@@ -1025,7 +1012,7 @@
       <Group>Tomb Treasure</Group>
       <Enemy/>
       <Class>Character</Class>
-      <DisplayId>{tombOfTheAncients.Canopic_Jar_4}</DisplayId>
+      <DisplayId>Canopic Jar</DisplayId>
       <Texture>
          <File>lofiObj4</File>
          <Index>0xb3</Index>
@@ -1061,7 +1048,6 @@
          <LifetimeMS>500</LifetimeMS>
          <ConditionEffect duration="2">Armor Broken</ConditionEffect>
       </Projectile>
-      <DisplayId>{tombOfTheAncients.Tomb_Fire_Turret}</DisplayId>
    </Object>
    <Object type="0x0d32" id="Tomb Thunder Turret">
       <Group>Tomb Turrets</Group>
@@ -1087,7 +1073,6 @@
          <ConditionEffect duration="1.4">Paralyzed</ConditionEffect>
          <MultiHit/>
       </Projectile>
-      <DisplayId>{tombOfTheAncients.Tomb_Thunder_Turret}</DisplayId>
    </Object>
    <Object type="0x0d33" id="Tomb Frost Turret">
       <Group>Tomb Turrets</Group>
@@ -1111,10 +1096,9 @@
          <LifetimeMS>1400</LifetimeMS>
          <ConditionEffect duration="2">Slowed</ConditionEffect>
       </Projectile>
-      <DisplayId>{tombOfTheAncients.Tomb_Frost_Turret}</DisplayId>
    </Object>
    <Object type="0x0d34" id="Center Tomb Fire Turret">
-      <DisplayId>{tombOfTheAncients.Center_Tomb_Fire_Turret}</DisplayId>
+      <DisplayId>Tomb Fire Turret</DisplayId>
       <Group>Center Tomb Turrets</Group>
       <Class>GameObject</Class>
       <Model>Obelisk</Model>
@@ -1139,7 +1123,7 @@
       </Projectile>
    </Object>
    <Object type="0x0d35" id="Center Tomb Thunder Turret">
-      <DisplayId>{tombOfTheAncients.Center_Tomb_Thunder_Turret}</DisplayId>
+      <DisplayId>Tomb Thunder Turret</DisplayId>
       <Group>Center Tomb Turrets</Group>
       <Class>GameObject</Class>
       <Model>Obelisk</Model>
@@ -1165,7 +1149,7 @@
       </Projectile>
    </Object>
    <Object type="0x0d36" id="Center Tomb Frost Turret">
-      <DisplayId>{tombOfTheAncients.Center_Tomb_Frost_Turret}</DisplayId>
+      <DisplayId>Tomb Frost Turret</DisplayId>
       <Group>Center Tomb Turrets</Group>
       <Class>GameObject</Class>
       <Model>Obelisk</Model>
@@ -1190,7 +1174,7 @@
       </Projectile>
    </Object>
    <Object type="0x0d37" id="Tomb Bomb Trap Switch">
-      <DisplayId>{tombOfTheAncients.Tomb_Bomb_Trap_Switch}</DisplayId>
+      <DisplayId>Switch</DisplayId>
       <Group>Tomb Traps</Group>
       <Class>Character</Class>
       <Enemy/>
@@ -1224,7 +1208,6 @@
       <Size>100</Size>
       <DrawOnGround/>
       <NoMiniMap/>
-      <DisplayId>{tombOfTheAncients.Tomb_Bomb_Trap}</DisplayId>
    </Object>
    <Object type="0x0d39" id="Deactivated Tomb Bomb Trap">
       <Class>Character</Class>
@@ -1235,7 +1218,6 @@
       <Size>100</Size>
       <DrawOnGround/>
       <NoMiniMap/>
-      <DisplayId>{tombOfTheAncients.Deactivated_Tomb_Bomb_Trap}</DisplayId>
    </Object>
    <Object type="0x0d0f" id="Deactivated Tomb Bomb Trap Switch">
       <Class>Character</Class>
@@ -1246,7 +1228,6 @@
       <Size>100</Size>
       <DrawOnGround/>
       <NoMiniMap/>
-      <DisplayId>{tombOfTheAncients.Deactivated_Tomb_Bomb_Trap_Switch}</DisplayId>
    </Object>
    <Object type="0x0d3a" id="Eagle Sentry">
       <Group>Tomb Gang</Group>
@@ -1284,7 +1265,6 @@
          <LifetimeMS>700</LifetimeMS>
          <Size>100</Size>
       </Projectile>
-      <DisplayId>{tombOfTheAncients.Eagle_Sentry}</DisplayId>
    </Object>
    <Object type="0x0d3b" id="Jackal Priest">
       <Group>Tomb Gang</Group>
@@ -1315,7 +1295,6 @@
          <LifetimeMS>3000</LifetimeMS>
          <Size>120</Size>
       </Projectile>
-      <DisplayId>{tombOfTheAncients.Jackal_Priest}</DisplayId>
    </Object>
    <Object type="0x0d3c" id="Lion Archer">
       <Group>Tomb Gang</Group>
@@ -1366,6 +1345,5 @@
          <MultiHit/>
          <ConditionEffect duration="1.2">Paralyzed</ConditionEffect>
       </Projectile>
-      <DisplayId>{tombOfTheAncients.Lion_Archer}</DisplayId>
    </Object>
 </Objects>

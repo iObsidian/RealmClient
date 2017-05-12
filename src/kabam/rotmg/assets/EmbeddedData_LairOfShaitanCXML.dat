@@ -2,7 +2,7 @@
 
 <Objects>
    <Object type="0x741b" id="md1 Head of Shaitan">
-      <DisplayId>{lairOfShaitan.md1_Head_of_Shaitan}</DisplayId>
+      <DisplayId>Shaitan the Advisor</DisplayId>
       <Class>Character</Class>
       <Group>Spawners</Group>
       <Enemy/>
@@ -89,7 +89,7 @@
       </Projectile>
    </Object>
    <Object type="0x741c" id="md1 Right Hand of Shaitan">
-      <DisplayId>{lairOfShaitan.md1_Right_Hand_of_Shaitan}</DisplayId>
+      <DisplayId>Right Hand of Shaitan</DisplayId>
       <Class>Character</Class>
       <Group>Spawners</Group>
       <Enemy/>
@@ -152,7 +152,7 @@
       </Projectile>
    </Object>
    <Object type="0x742c" id="md1 Right Smashing Hand">
-      <DisplayId>{lairOfShaitan.md1_Right_Smashing_Hand}</DisplayId>
+      <DisplayId>Right Hand of Shaitan</DisplayId>
       <Class>Character</Class>
       <Group>Spawners</Group>
       <Enemy/>
@@ -180,7 +180,7 @@
       </Projectile>
    </Object>
    <Object type="0x741d" id="md1 Left Hand of Shaitan">
-      <DisplayId>{lairOfShaitan.md1_Left_Hand_of_Shaitan}</DisplayId>
+      <DisplayId>Left Hand of Shaitan</DisplayId>
       <Class>Character</Class>
       <Group>Spawners</Group>
       <Enemy/>
@@ -243,7 +243,7 @@
       </Projectile>
    </Object>
    <Object type="0x742b" id="md1 Left Smashing Hand">
-      <DisplayId>{lairOfShaitan.md1_Left_Smashing_Hand}</DisplayId>
+      <DisplayId>Left Hand of Shaitan</DisplayId>
       <Class>Character</Class>
       <Group>Spawners</Group>
       <Enemy/>
@@ -283,7 +283,6 @@
       <StasisImmune/>
       <StunImmune/>
       <ParalyzeImmune/>
-      <DisplayId>{lairOfShaitan.md1_Right_Hand_spawner}</DisplayId>
    </Object>
    <Object type="0x741f" id="md1 Left Hand spawner">
       <Class>Character</Class>
@@ -296,7 +295,6 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{lairOfShaitan.md1_Left_Hand_spawner}</DisplayId>
    </Object>
    <Object type="0x7420" id="md1 Governor">
       <Class>Character</Class>
@@ -309,7 +307,6 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{lairOfShaitan.md1_Governor}</DisplayId>
    </Object>
    <Object type="0x7429" id="md1 LeftHandSmash">
       <Class>Character</Class>
@@ -322,7 +319,6 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{lairOfShaitan.md1_LeftHandSmash}</DisplayId>
    </Object>
    <Object type="0x742a" id="md1 RightHandSmash">
       <Class>Character</Class>
@@ -335,7 +331,6 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{lairOfShaitan.md1_RightHandSmash}</DisplayId>
    </Object>
    <Object type="0x7424" id="md1 Right Burst">
       <Class>Character</Class>
@@ -348,7 +343,6 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{lairOfShaitan.md1_Right_Burst}</DisplayId>
    </Object>
    <Object type="0x7425" id="md1 Mid Burst">
       <Class>Character</Class>
@@ -361,7 +355,6 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{lairOfShaitan.md1_Mid_Burst}</DisplayId>
    </Object>
    <Object type="0x7426" id="md1 Left Burst">
       <Class>Character</Class>
@@ -374,7 +367,6 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{lairOfShaitan.md1_Left_Burst}</DisplayId>
    </Object>
    <Object type="0x7430" id="md1 Lava Makers">
       <Class>Character</Class>
@@ -387,10 +379,9 @@
       <Size>0</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{lairOfShaitan.md1_Lava_Makers}</DisplayId>
    </Object>
    <Object type="0x7421" id="md1 Right Hand of Shaitan fake">
-      <DisplayId>{lairOfShaitan.md1_Right_Hand_of_Shaitan_fake}</DisplayId>
+      <DisplayId>Right Hand of Shaitan</DisplayId>
       <Class>Character</Class>
       <Group>Spawners</Group>
       <Enemy/>
@@ -430,7 +421,7 @@
       </AltTexture>
    </Object>
    <Object type="0x7422" id="md1 Left Hand of Shaitan fake">
-      <DisplayId>{lairOfShaitan.md1_Left_Hand_of_Shaitan_fake}</DisplayId>
+      <DisplayId>Left Hand of Shaitan</DisplayId>
       <Class>Character</Class>
       <Group>Spawners</Group>
       <Enemy/>
@@ -470,7 +461,7 @@
       </AltTexture>
    </Object>
    <Object type="0x7423" id="md1 CreepyHands">
-      <DisplayId>{lairOfShaitan.md1_CreepyHands}</DisplayId>
+      <DisplayId>Creepy Small Hands</DisplayId>
       <Class>Character</Class>
       <Enemy/>
       <AnimatedTexture>
@@ -496,7 +487,7 @@
       </Projectile>
    </Object>
    <Object type="0x7428" id="md1 CreepyHead">
-      <DisplayId>{lairOfShaitan.md1_CreepyHead}</DisplayId>
+      <DisplayId>Creepy Small Heads</DisplayId>
       <Class>Character</Class>
       <Enemy/>
       <AnimatedTexture>
@@ -531,6 +522,5 @@
       <Defense>35</Defense>
       <Size>160</Size>
       <XpMult>0.0</XpMult>
-      <DisplayId>{lairOfShaitan.md1_Loot_Balloon_Shaitan}</DisplayId>
    </Object>
 </Objects>

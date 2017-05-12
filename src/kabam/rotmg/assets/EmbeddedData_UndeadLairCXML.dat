@@ -67,7 +67,6 @@
          <LifetimeMS>2000</LifetimeMS>
          <MultiHit/>
       </Projectile>
-      <DisplayId>{undeadLair.Septavius_the_Ghost_God}</DisplayId>
    </Object>
    <Object type="0x0d91" id="Lair Skeleton">
       <Group>Lair Skeletons</Group>
@@ -88,7 +87,6 @@
          <Speed>120</Speed>
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
-      <DisplayId>{undeadLair.Lair_Skeleton}</DisplayId>
    </Object>
    <Object type="0x0d92" id="Lair Skeleton Swordsman">
       <Group>Lair Skeletons</Group>
@@ -109,7 +107,6 @@
          <Speed>120</Speed>
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
-      <DisplayId>{undeadLair.Lair_Skeleton_Swordsman}</DisplayId>
    </Object>
    <Object type="0x0d93" id="Lair Skeleton Veteran">
       <Group>Lair Skeletons</Group>
@@ -130,7 +127,6 @@
          <Speed>120</Speed>
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
-      <DisplayId>{undeadLair.Lair_Skeleton_Veteran}</DisplayId>
    </Object>
    <Object type="0x0d94" id="Lair Skeleton Mage">
       <Group>Lair Skeletons</Group>
@@ -151,7 +147,6 @@
          <Speed>60</Speed>
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
-      <DisplayId>{undeadLair.Lair_Skeleton_Mage}</DisplayId>
    </Object>
    <Object type="0x0d95" id="Lair Skeleton King">
       <Group>Lair Skeletons</Group>
@@ -172,7 +167,6 @@
          <Speed>70</Speed>
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
-      <DisplayId>{undeadLair.Lair_Skeleton_King}</DisplayId>
    </Object>
    <Object type="0x0d96" id="Lair Mummy">
       <Group>Lair Mummies</Group>
@@ -193,7 +187,6 @@
          <Speed>80</Speed>
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
-      <DisplayId>{undeadLair.Lair_Mummy}</DisplayId>
    </Object>
    <Object type="0x0d97" id="Lair Mummy King">
       <Group>Lair Mummies</Group>
@@ -214,7 +207,6 @@
          <Speed>50</Speed>
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
-      <DisplayId>{undeadLair.Lair_Mummy_King}</DisplayId>
    </Object>
    <Object type="0x0d98" id="Lair Mummy Pharaoh">
       <Group>Lair Mummies</Group>
@@ -235,7 +227,6 @@
          <Speed>70</Speed>
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
-      <DisplayId>{undeadLair.Lair_Mummy_Pharaoh}</DisplayId>
    </Object>
    <Object type="0x0d99" id="Lair Construct Giant">
       <Group>Lair Constructs</Group>
@@ -264,7 +255,6 @@
          <LifetimeMS>3000</LifetimeMS>
          <ConditionEffect duration="3">Confused</ConditionEffect>
       </Projectile>
-      <DisplayId>{undeadLair.Lair_Construct_Giant}</DisplayId>
    </Object>
    <Object type="0x0d9a" id="Lair Construct Titan">
       <Group>Lair Constructs</Group>
@@ -292,7 +282,6 @@
          <LifetimeMS>3000</LifetimeMS>
          <ConditionEffect duration="3">Confused</ConditionEffect>
       </Projectile>
-      <DisplayId>{undeadLair.Lair_Construct_Titan}</DisplayId>
    </Object>
    <Object type="0x0d9b" id="Lair Big Black Slime">
       <Group>Lair Slimes</Group>
@@ -313,7 +302,6 @@
          <Speed>80</Speed>
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
-      <DisplayId>{undeadLair.Lair_Big_Black_Slime}</DisplayId>
    </Object>
    <Object type="0x0d9c" id="Lair Medium Black Slime">
       <Enemy/>
@@ -333,7 +321,6 @@
          <Speed>80</Speed>
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
-      <DisplayId>{undeadLair.Lair_Medium_Black_Slime}</DisplayId>
    </Object>
    <Object type="0x0d9d" id="Lair Little Black Slime">
       <Enemy/>
@@ -353,7 +340,6 @@
          <Speed>80</Speed>
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
-      <DisplayId>{undeadLair.Lair_Little_Black_Slime}</DisplayId>
    </Object>
    <Object type="0x0d9e" id="Lair Big Brown Slime">
       <Group>Lair Slimes</Group>
@@ -374,7 +360,6 @@
          <Speed>80</Speed>
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
-      <DisplayId>{undeadLair.Lair_Big_Brown_Slime}</DisplayId>
    </Object>
    <Object type="0x0d9f" id="Lair Little Brown Slime">
       <Enemy/>
@@ -394,7 +379,6 @@
          <Speed>80</Speed>
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
-      <DisplayId>{undeadLair.Lair_Little_Brown_Slime}</DisplayId>
    </Object>
    <Object type="0x0da0" id="Lair Brown Bat">
       <Group>Lair Bats</Group>
@@ -416,7 +400,6 @@
          <Speed>100</Speed>
          <LifetimeMS>200</LifetimeMS>
       </Projectile>
-      <DisplayId>{undeadLair.Lair_Brown_Bat}</DisplayId>
    </Object>
    <Object type="0x0da1" id="Lair Ghost Bat">
       <Group>Lair Bats</Group>
@@ -438,7 +421,6 @@
          <Speed>100</Speed>
          <LifetimeMS>200</LifetimeMS>
       </Projectile>
-      <DisplayId>{undeadLair.Lair_Ghost_Bat}</DisplayId>
    </Object>
    <Object type="0x0da2" id="Lair Burst Trap">
       <Group>Lair Traps</Group>
@@ -461,7 +443,6 @@
          <Speed>80</Speed>
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
-      <DisplayId>{undeadLair.Lair_Burst_Trap}</DisplayId>
    </Object>
    <Object type="0x0da3" id="Lair Blast Trap">
       <Group>Lair Traps</Group>
@@ -484,7 +465,6 @@
          <Speed>80</Speed>
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
-      <DisplayId>{undeadLair.Lair_Blast_Trap}</DisplayId>
    </Object>
    <Object type="0x0da4" id="Lair Reaper">
       <Group>Lair Reapers</Group>
@@ -505,7 +485,6 @@
          <Speed>120</Speed>
          <LifetimeMS>200</LifetimeMS>
       </Projectile>
-      <DisplayId>{undeadLair.Lair_Reaper}</DisplayId>
    </Object>
    <Object type="0x0da5" id="Lair Vampire">
       <Group>Lair Vampires</Group>
@@ -533,7 +512,6 @@
          <Speed>100</Speed>
          <LifetimeMS>200</LifetimeMS>
       </Projectile>
-      <DisplayId>{undeadLair.Lair_Vampire}</DisplayId>
    </Object>
    <Object type="0x0da6" id="Lair Vampire King">
       <Group>Lair Vampires</Group>
@@ -561,7 +539,6 @@
          <Speed>100</Speed>
          <LifetimeMS>200</LifetimeMS>
       </Projectile>
-      <DisplayId>{undeadLair.Lair_Vampire_King}</DisplayId>
    </Object>
    <Object type="0x0da7" id="Lair Grey Spectre">
       <Group>Lair Spectres</Group>
@@ -583,7 +560,6 @@
          <Speed>70</Speed>
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
-      <DisplayId>{undeadLair.Lair_Grey_Spectre}</DisplayId>
    </Object>
    <Object type="0x0da8" id="Lair Blue Spectre">
       <Group>Lair Spectres</Group>
@@ -605,7 +581,6 @@
          <Speed>70</Speed>
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
-      <DisplayId>{undeadLair.Lair_Blue_Spectre}</DisplayId>
    </Object>
    <Object type="0x0da9" id="Lair White Spectre">
       <Group>Lair Spectres</Group>
@@ -627,7 +602,6 @@
          <Speed>70</Speed>
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
-      <DisplayId>{undeadLair.Lair_White_Spectre}</DisplayId>
    </Object>
    <Object type="0x0daa" id="Lair Ghost Archer">
       <Group>Lair Ghosts</Group>
@@ -649,7 +623,6 @@
          <LifetimeMS>2500</LifetimeMS>
          <Size>110</Size>
       </Projectile>
-      <DisplayId>{undeadLair.Lair_Ghost_Archer}</DisplayId>
    </Object>
    <Object type="0x0dab" id="Lair Ghost Warrior">
       <Group>Lair Ghosts</Group>
@@ -670,7 +643,6 @@
          <Speed>120</Speed>
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
-      <DisplayId>{undeadLair.Lair_Ghost_Warrior}</DisplayId>
    </Object>
    <Object type="0x0dac" id="Lair Ghost Mage">
       <Group>Lair Ghosts</Group>
@@ -691,7 +663,6 @@
          <Speed>50</Speed>
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
-      <DisplayId>{undeadLair.Lair_Ghost_Mage}</DisplayId>
    </Object>
    <Object type="0x0dad" id="Lair Ghost Rogue">
       <Group>Lair Ghosts</Group>
@@ -712,7 +683,6 @@
          <Speed>120</Speed>
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
-      <DisplayId>{undeadLair.Lair_Ghost_Rogue}</DisplayId>
    </Object>
    <Object type="0x0dae" id="Lair Ghost Paladin">
       <Group>Lair Ghosts</Group>
@@ -733,7 +703,6 @@
          <Speed>120</Speed>
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
-      <DisplayId>{undeadLair.Lair_Ghost_Paladin}</DisplayId>
    </Object>
    <Object type="0x0daf" id="Lair Ghost Knight">
       <Group>Lair Ghosts</Group>
@@ -754,7 +723,6 @@
          <Speed>120</Speed>
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
-      <DisplayId>{undeadLair.Lair_Ghost_Knight}</DisplayId>
    </Object>
    <Object type="0x0db0" id="Ghost Warrior of Septavius">
       <Group>Lair Ghosts</Group>
@@ -776,7 +744,6 @@
          <Speed>120</Speed>
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
-      <DisplayId>{undeadLair.Ghost_Warrior_of_Septavius}</DisplayId>
    </Object>
    <Object type="0x0db1" id="Ghost Mage of Septavius">
       <Group>Lair Ghosts</Group>
@@ -798,7 +765,6 @@
          <Speed>50</Speed>
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
-      <DisplayId>{undeadLair.Ghost_Mage_of_Septavius}</DisplayId>
    </Object>
    <Object type="0x0db2" id="Ghost Rogue of Septavius">
       <Group>Lair Ghosts</Group>
@@ -820,6 +786,5 @@
          <Speed>120</Speed>
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
-      <DisplayId>{undeadLair.Ghost_Rogue_of_Septavius}</DisplayId>
    </Object>
 </Objects>

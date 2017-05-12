@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x072e" id="The Crawling Depths">
-      <Class>Portal</Class>
-      <IntergamePortal/>
-      <DungeonName>The Crawling Depths</DungeonName>
-      <Texture>
-         <File>lofiObj3</File>
-         <Index>0x3e8</Index>
-      </Texture>
-      <DisplayId>{epicspiderDen.The_Crawling_Depths}</DisplayId>
-   </Object>
    <Object type="0x708f" id="Blue Egg Summoner">
       <Class>Character</Class>
       <Texture>
@@ -22,7 +12,6 @@
       <ShadowSize>0</ShadowSize>
       <StasisImmune/>
       <XpMult>0.0</XpMult>
-      <DisplayId>{epicspiderDen.Blue_Egg_Summoner}</DisplayId>
    </Object>
    <Object type="0x709a" id="Red Egg Summoner">
       <Class>Character</Class>
@@ -35,7 +24,6 @@
       <ShadowSize>0</ShadowSize>
       <StasisImmune/>
       <XpMult>0.0</XpMult>
-      <DisplayId>{epicspiderDen.Red_Egg_Summoner}</DisplayId>
    </Object>
    <Object type="0x709b" id="Silver Egg Summoner">
       <Class>Character</Class>
@@ -48,7 +36,6 @@
       <ShadowSize>0</ShadowSize>
       <StasisImmune/>
       <XpMult>0.0</XpMult>
-      <DisplayId>{epicspiderDen.Silver_Egg_Summoner}</DisplayId>
    </Object>
    <Object type="0x709c" id="Yellow Egg Summoner">
       <Class>Character</Class>
@@ -61,7 +48,6 @@
       <ShadowSize>0</ShadowSize>
       <StasisImmune/>
       <XpMult>0.0</XpMult>
-      <DisplayId>{epicspiderDen.Yellow_Egg_Summoner}</DisplayId>
    </Object>
    <Object type="0x701a" id="Crawling Depths Egg Sac">
       <Enemy/>
@@ -75,7 +61,6 @@
       <Size>75</Size>
       <MaxHitPoints>400</MaxHitPoints>
       <XpMult>0.0</XpMult>
-      <DisplayId>{epicspiderDen.Crawling_Depths_Egg_Sac}</DisplayId>
    </Object>
    <Object type="0x701b" id="Crawling Spider Hatchling">
       <Class>Character</Class>
@@ -104,7 +89,6 @@
          <LifetimeMS>3000</LifetimeMS>
          <ConditionEffect duration="3">Quiet</ConditionEffect>
       </Projectile>
-      <DisplayId>{epicspiderDen.Crawling_Spider_Hatchling}</DisplayId>
    </Object>
    <Object type="0x701c" id="Crawling Grey Spider">
       <Class>Character</Class>
@@ -127,7 +111,6 @@
          <LifetimeMS>2000</LifetimeMS>
          <ConditionEffect duration="1">Armor Broken</ConditionEffect>
       </Projectile>
-      <DisplayId>{epicspiderDen.Crawling_Grey_Spider}</DisplayId>
    </Object>
    <Object type="0x701d" id="Crawling Red Spotted Spider">
       <Class>Character</Class>
@@ -150,7 +133,6 @@
          <LifetimeMS>1250</LifetimeMS>
          <ConditionEffect duration="2">Bleeding</ConditionEffect>
       </Projectile>
-      <DisplayId>{epicspiderDen.Crawling_Red_Spotted_Spider}</DisplayId>
    </Object>
    <Object type="0x701e" id="Crawling Grey Spotted Spider">
       <Class>Character</Class>
@@ -171,7 +153,6 @@
          <Damage>150</Damage>
          <LifetimeMS>1250</LifetimeMS>
       </Projectile>
-      <DisplayId>{epicspiderDen.Crawling_Grey_Spotted_Spider}</DisplayId>
    </Object>
    <Object type="0x701f" id="Crawling Green Spider">
       <Class>Character</Class>
@@ -194,7 +175,6 @@
          <LifetimeMS>1250</LifetimeMS>
          <ConditionEffect duration="2">Bleeding</ConditionEffect>
       </Projectile>
-      <DisplayId>{epicspiderDen.Crawling_Green_Spider}</DisplayId>
    </Object>
    <Object type="0x702a" id="Son of Arachna">
       <Class>Character</Class>
@@ -266,7 +246,6 @@
          <MultiHit/>
          <ConditionEffect duration="3">Paralyzed</ConditionEffect>
       </Projectile>
-      <DisplayId>{epicspiderDen.Son_of_Arachna}</DisplayId>
    </Object>
    <Object type="0x707d" id="Silver Son of Arachna Giant Egg Sac">
       <Enemy/>
@@ -283,7 +262,6 @@
       <XpMult>0.1</XpMult>
       <StasisImmune/>
       <StunImmune/>
-      <DisplayId>{epicspiderDen.Silver_Son_of_Arachna_Giant_Egg_Sac}</DisplayId>
    </Object>
    <Object type="0x707e" id="Red Son of Arachna Giant Egg Sac">
       <Enemy/>
@@ -300,7 +278,6 @@
       <XpMult>0.1</XpMult>
       <StasisImmune/>
       <StunImmune/>
-      <DisplayId>{epicspiderDen.Red_Son_of_Arachna_Giant_Egg_Sac}</DisplayId>
    </Object>
    <Object type="0x707f" id="Blue Son of Arachna Giant Egg Sac">
       <Enemy/>
@@ -317,7 +294,6 @@
       <XpMult>0.1</XpMult>
       <StasisImmune/>
       <StunImmune/>
-      <DisplayId>{epicspiderDen.Blue_Son_of_Arachna_Giant_Egg_Sac}</DisplayId>
    </Object>
    <Object type="0x708a" id="Yellow Son of Arachna Giant Egg Sac">
       <Enemy/>
@@ -334,10 +310,9 @@
       <XpMult>0.1</XpMult>
       <StasisImmune/>
       <StunImmune/>
-      <DisplayId>{epicspiderDen.Yellow_Son_of_Arachna_Giant_Egg_Sac}</DisplayId>
    </Object>
    <Object type="0x702b" id="Epic Arachna Web Spoke 1">
-      <DisplayId>{epicspiderDen.Epic_Arachna_Web_Spoke_1}</DisplayId>
+      <DisplayId>Arachna Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -361,7 +336,7 @@
       </Projectile>
    </Object>
    <Object type="0x702c" id="Epic Arachna Web Spoke 2">
-      <DisplayId>{epicspiderDen.Epic_Arachna_Web_Spoke_2}</DisplayId>
+      <DisplayId>Arachna Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -385,7 +360,7 @@
       </Projectile>
    </Object>
    <Object type="0x702d" id="Epic Arachna Web Spoke 3">
-      <DisplayId>{epicspiderDen.Epic_Arachna_Web_Spoke_3}</DisplayId>
+      <DisplayId>Arachna Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -409,7 +384,7 @@
       </Projectile>
    </Object>
    <Object type="0x702e" id="Epic Arachna Web Spoke 4">
-      <DisplayId>{epicspiderDen.Epic_Arachna_Web_Spoke_4}</DisplayId>
+      <DisplayId>Arachna Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -433,7 +408,7 @@
       </Projectile>
    </Object>
    <Object type="0x702f" id="Epic Arachna Web Spoke 5">
-      <DisplayId>{epicspiderDen.Epic_Arachna_Web_Spoke_5}</DisplayId>
+      <DisplayId>Arachna Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -457,7 +432,7 @@
       </Projectile>
    </Object>
    <Object type="0x703a" id="Epic Arachna Web Spoke 6">
-      <DisplayId>{epicspiderDen.Epic_Arachna_Web_Spoke_6}</DisplayId>
+      <DisplayId>Arachna Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -481,7 +456,7 @@
       </Projectile>
    </Object>
    <Object type="0x703b" id="Epic Arachna Web Spoke 7">
-      <DisplayId>{epicspiderDen.Epic_Arachna_Web_Spoke_7}</DisplayId>
+      <DisplayId>Arachna Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -505,7 +480,7 @@
       </Projectile>
    </Object>
    <Object type="0x703c" id="Epic Arachna Web Spoke 8">
-      <DisplayId>{epicspiderDen.Epic_Arachna_Web_Spoke_8}</DisplayId>
+      <DisplayId>Arachna Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -529,7 +504,7 @@
       </Projectile>
    </Object>
    <Object type="0x703d" id="Epic Arachna Web Spoke 9">
-      <DisplayId>{epicspiderDen.Epic_Arachna_Web_Spoke_9}</DisplayId>
+      <DisplayId>Arachna Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
       <StasisImmune/>

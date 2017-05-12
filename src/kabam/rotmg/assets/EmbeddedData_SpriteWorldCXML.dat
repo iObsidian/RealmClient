@@ -21,7 +21,6 @@
          <Speed>50</Speed>
          <LifetimeMS>4000</LifetimeMS>
       </Projectile>
-      <DisplayId>{spriteWorld.Native_Fire_Sprite}</DisplayId>
    </Object>
    <Object type="0x0d01" id="Native Ice Sprite">
       <Group>Native Sprites</Group>
@@ -45,7 +44,6 @@
          <Size>70</Size>
          <ConditionEffect duration="1.6">Slowed</ConditionEffect>
       </Projectile>
-      <DisplayId>{spriteWorld.Native_Ice_Sprite}</DisplayId>
    </Object>
    <Object type="0x0d02" id="Native Magic Sprite">
       <Group>Native Sprites</Group>
@@ -68,7 +66,6 @@
          <LifetimeMS>4000</LifetimeMS>
          <Size>120</Size>
       </Projectile>
-      <DisplayId>{spriteWorld.Native_Magic_Sprite}</DisplayId>
    </Object>
    <Object type="0x0d03" id="Native Nature Sprite">
       <Group>Native Sprites</Group>
@@ -90,7 +87,6 @@
          <Speed>100</Speed>
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
-      <DisplayId>{spriteWorld.Native_Nature_Sprite}</DisplayId>
    </Object>
    <Object type="0x0d04" id="Native Darkness Sprite">
       <Group>Native Sprites</Group>
@@ -112,7 +108,6 @@
          <Speed>50</Speed>
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
-      <DisplayId>{spriteWorld.Native_Darkness_Sprite}</DisplayId>
    </Object>
    <Object type="0x0d05" id="Native Sprite God">
       <Enemy/>
@@ -143,7 +138,6 @@
          <MultiHit/>
          <ParticleTrail/>
       </Projectile>
-      <DisplayId>{spriteWorld.Native_Sprite_God}</DisplayId>
    </Object>
    <Object type="0x0d06" id="Limon the Sprite God">
       <Class>Character</Class>
@@ -172,7 +166,6 @@
          <LifetimeMS>2300</LifetimeMS>
          <MultiHit/>
       </Projectile>
-      <DisplayId>{spriteWorld.Limon_the_Sprite_God}</DisplayId>
    </Object>
    <Object id="Limon GroundShot" type="0x0bb0">
       <Class>Character</Class>
@@ -182,7 +175,6 @@
       </Texture>
       <MaxHitPoints>10</MaxHitPoints>
       <Size>0</Size>
-      <DisplayId>{spriteWorld.Limon_GroundShot}</DisplayId>
    </Object>
    <Object id="Limon SafeGround" type="0x0bb1">
       <Class>Character</Class>
@@ -192,10 +184,9 @@
       </Texture>
       <MaxHitPoints>10</MaxHitPoints>
       <Size>0</Size>
-      <DisplayId>{spriteWorld.Limon_SafeGround}</DisplayId>
    </Object>
    <Object type="0x0d07" id="Limon Element 1">
-      <DisplayId>{spriteWorld.Limon_Element_1}</DisplayId>
+      <DisplayId>Limon Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
       <Enemy/>
@@ -218,7 +209,7 @@
       </Projectile>
    </Object>
    <Object type="0x0d08" id="Limon Element 2">
-      <DisplayId>{spriteWorld.Limon_Element_2}</DisplayId>
+      <DisplayId>Limon Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
       <Enemy/>
@@ -241,7 +232,7 @@
       </Projectile>
    </Object>
    <Object type="0x0d09" id="Limon Element 3">
-      <DisplayId>{spriteWorld.Limon_Element_3}</DisplayId>
+      <DisplayId>Limon Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
       <Enemy/>
@@ -264,7 +255,7 @@
       </Projectile>
    </Object>
    <Object type="0x0d0a" id="Limon Element 4">
-      <DisplayId>{spriteWorld.Limon_Element_4}</DisplayId>
+      <DisplayId>Limon Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
       <Enemy/>

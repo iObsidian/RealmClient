@@ -1,6 +1,120 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
+   <Object type="0x0932" id="Oryx the Mad God 2">
+      <DisplayId>Oryx the Mad God</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <Texture>
+         <File>lofiChar16x16</File>
+         <Index>0x54</Index>
+      </Texture>
+      <HitSound>monster/oryx_hit</HitSound>
+      <DeathSound>monster/oryx_death</DeathSound>
+      <Size>120</Size>
+      <MaxHitPoints>75000</MaxHitPoints>
+      <Defense>60</Defense>
+      <Quest/>
+      <God/>
+      <Oryx/>
+      <StasisImmune/>
+      <Level>1</Level>
+      <XpMult>1</XpMult>
+      <NoArticle/>
+      <Projectile id="0">
+         <ObjectId>Fire Bolt</ObjectId>
+         <Damage>135</Damage>
+         <Speed>70</Speed>
+         <LifetimeMS>2500</LifetimeMS>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Green Star</ObjectId>
+         <Damage>160</Damage>
+         <Speed>70</Speed>
+         <LifetimeMS>2500</LifetimeMS>
+         <ConditionEffect duration="10">Slowed</ConditionEffect>
+      </Projectile>
+      <Projectile id="2">
+         <ObjectId>Blade</ObjectId>
+         <Damage>240</Damage>
+         <Speed>100</Speed>
+         <LifetimeMS>450</LifetimeMS>
+      </Projectile>
+      <Projectile id="3">
+         <ObjectId>Purple Star</ObjectId>
+         <Damage>160</Damage>
+         <Speed>55</Speed>
+         <LifetimeMS>3000</LifetimeMS>
+         <ConditionEffect duration="5">Blind</ConditionEffect>
+      </Projectile>
+      <Projectile id="4">
+         <ObjectId>Blue Star</ObjectId>
+         <Damage>160</Damage>
+         <Speed>105</Speed>
+         <LifetimeMS>1200</LifetimeMS>
+         <ConditionEffect duration="5">Confused</ConditionEffect>
+      </Projectile>
+      <Projectile id="5">
+         <ObjectId>Grey Star</ObjectId>
+         <Damage>160</Damage>
+         <Speed>45</Speed>
+         <LifetimeMS>3000</LifetimeMS>
+         <ConditionEffect duration="3">Quiet</ConditionEffect>
+      </Projectile>
+      <Projectile id="6">
+         <ObjectId>Red Star</ObjectId>
+         <Damage>160</Damage>
+         <Speed>55</Speed>
+         <LifetimeMS>3000</LifetimeMS>
+         <ArmorPiercing/>
+      </Projectile>
+      <Projectile id="13">
+         <ObjectId>Dark Gray Spinner</ObjectId>
+         <Speed>90</Speed>
+         <Size>100</Size>
+         <Damage>1</Damage>
+         <LifetimeMS>1800</LifetimeMS>
+         <ConditionEffect duration="20">Quiet</ConditionEffect>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="14">
+         <ObjectId>Gray Spinner</ObjectId>
+         <Speed>90</Speed>
+         <Size>100</Size>
+         <Damage>1</Damage>
+         <LifetimeMS>1800</LifetimeMS>
+         <ConditionEffect duration="60">Weak</ConditionEffect>
+         <MultiHit/>
+      </Projectile>
+   </Object>
+   <Object type="0x0944" id="Henchman of Oryx">
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>chars16x16dEncounters2</File>
+         <Index>20</Index>
+      </AnimatedTexture>
+      <HitSound>monster/minion_of_oryx_hit</HitSound>
+      <DeathSound>monster/minion_of_oryx_death</DeathSound>
+      <Size>100</Size>
+      <MaxHitPoints>4000</MaxHitPoints>
+      <Defense>25</Defense>
+      <XpMult>0.1</XpMult>
+      <Projectile id="0">
+         <ObjectId>Blue Shuriken</ObjectId>
+         <Damage>100</Damage>
+         <Speed>70</Speed>
+         <LifetimeMS>4000</LifetimeMS>
+         <ConditionEffect duration="1.5">Confused</ConditionEffect>
+         <Boomerang/>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Blue Bolt</ObjectId>
+         <Damage>80</Damage>
+         <Speed>55</Speed>
+         <LifetimeMS>4000</LifetimeMS>
+      </Projectile>
+   </Object>
    <Object type="0x0de0" id="Abomination of Oryx">
       <Enemy/>
       <Class>Character</Class>
@@ -44,7 +158,6 @@
          <Speed>60</Speed>
          <LifetimeMS>500</LifetimeMS>
       </Projectile>
-      <DisplayId>{oryxWineCellar.Abomination_of_Oryx}</DisplayId>
    </Object>
    <Object type="0x0de1" id="Monstrosity of Oryx">
       <Enemy/>
@@ -59,7 +172,6 @@
       <MaxHitPoints>1000</MaxHitPoints>
       <Defense>12</Defense>
       <XpMult>0.1</XpMult>
-      <DisplayId>{oryxWineCellar.Monstrosity_of_Oryx}</DisplayId>
    </Object>
    <Object type="0x0de2" id="Monstrosity Scarab">
       <Enemy/>
@@ -80,7 +192,6 @@
          <Speed>70</Speed>
          <LifetimeMS>1400</LifetimeMS>
       </Projectile>
-      <DisplayId>{oryxWineCellar.Monstrosity_Scarab}</DisplayId>
    </Object>
    <Object type="0x0de3" id="Aberrant of Oryx">
       <Enemy/>
@@ -95,7 +206,6 @@
       <MaxHitPoints>1000</MaxHitPoints>
       <Defense>12</Defense>
       <XpMult>0.1</XpMult>
-      <DisplayId>{oryxWineCellar.Aberrant_of_Oryx}</DisplayId>
    </Object>
    <Object type="0x0de4" id="Aberrant Blaster">
       <Enemy/>
@@ -116,7 +226,6 @@
          <Speed>120</Speed>
          <LifetimeMS>500</LifetimeMS>
       </Projectile>
-      <DisplayId>{oryxWineCellar.Aberrant_Blaster}</DisplayId>
    </Object>
    <Object type="0x0de5" id="Wine Barrel">
       <Class>GameObject</Class>
@@ -142,7 +251,6 @@
       <StasisImmune/>
       <Enemy/>
       <XpMult>0.0</XpMult>
-      <DisplayId>{oryxWineCellar.Wine_Barrel}</DisplayId>
    </Object>
    <Object type="0x0de6" id="WineSpill Puddle">
       <Class>GameObject</Class>
@@ -162,7 +270,6 @@
       </RandomTexture>
       <DrawOnGround/>
       <Static/>
-      <DisplayId>{oryxWineCellar.WineSpill_Puddle}</DisplayId>
    </Object>
    <Object type="0x0de7" id="WineSpill DL">
       <Class>GameObject</Class>
@@ -172,7 +279,6 @@
       </Texture>
       <DrawOnGround/>
       <Static/>
-      <DisplayId>{oryxWineCellar.WineSpill_DL}</DisplayId>
    </Object>
    <Object type="0x0de8" id="WineSpill DR">
       <Class>GameObject</Class>
@@ -182,7 +288,6 @@
       </Texture>
       <DrawOnGround/>
       <Static/>
-      <DisplayId>{oryxWineCellar.WineSpill_DR}</DisplayId>
    </Object>
    <Object type="0x0de9" id="WineSpill UR">
       <Class>GameObject</Class>
@@ -192,7 +297,6 @@
       </Texture>
       <DrawOnGround/>
       <Static/>
-      <DisplayId>{oryxWineCellar.WineSpill_UR}</DisplayId>
    </Object>
    <Object type="0x0dea" id="WineSpill UL">
       <Class>GameObject</Class>
@@ -202,7 +306,6 @@
       </Texture>
       <DrawOnGround/>
       <Static/>
-      <DisplayId>{oryxWineCellar.WineSpill_UL}</DisplayId>
    </Object>
    <Object type="0x0deb" id="WineSpill L">
       <Class>GameObject</Class>
@@ -212,7 +315,6 @@
       </Texture>
       <DrawOnGround/>
       <Static/>
-      <DisplayId>{oryxWineCellar.WineSpill_L}</DisplayId>
    </Object>
    <Object type="0x0dec" id="WineSpill R">
       <Class>GameObject</Class>
@@ -222,7 +324,6 @@
       </Texture>
       <DrawOnGround/>
       <Static/>
-      <DisplayId>{oryxWineCellar.WineSpill_R}</DisplayId>
    </Object>
    <Object type="0x0ded" id="WineSpill U">
       <Class>GameObject</Class>
@@ -232,7 +333,6 @@
       </Texture>
       <DrawOnGround/>
       <Static/>
-      <DisplayId>{oryxWineCellar.WineSpill_U}</DisplayId>
    </Object>
    <Object type="0x0dee" id="WineSpill D">
       <Class>GameObject</Class>
@@ -242,7 +342,6 @@
       </Texture>
       <DrawOnGround/>
       <Static/>
-      <DisplayId>{oryxWineCellar.WineSpill_D}</DisplayId>
    </Object>
    <Object type="0x0def" id="WineSpill C">
       <Class>GameObject</Class>
@@ -252,7 +351,6 @@
       </Texture>
       <DrawOnGround/>
       <Static/>
-      <DisplayId>{oryxWineCellar.WineSpill_C}</DisplayId>
    </Object>
    <Object type="0x0df0" id="Purple Goo">
       <Enemy/>
@@ -297,7 +395,6 @@
          <ConditionEffect duration="5">Sick</ConditionEffect>
          <ConditionEffect duration="3.4">Slowed</ConditionEffect>
       </Projectile>
-      <DisplayId>{oryxWineCellar.Purple_Goo}</DisplayId>
    </Object>
    <Object type="0x0df1" id="Bile of Oryx">
       <Enemy/>
@@ -313,7 +410,6 @@
       <MaxHitPoints>3000</MaxHitPoints>
       <Defense>80</Defense>
       <XpMult>0.08</XpMult>
-      <DisplayId>{oryxWineCellar.Bile_of_Oryx}</DisplayId>
    </Object>
    <Object type="0x0df2" id="Vintner of Oryx">
       <Enemy/>
@@ -335,6 +431,5 @@
          <LifetimeMS>1400</LifetimeMS>
          <ConditionEffect duration="4">Drunk</ConditionEffect>
       </Projectile>
-      <DisplayId>{oryxWineCellar.Vintner_of_Oryx}</DisplayId>
    </Object>
 </Objects>

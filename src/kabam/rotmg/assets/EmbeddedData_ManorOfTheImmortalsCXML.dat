@@ -50,7 +50,6 @@
          <LifetimeMS>3400</LifetimeMS>
          <MultiHit/>
       </Projectile>
-      <DisplayId>{manorOfTheImmortals.Lord_Ruthven}</DisplayId>
    </Object>
    <Object type="0x1721" id="Vampire Bat">
       <Enemy/>
@@ -76,7 +75,6 @@
          <LifetimeMS>100</LifetimeMS>
          <ConditionEffect duration="3.6">Confused</ConditionEffect>
       </Projectile>
-      <DisplayId>{manorOfTheImmortals.Vampire_Bat}</DisplayId>
    </Object>
    <Object type="0x1722" id="Coffin Creature">
       <Enemy/>
@@ -149,10 +147,9 @@
          <Size>80</Size>
          <LifetimeMS>1600</LifetimeMS>
       </Projectile>
-      <DisplayId>{manorOfTheImmortals.Coffin_Creature}</DisplayId>
    </Object>
    <Object type="0x1723" id="Bat Swarm 1">
-      <DisplayId>{manorOfTheImmortals.Bat_Swarm_1}</DisplayId>
+      <DisplayId>Bat Swarm</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -167,7 +164,7 @@
       <Size>0</Size>
    </Object>
    <Object type="0x1724" id="Vampire Bat Swarmer 1">
-      <DisplayId>{manorOfTheImmortals.Vampire_Bat_Swarmer_1}</DisplayId>
+      <DisplayId>Vampire Bat Swarmer</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -193,7 +190,7 @@
       </Projectile>
    </Object>
    <Object type="0x1725" id="Bat Swarm 2">
-      <DisplayId>{manorOfTheImmortals.Bat_Swarm_2}</DisplayId>
+      <DisplayId>Bat Swarm</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -206,7 +203,7 @@
       <Size>0</Size>
    </Object>
    <Object type="0x1726" id="Vampire Bat Swarmer 2">
-      <DisplayId>{manorOfTheImmortals.Vampire_Bat_Swarmer_2}</DisplayId>
+      <DisplayId>Vampire Bat Swarmer</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -255,7 +252,6 @@
          <LifetimeMS>100</LifetimeMS>
          <ConditionEffect duration="3">Confused</ConditionEffect>
       </Projectile>
-      <DisplayId>{manorOfTheImmortals.Vampire_Bat_Swarmer}</DisplayId>
    </Object>
    <Object type="0x1728" id="Nosferatu">
       <Enemy/>
@@ -286,7 +282,6 @@
          <Size>80</Size>
          <LifetimeMS>1600</LifetimeMS>
       </Projectile>
-      <DisplayId>{manorOfTheImmortals.Nosferatu}</DisplayId>
    </Object>
    <Object type="0x1729" id="Armor Guard">
       <Enemy/>
@@ -316,7 +311,6 @@
          <Size>80</Size>
          <LifetimeMS>1400</LifetimeMS>
       </Projectile>
-      <DisplayId>{manorOfTheImmortals.Armor_Guard}</DisplayId>
    </Object>
    <Object type="0x172a" id="RockBomb">
       <Enemy/>
@@ -339,7 +333,6 @@
          <Size>90</Size>
          <LifetimeMS>1400</LifetimeMS>
       </Projectile>
-      <DisplayId>{manorOfTheImmortals.RockBomb}</DisplayId>
    </Object>
    <Object type="0x172b" id="Hellhound">
       <Enemy/>
@@ -363,7 +356,6 @@
          <LifetimeMS>1200</LifetimeMS>
          <ConditionEffect duration="3.6">Bleeding</ConditionEffect>
       </Projectile>
-      <DisplayId>{manorOfTheImmortals.Hellhound}</DisplayId>
    </Object>
    <Object type="0x172c" id="Lesser Bald Vampire">
       <Enemy/>
@@ -386,7 +378,6 @@
          <Size>80</Size>
          <LifetimeMS>1600</LifetimeMS>
       </Projectile>
-      <DisplayId>{manorOfTheImmortals.Lesser_Bald_Vampire}</DisplayId>
    </Object>
    <Object type="0x172d" id="Helmet Head">
       <Enemy/>
@@ -441,7 +432,6 @@
          <Size>100</Size>
          <LifetimeMS>1200</LifetimeMS>
       </Projectile>
-      <DisplayId>{manorOfTheImmortals.Helmet_Head}</DisplayId>
    </Object>
    <Object type="0x172e" id="Mixcoatl Summoner">
       <Class>Character</Class>
@@ -452,7 +442,6 @@
       <NoMiniMap/>
       <MaxHitPoints>10</MaxHitPoints>
       <Size>0</Size>
-      <DisplayId>{manorOfTheImmortals.Mixcoatl_Summoner}</DisplayId>
    </Object>
    <Object type="0x172f" id="Thessal Summoner">
       <Class>Character</Class>
@@ -463,7 +452,6 @@
       <NoMiniMap/>
       <MaxHitPoints>10</MaxHitPoints>
       <Size>0</Size>
-      <DisplayId>{manorOfTheImmortals.Thessal_Summoner}</DisplayId>
    </Object>
    <Object type="0x1730" id="Septavius Summoner">
       <Class>Character</Class>
@@ -474,7 +462,6 @@
       <NoMiniMap/>
       <MaxHitPoints>10</MaxHitPoints>
       <Size>0</Size>
-      <DisplayId>{manorOfTheImmortals.Septavius_Summoner}</DisplayId>
    </Object>
    <Object type="0x1731" id="Stheno Summoner">
       <Class>Character</Class>
@@ -485,7 +472,6 @@
       <NoMiniMap/>
       <MaxHitPoints>10</MaxHitPoints>
       <Size>0</Size>
-      <DisplayId>{manorOfTheImmortals.Stheno_Summoner}</DisplayId>
    </Object>
    <Object type="0x1732" id="Arachna Summoner">
       <Class>Character</Class>
@@ -496,7 +482,6 @@
       <NoMiniMap/>
       <MaxHitPoints>10</MaxHitPoints>
       <Size>0</Size>
-      <DisplayId>{manorOfTheImmortals.Arachna_Summoner}</DisplayId>
    </Object>
    <Object type="0x1736" id="Vampire Summoner">
       <Class>Character</Class>
@@ -507,7 +492,6 @@
       <NoMiniMap/>
       <MaxHitPoints>10</MaxHitPoints>
       <Size>0</Size>
-      <DisplayId>{manorOfTheImmortals.Vampire_Summoner}</DisplayId>
    </Object>
    <Object type="0x1737" id="Coffin">
       <Enemy/>
@@ -522,7 +506,6 @@
       <Defense>25</Defense>
       <Size>120</Size>
       <ShadowSize>80</ShadowSize>
-      <DisplayId>{manorOfTheImmortals.Coffin}</DisplayId>
    </Object>
    <Object type="0x1738" id="Lil Feratu">
       <Enemy/>
@@ -545,6 +528,5 @@
          <Size>80</Size>
          <LifetimeMS>1600</LifetimeMS>
       </Projectile>
-      <DisplayId>{manorOfTheImmortals.Lil_Feratu}</DisplayId>
    </Object>
 </Objects>

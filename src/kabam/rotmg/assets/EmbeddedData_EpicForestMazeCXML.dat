@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x075c" id="Woodland Labyrinth">
-      <Class>Portal</Class>
-      <IntergamePortal/>
-      <DungeonName>Woodland Labyrinth</DungeonName>
-      <Texture>
-         <File>lofiObj3</File>
-         <Index>0x3e5</Index>
-      </Texture>
-      <DisplayId>{epicforestMaze.Woodland_Labyrinth}</DisplayId>
-   </Object>
    <Object type="0x217a" id="Woodland Moth Dust">
       <Class>Projectile</Class>
       <RandomTexture>
@@ -36,7 +26,6 @@
          </Texture>
       </RandomTexture>
       <Rotation>350</Rotation>
-      <DisplayId>{epicforestMaze.Woodland_Moth_Dust}</DisplayId>
    </Object>
    <Object type="0x217b" id="Fire Acorn">
       <Class>Projectile</Class>
@@ -45,7 +34,6 @@
          <Index>0x3e7</Index>
       </Texture>
       <Rotation>180</Rotation>
-      <DisplayId>{epicforestMaze.Fire_Acorn}</DisplayId>
    </Object>
    <Object type="0x703e" id="Woodland Paralyze Turret">
       <Class>Character</Class>
@@ -67,7 +55,6 @@
          <ConditionEffect duration="1.2">Paralyzed</ConditionEffect>
          <MultiHit/>
       </Projectile>
-      <DisplayId>{epicforestMaze.Woodland_Paralyze_Turret}</DisplayId>
    </Object>
    <Object type="0x703f" id="Woodland Silence Turret">
       <Class>Character</Class>
@@ -89,7 +76,6 @@
          <ConditionEffect duration="4">Quiet</ConditionEffect>
          <MultiHit/>
       </Projectile>
-      <DisplayId>{epicforestMaze.Woodland_Silence_Turret}</DisplayId>
    </Object>
    <Object type="0x704a" id="Woodland Weakness Turret">
       <Class>Character</Class>
@@ -111,10 +97,9 @@
          <ConditionEffect duration="5">Weak</ConditionEffect>
          <MultiHit/>
       </Projectile>
-      <DisplayId>{epicforestMaze.Woodland_Weakness_Turret}</DisplayId>
    </Object>
    <Object type="0x704b" id="Wooland Armor Squirrel">
-      <DisplayId>{epicforestMaze.Wooland_Armor_Squirrel}</DisplayId>
+      <DisplayId>Grizzled Armored Squirrel</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -136,7 +121,7 @@
       </Projectile>
    </Object>
    <Object type="0x704c" id="Woodland Mini Megamoth">
-      <DisplayId>{epicforestMaze.Woodland_Mini_Megamoth}</DisplayId>
+      <DisplayId>Micro Megamoth Sentinel</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -161,7 +146,7 @@
       </Projectile>
    </Object>
    <Object type="0x704d" id="Woodland Ultimate Squirrel">
-      <DisplayId>{epicforestMaze.Woodland_Ultimate_Squirrel}</DisplayId>
+      <DisplayId>Mecha Squirrel</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -184,7 +169,7 @@
       </Projectile>
    </Object>
    <Object type="0x704e" id="Woodland Goblin Mage">
-      <DisplayId>{epicforestMaze.Woodland_Goblin_Mage}</DisplayId>
+      <DisplayId>Forest Goblin Necromancer</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -208,7 +193,7 @@
       </Projectile>
    </Object>
    <Object type="0x704f" id="Woodland Goblin">
-      <DisplayId>{epicforestMaze.Woodland_Goblin}</DisplayId>
+      <DisplayId>Forest Goblin Bruiser</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -235,10 +220,9 @@
          <Index>0x3fe</Index>
       </Texture>
       <NoMiniMap/>
-      <DisplayId>{epicforestMaze.Larva_Puke}</DisplayId>
    </Object>
    <Object type="0x706c" id="Epic Larva">
-      <DisplayId>{epicforestMaze.Epic_Larva}</DisplayId>
+      <DisplayId>Megamoth Larva</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -262,7 +246,7 @@
       </Projectile>
    </Object>
    <Object type="0x706d" id="Epic Mama Megamoth">
-      <DisplayId>{epicforestMaze.Epic_Mama_Megamoth}</DisplayId>
+      <DisplayId>Mammoth Megamoth</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -307,10 +291,9 @@
          <Size>50</Size>
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
-      <DisplayId>{epicforestMaze.Mini_Larva}</DisplayId>
    </Object>
    <Object type="0x707b" id="Murderous Megamoth">
-      <DisplayId>{epicforestMaze.Murderous_Megamoth}</DisplayId>
+      <DisplayId>Murderous Megamoth</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>

@@ -21,7 +21,6 @@
          <Speed>40</Speed>
          <LifetimeMS>600</LifetimeMS>
       </Projectile>
-      <DisplayId>{shore.Pirate}</DisplayId>
    </Object>
    <Object type="0x601" id="Piratess">
       <Group>Pirates</Group>
@@ -44,7 +43,6 @@
          <Speed>40</Speed>
          <LifetimeMS>600</LifetimeMS>
       </Projectile>
-      <DisplayId>{shore.Piratess}</DisplayId>
    </Object>
    <Object type="0x602" id="Snake">
       <Group>Snakes</Group>
@@ -73,7 +71,6 @@
          <Speed>40</Speed>
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
-      <DisplayId>{shore.Snake}</DisplayId>
    </Object>
    <Object type="0x603" id="Poison Scorpion">
       <Group>Scorpions</Group>
@@ -95,7 +92,6 @@
          <Speed>40</Speed>
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
-      <DisplayId>{shore.Poison_Scorpion}</DisplayId>
    </Object>
    <Object type="0x604" id="Scorpion Queen">
       <Group>Scorpions</Group>
@@ -115,7 +111,6 @@
       <Level>1</Level>
       <XpMult>2</XpMult>
       <SpawnProb>0.75</SpawnProb>
-      <DisplayId>{shore.Scorpion_Queen}</DisplayId>
    </Object>
    <Object type="0x0953" id="Bandit Leader">
       <Group>Bandits</Group>
@@ -142,11 +137,10 @@
          <Size>60</Size>
          <LifetimeMS>800</LifetimeMS>
       </Projectile>
-      <DisplayId>{shore.Bandit_Leader}</DisplayId>
    </Object>
    <Object type="0x0954" id="Bandit Enemy">
       <Group>Bandits</Group>
-      <DisplayId>{shore.Bandit_Enemy}</DisplayId>
+      <DisplayId>Bandit</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -203,7 +197,6 @@
          <Speed>60</Speed>
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
-      <DisplayId>{shore.Red_Gelatinous_Cube}</DisplayId>
    </Object>
    <Object type="0x60f" id="Purple Gelatinous Cube">
       <Group>Cubes</Group>
@@ -234,7 +227,6 @@
          <Speed>65</Speed>
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
-      <DisplayId>{shore.Purple_Gelatinous_Cube}</DisplayId>
    </Object>
    <Object type="0x610" id="Green Gelatinous Cube">
       <Group>Cubes</Group>
@@ -265,6 +257,5 @@
          <Speed>60</Speed>
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
-      <DisplayId>{shore.Green_Gelatinous_Cube}</DisplayId>
    </Object>
 </Objects>

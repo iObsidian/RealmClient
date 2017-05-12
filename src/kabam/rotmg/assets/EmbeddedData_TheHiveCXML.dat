@@ -11,7 +11,6 @@
       <Size>0</Size>
       <ShadowSize>0</ShadowSize>
       <StasisImmune/>
-      <DisplayId>{thehive.TH_honey_Heal}</DisplayId>
    </Object>
    <Object type="0x125" id="TH Mini Hive">
       <Class>Character</Class>
@@ -26,10 +25,9 @@
       <MaxHitPoints>120</MaxHitPoints>
       <Defense>5</Defense>
       <XpMult>1.5</XpMult>
-      <DisplayId>{thehive.TH_Mini_Hive}</DisplayId>
    </Object>
    <Object type="0x126" id="TH Small Bees">
-      <DisplayId>{thehive.TH_Small_Bees}</DisplayId>
+      <DisplayId>Small Bee</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -54,7 +52,7 @@
       </Projectile>
    </Object>
    <Object type="0x127" id="TH Fat Bees">
-      <DisplayId>{thehive.TH_Fat_Bees}</DisplayId>
+      <DisplayId>Fat Bee</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -78,7 +76,7 @@
       </Projectile>
    </Object>
    <Object type="0x128" id="TH Red Fat Bees">
-      <DisplayId>{thehive.TH_Red_Fat_Bees}</DisplayId>
+      <DisplayId>Fat Angry Bee</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -103,7 +101,7 @@
       </Projectile>
    </Object>
    <Object type="0x129" id="TH Queen Bee">
-      <DisplayId>{thehive.TH_Queen_Bee}</DisplayId>
+      <DisplayId>Queen Bee</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -132,7 +130,6 @@
          <Damage>70</Damage>
          <Speed>70</Speed>
          <Size>100</Size>
-         <AngleCorrection>1</AngleCorrection>
          <ConditionEffect duration="1.5">Dazed</ConditionEffect>
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
@@ -149,7 +146,6 @@
       <MaxHitPoints>120</MaxHitPoints>
       <Defense>5</Defense>
       <XpMult>0</XpMult>
-      <DisplayId>{thehive.TH_Maggot_Egg1}</DisplayId>
    </Object>
    <Object type="0x12b" id="TH Maggot Egg2">
       <Class>Character</Class>
@@ -162,7 +158,6 @@
       <DeathSound>monster/eggs_death</DeathSound>
       <MaxHitPoints>120</MaxHitPoints>
       <Defense>5</Defense>
-      <DisplayId>{thehive.TH_Maggot_Egg2}</DisplayId>
    </Object>
    <Object type="0x12c" id="TH Maggot Egg3">
       <Class>Character</Class>
@@ -175,10 +170,9 @@
       <DeathSound>monster/eggs_death</DeathSound>
       <MaxHitPoints>120</MaxHitPoints>
       <Defense>5</Defense>
-      <DisplayId>{thehive.TH_Maggot_Egg3}</DisplayId>
    </Object>
    <Object type="0x12d" id="TH Maggots">
-      <DisplayId>{thehive.TH_Maggots}</DisplayId>
+      <DisplayId>Larve</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -210,7 +204,6 @@
          <File>invisible</File>
          <Index>0</Index>
       </Texture>
-      <DisplayId>{thehive.TH_Queen_Bee_Summoner}</DisplayId>
    </Object>
    <Object type="0x133" id="TH Chunk1">
       <Class>Character</Class>
@@ -220,7 +213,6 @@
       </Texture>
       <MaxHitPoints>120</MaxHitPoints>
       <NoMiniMap/>
-      <DisplayId>{thehive.TH_Chunk1}</DisplayId>
    </Object>
    <Object type="0x0d0b" id="TH Chunk2">
       <Class>Character</Class>
@@ -230,7 +222,6 @@
       </Texture>
       <MaxHitPoints>120</MaxHitPoints>
       <NoMiniMap/>
-      <DisplayId>{thehive.TH_Chunk2}</DisplayId>
    </Object>
    <Object type="0x0d0c" id="TH Chunk3">
       <Class>Character</Class>
@@ -240,7 +231,6 @@
       </Texture>
       <MaxHitPoints>120</MaxHitPoints>
       <NoMiniMap/>
-      <DisplayId>{thehive.TH_Chunk3}</DisplayId>
    </Object>
    <Object type="0x0d0d" id="TH Chunk4">
       <Class>Character</Class>
@@ -250,10 +240,9 @@
       </Texture>
       <MaxHitPoints>120</MaxHitPoints>
       <NoMiniMap/>
-      <DisplayId>{thehive.TH_Chunk4}</DisplayId>
    </Object>
    <Object type="0x0d44" id="TH Fat Bees 2">
-      <DisplayId>{thehive.TH_Fat_Bees_2}</DisplayId>
+      <DisplayId>Fat Bee</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -278,7 +267,7 @@
       </Projectile>
    </Object>
    <Object type="0x0d45" id="TH Red Fat Bees 2">
-      <DisplayId>{thehive.TH_Red_Fat_Bees_2}</DisplayId>
+      <DisplayId>Fat Angry Bee</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>

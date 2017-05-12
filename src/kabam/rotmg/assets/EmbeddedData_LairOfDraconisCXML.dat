@@ -2,7 +2,7 @@
 
 <Objects>
    <Object type="0x7500" id="NM Altar of Draconis">
-      <DisplayId>{lairOfDraconis.NM_Altar_of_Draconis}</DisplayId>
+      <DisplayId>Altar of Draconis</DisplayId>
       <Class>Character</Class>
       <Texture>
          <File>lofiObjBig</File>
@@ -63,7 +63,7 @@
       </Animation>
    </Object>
    <Object type="0x7509" id="NM Blue Dragon Soul">
-      <DisplayId>{lairOfDraconis.NM_Blue_Dragon_Soul}</DisplayId>
+      <DisplayId>Azure Dragon Soul</DisplayId>
       <Group>Dragon Souls</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -112,7 +112,7 @@
       <Defense>20</Defense>
    </Object>
    <Object type="0x750A" id="NM Red Dragon Soul">
-      <DisplayId>{lairOfDraconis.NM_Red_Dragon_Soul}</DisplayId>
+      <DisplayId>Crimson Dragon Soul</DisplayId>
       <Group>Dragon Souls</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -161,7 +161,7 @@
       <NoMiniMap/>
    </Object>
    <Object type="0x750B" id="NM Green Dragon Soul">
-      <DisplayId>{lairOfDraconis.NM_Green_Dragon_Soul}</DisplayId>
+      <DisplayId>Veridian Dragon Soul</DisplayId>
       <Group>Dragon Souls</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -210,7 +210,7 @@
       <Defense>20</Defense>
    </Object>
    <Object type="0x750C" id="NM Black Dragon Soul">
-      <DisplayId>{lairOfDraconis.NM_Black_Dragon_Soul}</DisplayId>
+      <DisplayId>Obsidian Dragon Soul</DisplayId>
       <Group>Dragon Souls</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -259,7 +259,7 @@
       <NoMiniMap/>
    </Object>
    <Object type="0x7501" id="NM Blue Dragon God">
-      <DisplayId>{lairOfDraconis.NM_Blue_Dragon_God}</DisplayId>
+      <DisplayId>Nikao the Azure Dragon</DisplayId>
       <Group>Dragon Gods</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -344,10 +344,9 @@
       <Size>160</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{lairOfDraconis.lod_Blue_Loot_Balloon}</DisplayId>
    </Object>
    <Object type="0x7499" id="NM Blue Dragon God Hardmode">
-      <DisplayId>{lairOfDraconis.NM_Blue_Dragon_God_Hardmode}</DisplayId>
+      <DisplayId>Nikao the Defiler</DisplayId>
       <Group>Dragon Gods</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -441,7 +440,6 @@
       <Size>160</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{lairOfDraconis.lod_Blue_HM_Loot_Balloon}</DisplayId>
    </Object>
    <Object type="0x7540" id="NM Blue Dragon Spawner">
       <Class>GameObject</Class>
@@ -454,10 +452,9 @@
          <Index>0</Index>
       </Texture>
       <StasisImmune/>
-      <DisplayId>{lairOfDraconis.NM_Blue_Dragon_Spawner}</DisplayId>
    </Object>
    <Object type="0x7536" id="NM Blue Minion Spawner">
-      <DisplayId>{lairOfDraconis.NM_Blue_Minion_Spawner}</DisplayId>
+      <DisplayId>Blue Egg</DisplayId>
       <Class>GameObject</Class>
       <ShadowSize>80</ShadowSize>
       <Size>140</Size>
@@ -469,7 +466,7 @@
       <StasisImmune/>
    </Object>
    <Object type="0x7531" id="NM Blue Dragon Minion">
-      <DisplayId>{lairOfDraconis.NM_Blue_Dragon_Minion}</DisplayId>
+      <DisplayId>Azure Soul Shard</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -518,7 +515,7 @@
       </Projectile>
    </Object>
    <Object type="0x7502" id="NM Red Dragon God">
-      <DisplayId>{lairOfDraconis.NM_Red_Dragon_God}</DisplayId>
+      <DisplayId>Pyyr the Crimson Dragon</DisplayId>
       <Group>Red Dragon God Group</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -639,10 +636,9 @@
       <Size>160</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{lairOfDraconis.lod_Red_Loot_Balloon}</DisplayId>
    </Object>
    <Object type="0x7543" id="NM Red Dragon God Hardmode">
-      <DisplayId>{lairOfDraconis.NM_Red_Dragon_God_Hardmode}</DisplayId>
+      <DisplayId>Pyyr the Wicked</DisplayId>
       <Group>Red Dragon God Group</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -734,7 +730,6 @@
       <Size>160</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{lairOfDraconis.lod_Red_HM_Loot_Balloon}</DisplayId>
    </Object>
    <Object type="0x7544" id="NM Red Dragon Spawner">
       <Class>GameObject</Class>
@@ -747,10 +742,9 @@
          <Index>0</Index>
       </Texture>
       <StasisImmune/>
-      <DisplayId>{lairOfDraconis.NM_Red_Dragon_Spawner}</DisplayId>
    </Object>
    <Object type="0x7549" id="NM Red Minion Spawner">
-      <DisplayId>{lairOfDraconis.NM_Red_Minion_Spawner}</DisplayId>
+      <DisplayId>Red Egg</DisplayId>
       <Class>GameObject</Class>
       <ShadowSize>80</ShadowSize>
       <Size>140</Size>
@@ -762,7 +756,7 @@
       <StasisImmune/>
    </Object>
    <Object type="0x7550" id="NM Red Fake Egg">
-      <DisplayId>{lairOfDraconis.NM_Red_Fake_Egg}</DisplayId>
+      <DisplayId>Red Egg</DisplayId>
       <Class>GameObject</Class>
       <ShadowSize>80</ShadowSize>
       <Size>140</Size>
@@ -774,7 +768,7 @@
       <StasisImmune/>
    </Object>
    <Object type="0x7534" id="NM Red Dragon Minion">
-      <DisplayId>{lairOfDraconis.NM_Red_Dragon_Minion}</DisplayId>
+      <DisplayId>Crimson Soul Shard</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -807,7 +801,6 @@
       <MaxHitPoints>10</MaxHitPoints>
       <XpMult>0.0</XpMult>
       <Size>0</Size>
-      <DisplayId>{lairOfDraconis.NM_Red_Dragon_Lava_Bomb}</DisplayId>
    </Object>
    <Object type="0x7548" id="NM Red Dragon Lava Trigger">
       <Class>Character</Class>
@@ -821,10 +814,9 @@
       <XpMult>0.0</XpMult>
       <Size>0</Size>
       <MaxHitPoints>10</MaxHitPoints>
-      <DisplayId>{lairOfDraconis.NM_Red_Dragon_Lava_Trigger}</DisplayId>
    </Object>
    <Object type="0x7503" id="NM Green Dragon God">
-      <DisplayId>{lairOfDraconis.NM_Green_Dragon_God}</DisplayId>
+      <DisplayId>Limoz the Veridian Dragon</DisplayId>
       <Group>Dragon Gods</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -915,10 +907,9 @@
       <Size>160</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{lairOfDraconis.lod_Green_Loot_Balloon}</DisplayId>
    </Object>
    <Object type="0x7541" id="NM Green Dragon God Hardmode">
-      <DisplayId>{lairOfDraconis.NM_Green_Dragon_God_Hardmode}</DisplayId>
+      <DisplayId>Limoz the Plague Bearer</DisplayId>
       <Group>Dragon Gods</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -1009,7 +1000,6 @@
       <Size>160</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{lairOfDraconis.lod_Green_HM_Loot_Balloon}</DisplayId>
    </Object>
    <Object type="0x7542" id="NM Green Dragon Spawner">
       <Class>GameObject</Class>
@@ -1022,10 +1012,9 @@
          <Index>0</Index>
       </Texture>
       <StasisImmune/>
-      <DisplayId>{lairOfDraconis.NM_Green_Dragon_Spawner}</DisplayId>
    </Object>
    <Object type="0x7545" id="NM Green Dragon Shield">
-      <DisplayId>{lairOfDraconis.NM_Green_Dragon_Shield}</DisplayId>
+      <DisplayId>Abundant Shield</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -1054,7 +1043,7 @@
       </Projectile>
    </Object>
    <Object type="0x7546" id="NM Green Dragon Shield Counter">
-      <DisplayId>{lairOfDraconis.NM_Green_Dragon_Shield_Counter}</DisplayId>
+      <DisplayId>Abundant Shield</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -1066,7 +1055,7 @@
       <Defense>20</Defense>
    </Object>
    <Object type="0x7530" id="NM Green Dragon Minion">
-      <DisplayId>{lairOfDraconis.NM_Green_Dragon_Minion}</DisplayId>
+      <DisplayId>Veridian Hatchling</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -1114,7 +1103,7 @@
       </Projectile>
    </Object>
    <Object type="0x7504" id="NM Black Dragon God">
-      <DisplayId>{lairOfDraconis.NM_Black_Dragon_God}</DisplayId>
+      <DisplayId>Feargus the Obsidian Dragon</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -1239,10 +1228,9 @@
       <Size>160</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{lairOfDraconis.lod_Black_Loot_Balloon}</DisplayId>
    </Object>
    <Object type="0x751a" id="NM Black Dragon God Hardmode">
-      <DisplayId>{lairOfDraconis.NM_Black_Dragon_God_Hardmode}</DisplayId>
+      <DisplayId>Feargus the Demented</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -1367,7 +1355,6 @@
       <Size>160</Size>
       <XpMult>0.0</XpMult>
       <StasisImmune/>
-      <DisplayId>{lairOfDraconis.lod_Black_HM_Loot_Balloon}</DisplayId>
    </Object>
    <Object type="0x751c" id="NM Black Dragon Spawner">
       <Class>GameObject</Class>
@@ -1380,10 +1367,9 @@
          <Index>0</Index>
       </Texture>
       <StasisImmune/>
-      <DisplayId>{lairOfDraconis.NM_Black_Dragon_Spawner}</DisplayId>
    </Object>
    <Object type="0x7551" id="NM Black Dragon Shadow">
-      <DisplayId>{lairOfDraconis.NM_Black_Dragon_Shadow}</DisplayId>
+      <DisplayId>Shade of Feargus</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -1412,7 +1398,7 @@
       </Projectile>
    </Object>
    <Object type="0x7533" id="NM Black Dragon Minion">
-      <DisplayId>{lairOfDraconis.NM_Black_Dragon_Minion}</DisplayId>
+      <DisplayId>Obsidian Soul Shard</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -1449,7 +1435,6 @@
       <MaxHitPoints>1250000</MaxHitPoints>
       <NoMiniMap/>
       <StasisImmune/>
-      <DisplayId>{lairOfDraconis.NM_Blue_Dragon_Dead}</DisplayId>
    </Object>
    <Object type="0x7506" id="NM Red Dragon Dead">
       <Group>Dead Dragons</Group>
@@ -1463,7 +1448,6 @@
       <Size>0</Size>
       <StasisImmune/>
       <MaxHitPoints>1250000</MaxHitPoints>
-      <DisplayId>{lairOfDraconis.NM_Red_Dragon_Dead}</DisplayId>
    </Object>
    <Object type="0x7507" id="NM Green Dragon Dead">
       <Group>Dead Dragons</Group>
@@ -1477,7 +1461,6 @@
       <Size>0</Size>
       <StasisImmune/>
       <MaxHitPoints>1250000</MaxHitPoints>
-      <DisplayId>{lairOfDraconis.NM_Green_Dragon_Dead}</DisplayId>
    </Object>
    <Object type="0x7508" id="NM Black Dragon Dead">
       <Group>Dead Dragons</Group>
@@ -1491,7 +1474,6 @@
       <NoMiniMap/>
       <StasisImmune/>
       <MaxHitPoints>1250000</MaxHitPoints>
-      <DisplayId>{lairOfDraconis.NM_Black_Dragon_Dead}</DisplayId>
    </Object>
    <Object type="0x751b" id="NM Black Dragon Hardmode Dead">
       <Group>Dead Dragons</Group>
@@ -1505,7 +1487,6 @@
       <NoMiniMap/>
       <StasisImmune/>
       <MaxHitPoints>1250000</MaxHitPoints>
-      <DisplayId>{lairOfDraconis.NM_Black_Dragon_Hardmode_Dead}</DisplayId>
    </Object>
    <Object type="0x753A" id="NM Green Open Wall">
       <Class>Character</Class>
@@ -1517,7 +1498,6 @@
       <NoMiniMap/>
       <Size>0</Size>
       <StasisImmune/>
-      <DisplayId>{lairOfDraconis.NM_Green_Open_Wall}</DisplayId>
    </Object>
    <Object type="0x753B" id="NM Blue Open Wall">
       <Class>Character</Class>
@@ -1529,7 +1509,6 @@
       <NoMiniMap/>
       <Size>0</Size>
       <StasisImmune/>
-      <DisplayId>{lairOfDraconis.NM_Blue_Open_Wall}</DisplayId>
    </Object>
    <Object type="0x753C" id="NM Red Open Wall">
       <Class>Character</Class>
@@ -1541,7 +1520,6 @@
       <NoMiniMap/>
       <Size>0</Size>
       <StasisImmune/>
-      <DisplayId>{lairOfDraconis.NM_Red_Open_Wall}</DisplayId>
    </Object>
    <Object type="0x753D" id="NM Black Open Wall">
       <Class>Character</Class>
@@ -1553,7 +1531,6 @@
       <NoMiniMap/>
       <Size>0</Size>
       <StasisImmune/>
-      <DisplayId>{lairOfDraconis.NM_Black_Open_Wall}</DisplayId>
    </Object>
    <Object type="0x7523" id="drac wall blue">
       <Class>Character</Class>
@@ -1565,7 +1542,6 @@
       <NoMiniMap/>
       <Size>0</Size>
       <StasisImmune/>
-      <DisplayId>{lairOfDraconis.drac_wall_blue}</DisplayId>
    </Object>
    <Object type="0x752f" id="drac wall green">
       <Class>Character</Class>
@@ -1577,7 +1553,6 @@
       <NoMiniMap/>
       <Size>0</Size>
       <StasisImmune/>
-      <DisplayId>{lairOfDraconis.drac_wall_green}</DisplayId>
    </Object>
    <Object type="0x7532" id="drac wall red">
       <Class>Character</Class>
@@ -1589,7 +1564,6 @@
       <NoMiniMap/>
       <Size>0</Size>
       <StasisImmune/>
-      <DisplayId>{lairOfDraconis.drac_wall_red}</DisplayId>
    </Object>
    <Object type="0x7535" id="drac wall black">
       <Class>Character</Class>
@@ -1601,7 +1575,6 @@
       <NoMiniMap/>
       <Size>0</Size>
       <StasisImmune/>
-      <DisplayId>{lairOfDraconis.drac_wall_black}</DisplayId>
    </Object>
    <Object type="0x752e" id="drac floor blue">
       <Class>Character</Class>
@@ -1613,7 +1586,6 @@
       <NoMiniMap/>
       <Size>0</Size>
       <StasisImmune/>
-      <DisplayId>{lairOfDraconis.drac_floor_blue}</DisplayId>
    </Object>
    <Object type="0x7521" id="drac floor green">
       <Class>Character</Class>
@@ -1625,7 +1597,6 @@
       <NoMiniMap/>
       <Size>0</Size>
       <StasisImmune/>
-      <DisplayId>{lairOfDraconis.drac_floor_green}</DisplayId>
    </Object>
    <Object type="0x7522" id="drac floor red">
       <Class>Character</Class>
@@ -1637,7 +1608,6 @@
       <NoMiniMap/>
       <Size>0</Size>
       <StasisImmune/>
-      <DisplayId>{lairOfDraconis.drac_floor_red}</DisplayId>
    </Object>
    <Object type="0x7537" id="drac floor black">
       <Class>Character</Class>
@@ -1649,53 +1619,9 @@
       <NoMiniMap/>
       <Size>0</Size>
       <StasisImmune/>
-      <DisplayId>{lairOfDraconis.drac_floor_black}</DisplayId>
-   </Object>
-   <Object type="0x753E" id="Lair of Draconis Portal">
-      <Class>Portal</Class>
-      <IntergamePortal/>
-      <DungeonName>Lair of Draconis</DungeonName>
-      <Texture>
-         <File>lofiObjBig</File>
-         <Index>0x139</Index>
-      </Texture>
-      <Size>60</Size>
-      <Animation prob="1" period="1">
-         <Frame time="0.20">
-            <Texture>
-               <File>lofiObjBig</File>
-               <Index>0x174</Index>
-            </Texture>
-         </Frame>
-         <Frame time="0.20">
-            <Texture>
-               <File>lofiObjBig</File>
-               <Index>0x175</Index>
-            </Texture>
-         </Frame>
-         <Frame time="0.20">
-            <Texture>
-               <File>lofiObjBig</File>
-               <Index>0x176</Index>
-            </Texture>
-         </Frame>
-         <Frame time="0.20">
-            <Texture>
-               <File>lofiObjBig</File>
-               <Index>0x177</Index>
-            </Texture>
-         </Frame>
-         <Frame time="0.20">
-            <Texture>
-               <File>lofiObjBig</File>
-               <Index>0x178</Index>
-            </Texture>
-         </Frame>
-      </Animation>
-      <DisplayId>{lairOfDraconis.Lair_of_Draconis_Portal}</DisplayId>
    </Object>
    <Object type="0x754a" id="lod Ivory Wyvern">
-      <DisplayId>{lairOfDraconis.lod_Ivory_Wyvern}</DisplayId>
+      <DisplayId>Ivory Wyvern</DisplayId>
       <Class>Character</Class>
       <Group>Wyvern</Group>
       <Enemy/>
@@ -1758,7 +1684,7 @@
       </Projectile>
    </Object>
    <Object type="0x742e" id="lod Mirror Wyvern1">
-      <DisplayId>{lairOfDraconis.lod_Mirror_Wyvern1}</DisplayId>
+      <DisplayId>Mirror Wyvern</DisplayId>
       <Class>Character</Class>
       <Group>Mirror Wyvern</Group>
       <Enemy/>
@@ -1789,7 +1715,7 @@
       </Projectile>
    </Object>
    <Object type="0x742f" id="lod Mirror Wyvern2">
-      <DisplayId>{lairOfDraconis.lod_Mirror_Wyvern2}</DisplayId>
+      <DisplayId>Mirror Wyvern</DisplayId>
       <Class>Character</Class>
       <Group>Mirror Wyvern</Group>
       <Enemy/>
@@ -1820,7 +1746,7 @@
       </Projectile>
    </Object>
    <Object type="0x7432" id="lod Mirror Wyvern3">
-      <DisplayId>{lairOfDraconis.lod_Mirror_Wyvern3}</DisplayId>
+      <DisplayId>Mirror Wyvern</DisplayId>
       <Class>Character</Class>
       <Group>Mirror Wyvern</Group>
       <Enemy/>
@@ -1851,7 +1777,7 @@
       </Projectile>
    </Object>
    <Object type="0x7434" id="lod Mirror Wyvern4">
-      <DisplayId>{lairOfDraconis.lod_Mirror_Wyvern4}</DisplayId>
+      <DisplayId>Mirror Wyvern</DisplayId>
       <Class>Character</Class>
       <Group>Mirror Wyvern</Group>
       <Enemy/>
@@ -1882,7 +1808,7 @@
       </Projectile>
    </Object>
    <Object type="0x754c" id="lod Red Soul Flame">
-      <DisplayId>{lairOfDraconis.lod_Red_Soul_Flame}</DisplayId>
+      <DisplayId>Red Soul of Pyrr</DisplayId>
       <Class>Character</Class>
       <Group>Souls</Group>
       <Enemy/>
@@ -1929,7 +1855,7 @@
       </Projectile>
    </Object>
    <Object type="0x754b" id="lod Blue Soul Flame">
-      <DisplayId>{lairOfDraconis.lod_Blue_Soul_Flame}</DisplayId>
+      <DisplayId>Blue Soul of Nikao</DisplayId>
       <Class>Character</Class>
       <Group>Souls</Group>
       <Enemy/>
@@ -1975,7 +1901,7 @@
       </Projectile>
    </Object>
    <Object type="0x7427" id="lod Green Soul Flame">
-      <DisplayId>{lairOfDraconis.lod_Green_Soul_Flame}</DisplayId>
+      <DisplayId>Green Soul of Limoz</DisplayId>
       <Class>Character</Class>
       <Group>Souls</Group>
       <Enemy/>
@@ -2021,7 +1947,7 @@
       </Projectile>
    </Object>
    <Object type="0x742d" id="lod Black Soul Flame">
-      <DisplayId>{lairOfDraconis.lod_Black_Soul_Flame}</DisplayId>
+      <DisplayId>Black Soul of Feargus</DisplayId>
       <Class>Character</Class>
       <Group>Souls</Group>
       <Enemy/>
@@ -2067,7 +1993,7 @@
       </Projectile>
    </Object>
    <Object type="0x754d" id="lod White Dragon Orb">
-      <DisplayId>{lairOfDraconis.lod_White_Dragon_Orb}</DisplayId>
+      <DisplayId>White Dragon Orb</DisplayId>
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -2149,17 +2075,6 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x754e" id="Ivory Wyvern Portal">
-      <Class>Portal</Class>
-      <IntergamePortal/>
-      <DungeonName>The Ivory Wyvern</DungeonName>
-      <Texture>
-         <File>lofiObjBig</File>
-         <Index>0x139</Index>
-      </Texture>
-      <Size>60</Size>
-      <DisplayId>{lairOfDraconis.Ivory_Wyvern_Portal}</DisplayId>
-   </Object>
    <Object type="0xcd5" id="Ivory Wyvern Key">
       <Class>Equipment</Class>
       <Item/>
@@ -2174,10 +2089,9 @@
       <Soulbound/>
       <Activate id="Ivory Wyvern Portal">Create</Activate>
       <feedPower>100</feedPower>
-      <DisplayId>{lairOfDraconis.Ivory_Wyvern_Key}</DisplayId>
    </Object>
    <Object type="0x7411" id="lod Ivory Loot">
-      <DisplayId>{lairOfDraconis.lod_Ivory_Loot}</DisplayId>
+      <DisplayId>The Dragon's Treasure Cache</DisplayId>
       <Class>Character</Class>
       <Enemy/>
       <Texture>

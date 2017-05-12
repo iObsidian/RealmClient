@@ -26,7 +26,6 @@
          <Size>90</Size>
          <ConditionEffect duration="3">Confused</ConditionEffect>
       </Projectile>
-      <DisplayId>{forestMaze.Mama_Megamoth}</DisplayId>
    </Object>
    <Object type="0x5e61" id="Mini Megamoth">
       <Enemy/>
@@ -51,7 +50,6 @@
          <Size>90</Size>
          <ConditionEffect duration="0.8">Confused</ConditionEffect>
       </Projectile>
-      <DisplayId>{forestMaze.Mini_Megamoth}</DisplayId>
    </Object>
    <Object type="0x5e60" id="Armored Squirrel">
       <Enemy/>
@@ -73,7 +71,6 @@
          <LifetimeMS>1000</LifetimeMS>
          <Size>80</Size>
       </Projectile>
-      <DisplayId>{forestMaze.Armored_Squirrel}</DisplayId>
    </Object>
    <Object type="0x5e63" id="Ultimate Squirrel">
       <Enemy/>
@@ -95,7 +92,6 @@
          <LifetimeMS>1300</LifetimeMS>
          <Size>100</Size>
       </Projectile>
-      <DisplayId>{forestMaze.Ultimate_Squirrel}</DisplayId>
    </Object>
    <Object type="0x5e4d" id="Forest Goblin Mage">
       <Enemy/>
@@ -119,7 +115,6 @@
          <Frequency>6</Frequency>
          <Size>100</Size>
       </Projectile>
-      <DisplayId>{forestMaze.Forest_Goblin_Mage}</DisplayId>
    </Object>
    <Object type="0x5e4c" id="Forest Goblin">
       <Enemy/>
@@ -141,18 +136,6 @@
          <LifetimeMS>800</LifetimeMS>
          <Size>90</Size>
       </Projectile>
-      <DisplayId>{forestMaze.Forest_Goblin}</DisplayId>
-   </Object>
-   <Object type="0x5f34" id="Forest Maze Portal">
-      <Class>Portal</Class>
-      <IntergamePortal/>
-      <DungeonName>Forest Maze</DungeonName>
-      <Texture>
-         <File>lofiObj3</File>
-         <Index>0x3dd</Index>
-      </Texture>
-      <ShadowSize>0</ShadowSize>
-      <DisplayId>{forestMaze.Forest_Maze_Portal}</DisplayId>
    </Object>
    <Object type="0x5e5f" id="Forrest Shady Floor">
       <Class>GameObject</Class>
@@ -162,7 +145,6 @@
       </Texture>
       <DrawOnGround/>
       <Static/>
-      <DisplayId>{forestMaze.Forrest_Shady_Floor}</DisplayId>
    </Object>
    <Object type="0x5e5e" id="Forrest Shady Corner DL">
       <Class>GameObject</Class>
@@ -172,7 +154,6 @@
       </Texture>
       <DrawOnGround/>
       <Static/>
-      <DisplayId>{forestMaze.Forrest_Shady_Corner_DL}</DisplayId>
    </Object>
    <Object type="0x5e5d" id="Forrest Shady Corner DR">
       <Class>GameObject</Class>
@@ -182,7 +163,6 @@
       </Texture>
       <DrawOnGround/>
       <Static/>
-      <DisplayId>{forestMaze.Forrest_Shady_Corner_DR}</DisplayId>
    </Object>
    <Object type="0x5e5c" id="Forrest Shady Corner UL">
       <Class>GameObject</Class>
@@ -192,7 +172,6 @@
       </Texture>
       <DrawOnGround/>
       <Static/>
-      <DisplayId>{forestMaze.Forrest_Shady_Corner_UL}</DisplayId>
    </Object>
    <Object type="0x5e5b" id="Forrest Shady Corner UR">
       <Class>GameObject</Class>
@@ -202,7 +181,6 @@
       </Texture>
       <DrawOnGround/>
       <Static/>
-      <DisplayId>{forestMaze.Forrest_Shady_Corner_UR}</DisplayId>
    </Object>
    <Object type="0x5e5a" id="Forrest Shady OCorner DL">
       <Class>GameObject</Class>
@@ -212,7 +190,6 @@
       </Texture>
       <DrawOnGround/>
       <Static/>
-      <DisplayId>{forestMaze.Forrest_Shady_OCorner_DL}</DisplayId>
    </Object>
    <Object type="0x5e59" id="Forrest Shady OCorner DR">
       <Class>GameObject</Class>
@@ -222,7 +199,6 @@
       </Texture>
       <DrawOnGround/>
       <Static/>
-      <DisplayId>{forestMaze.Forrest_Shady_OCorner_DR}</DisplayId>
    </Object>
    <Object type="0x5e58" id="Forrest Shady OCorner UL">
       <Class>GameObject</Class>
@@ -232,7 +208,6 @@
       </Texture>
       <DrawOnGround/>
       <Static/>
-      <DisplayId>{forestMaze.Forrest_Shady_OCorner_UL}</DisplayId>
    </Object>
    <Object type="0x5e57" id="Forrest Shady OCorner UR">
       <Class>GameObject</Class>
@@ -242,7 +217,6 @@
       </Texture>
       <DrawOnGround/>
       <Static/>
-      <DisplayId>{forestMaze.Forrest_Shady_OCorner_UR}</DisplayId>
    </Object>
    <Object type="0x5e56" id="Forrest Shady Edge UP">
       <Class>GameObject</Class>
@@ -252,7 +226,6 @@
       </Texture>
       <DrawOnGround/>
       <Static/>
-      <DisplayId>{forestMaze.Forrest_Shady_Edge_UP}</DisplayId>
    </Object>
    <Object type="0x5e55" id="Forrest Shady Edge DN">
       <Class>GameObject</Class>
@@ -262,7 +235,6 @@
       </Texture>
       <DrawOnGround/>
       <Static/>
-      <DisplayId>{forestMaze.Forrest_Shady_Edge_DN}</DisplayId>
    </Object>
    <Object type="0x5e54" id="Forrest Shady Edge LF">
       <Class>GameObject</Class>
@@ -272,7 +244,6 @@
       </Texture>
       <DrawOnGround/>
       <Static/>
-      <DisplayId>{forestMaze.Forrest_Shady_Edge_LF}</DisplayId>
    </Object>
    <Object type="0x5e53" id="Forrest Shady Edge RT">
       <Class>GameObject</Class>
@@ -282,7 +253,6 @@
       </Texture>
       <DrawOnGround/>
       <Static/>
-      <DisplayId>{forestMaze.Forrest_Shady_Edge_RT}</DisplayId>
    </Object>
    <Object type="0x5e52" id="Forrest Shady Floor DR">
       <Class>GameObject</Class>
@@ -292,7 +262,6 @@
       </Texture>
       <DrawOnGround/>
       <Static/>
-      <DisplayId>{forestMaze.Forrest_Shady_Floor_DR}</DisplayId>
    </Object>
    <Object type="0x5e51" id="Forrest Shady Floor DL">
       <Class>GameObject</Class>
@@ -302,7 +271,6 @@
       </Texture>
       <DrawOnGround/>
       <Static/>
-      <DisplayId>{forestMaze.Forrest_Shady_Floor_DL}</DisplayId>
    </Object>
    <Object type="0x5e50" id="Forrest Shady Floor UR">
       <Class>GameObject</Class>
@@ -312,7 +280,6 @@
       </Texture>
       <DrawOnGround/>
       <Static/>
-      <DisplayId>{forestMaze.Forrest_Shady_Floor_UR}</DisplayId>
    </Object>
    <Object type="0x5e4f" id="Forrest Shady Floor UL">
       <Class>GameObject</Class>
@@ -322,6 +289,5 @@
       </Texture>
       <DrawOnGround/>
       <Static/>
-      <DisplayId>{forestMaze.Forrest_Shady_Floor_UL}</DisplayId>
    </Object>
 </Objects>

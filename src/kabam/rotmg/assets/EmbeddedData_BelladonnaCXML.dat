@@ -2,7 +2,7 @@
 
 <Objects>
    <Object type="0x738c" id="vlntns Botany Bella">
-      <DisplayId>{belladonna.vlntns_Botany_Bella}</DisplayId>
+      <DisplayId>Belladonna</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <Group>Bella</Group>
@@ -55,7 +55,7 @@
       </Projectile>
    </Object>
    <Object type="0x739a" id="vlntns Bella Buds">
-      <DisplayId>{belladonna.vlntns_Bella_Buds}</DisplayId>
+      <DisplayId>Bella Bud</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -86,7 +86,6 @@
       <Size>0</Size>
       <NoMiniMap/>
       <StasisImmune/>
-      <DisplayId>{belladonna.vlntns_Governor}</DisplayId>
    </Object>
    <Object type="0x739c" id="vlntns Planter">
       <Enemy/>
@@ -100,10 +99,9 @@
       <Size>0</Size>
       <NoMiniMap/>
       <StasisImmune/>
-      <DisplayId>{belladonna.vlntns_Planter}</DisplayId>
    </Object>
    <Object type="0x739d" id="vlntns Red">
-      <DisplayId>{belladonna.vlntns_Red}</DisplayId>
+      <DisplayId>Immaculate Red Flower</DisplayId>
       <Group>vlntns flowers</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -142,7 +140,7 @@
       </Projectile>
    </Object>
    <Object type="0x740e" id="vlntns White">
-      <DisplayId>{belladonna.vlntns_White}</DisplayId>
+      <DisplayId>Breathtaking White Flower</DisplayId>
       <Group>vlntns flowers</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -181,7 +179,7 @@
       </AltTexture>
    </Object>
    <Object type="0x740f" id="vlntns Yellow">
-      <DisplayId>{belladonna.vlntns_Yellow}</DisplayId>
+      <DisplayId>Gorgeous Yellow Flower</DisplayId>
       <Group>vlntns flowers</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -220,7 +218,7 @@
       </AltTexture>
    </Object>
    <Object type="0x7410" id="vlntns Loot Balloon Bella">
-      <DisplayId>{belladonna.vlntns_Loot_Balloon_Bella}</DisplayId>
+      <DisplayId>Bella Chest</DisplayId>
       <Class>Character</Class>
       <Enemy/>
       <Texture>

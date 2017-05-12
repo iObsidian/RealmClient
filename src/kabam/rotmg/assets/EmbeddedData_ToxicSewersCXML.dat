@@ -2,7 +2,7 @@
 
 <Objects>
    <Object type="0x714c" id="DS Bat">
-      <DisplayId>{toxicsewers.DS_Bat}</DisplayId>
+      <DisplayId>Sewer Bat</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -28,7 +28,7 @@
       </Projectile>
    </Object>
    <Object type="0x714d" id="DS Rat">
-      <DisplayId>{toxicsewers.DS_Rat}</DisplayId>
+      <DisplayId>Sewer Rat</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -51,7 +51,7 @@
       </Projectile>
    </Object>
    <Object type="0x714e" id="DS Natural Slime God">
-      <DisplayId>{toxicsewers.DS_Natural_Slime_God}</DisplayId>
+      <DisplayId>Natural Slime God</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -80,7 +80,7 @@
       </Projectile>
    </Object>
    <Object type="0x714f" id="DS Goblin Peon">
-      <DisplayId>{toxicsewers.DS_Goblin_Peon}</DisplayId>
+      <DisplayId>Goblin Peon</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -102,7 +102,7 @@
       </Projectile>
    </Object>
    <Object type="0x7150" id="DS Goblin Warlock">
-      <DisplayId>{toxicsewers.DS_Goblin_Warlock}</DisplayId>
+      <DisplayId>Goblin Warlock</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -132,7 +132,7 @@
       </Projectile>
    </Object>
    <Object type="0x7163" id="DS Goblin Sorcerer">
-      <DisplayId>{toxicsewers.DS_Goblin_Sorcerer}</DisplayId>
+      <DisplayId>Goblin Sorcerer</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -153,7 +153,7 @@
       </Projectile>
    </Object>
    <Object type="0x7151" id="DS Goblin Brute">
-      <DisplayId>{toxicsewers.DS_Goblin_Brute}</DisplayId>
+      <DisplayId>Goblin Brute</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -174,7 +174,7 @@
       </Projectile>
    </Object>
    <Object type="0x7152" id="DS Goblin Knight">
-      <DisplayId>{toxicsewers.DS_Goblin_Knight}</DisplayId>
+      <DisplayId>Goblin Knight</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -195,7 +195,7 @@
       </Projectile>
    </Object>
    <Object type="0x7168" id="DS Alligator">
-      <DisplayId>{toxicsewers.DS_Alligator}</DisplayId>
+      <DisplayId>Sewer Alligator</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -218,7 +218,7 @@
       </Projectile>
    </Object>
    <Object type="0x7153" id="DS Brown Slime">
-      <DisplayId>{toxicsewers.DS_Brown_Slime}</DisplayId>
+      <DisplayId>Sewer Brown Slime</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -240,7 +240,7 @@
       </Projectile>
    </Object>
    <Object type="0x7154" id="DS Yellow Slime">
-      <DisplayId>{toxicsewers.DS_Yellow_Slime}</DisplayId>
+      <DisplayId>Sewer Yellow Slime</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -263,7 +263,7 @@
       </Projectile>
    </Object>
    <Object type="0x7155" id="DS Gulpord the Slime God">
-      <DisplayId>{toxicsewers.DS_Gulpord_the_Slime_God}</DisplayId>
+      <DisplayId>Gulpord the Slime God</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -314,7 +314,7 @@
       </Projectile>
    </Object>
    <Object type="0x7156" id="DS Boss Minion">
-      <DisplayId>{toxicsewers.DS_Boss_Minion}</DisplayId>
+      <DisplayId>Gulpord Slime</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -330,7 +330,7 @@
       <ParalyzeImmune/>
    </Object>
    <Object type="0x17f" id="DS Gulpord the Slime God M">
-      <DisplayId>{toxicsewers.DS_Gulpord_the_Slime_God_M}</DisplayId>
+      <DisplayId>Gulpord the Slime God</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -362,7 +362,7 @@
       </Projectile>
    </Object>
    <Object type="0x7165" id="DS Gulpord the Slime God S">
-      <DisplayId>{toxicsewers.DS_Gulpord_the_Slime_God_S}</DisplayId>
+      <DisplayId>Gulpord the Slime God</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -403,10 +403,9 @@
       <ShadowSize>0</ShadowSize>
       <NoMiniMap/>
       <StasisImmune/>
-      <DisplayId>{toxicsewers.DS_Sick}</DisplayId>
    </Object>
    <Object type="0x7158" id="DS Master Rat">
-      <DisplayId>{toxicsewers.DS_Master_Rat}</DisplayId>
+      <DisplayId>Master Rat</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <StasisImmune/>
@@ -434,7 +433,7 @@
       </Projectile>
    </Object>
    <Object type="0x7159" id="DS Orange Turtle">
-      <DisplayId>{toxicsewers.DS_Orange_Turtle}</DisplayId>
+      <DisplayId>Orange Turtle</DisplayId>
       <Class>Character</Class>
       <StasisImmune/>
       <Enemy/>
@@ -450,7 +449,7 @@
       <Defense>10</Defense>
    </Object>
    <Object type="0x715b" id="DS Red Turtle">
-      <DisplayId>{toxicsewers.DS_Red_Turtle}</DisplayId>
+      <DisplayId>Red Turtle</DisplayId>
       <Class>Character</Class>
       <StasisImmune/>
       <Enemy/>
@@ -466,7 +465,7 @@
       <Defense>10</Defense>
    </Object>
    <Object type="0x715c" id="DS Purple Turtle">
-      <DisplayId>{toxicsewers.DS_Purple_Turtle}</DisplayId>
+      <DisplayId>Purple Turtle</DisplayId>
       <Class>Character</Class>
       <StasisImmune/>
       <Enemy/>
@@ -482,7 +481,7 @@
       <Defense>10</Defense>
    </Object>
    <Object type="0x715e" id="DS Blue Turtle">
-      <DisplayId>{toxicsewers.DS_Blue_Turtle}</DisplayId>
+      <DisplayId>Blue Turtle</DisplayId>
       <Class>Character</Class>
       <StasisImmune/>
       <Enemy/>
@@ -498,7 +497,7 @@
       <Defense>10</Defense>
    </Object>
    <Object type="0x715f" id="DS Golden Rat">
-      <DisplayId>{toxicsewers.DS_Golden_Rat}</DisplayId>
+      <DisplayId>Golden Rat</DisplayId>
       <Class>Character</Class>
       <Enemy/>
       <StasisImmune/>
@@ -523,7 +522,6 @@
          <File>invisible</File>
          <Index>0</Index>
       </Texture>
-      <DisplayId>{toxicsewers.DS_Gulpord_Summoner}</DisplayId>
    </Object>
    <Object type="0x7169" id="DS Sewer Dummy">
       <Class>GameObject</Class>
@@ -536,12 +534,11 @@
       <MaxHitPoints>10000</MaxHitPoints>
       <Enemy/>
       <XpMult>0.0</XpMult>
-      <DisplayId>{toxicsewers.DS_Sewer_Dummy}</DisplayId>
    </Object>
    <Object type="0x7167" id="DS Brown Slime Trail">
       <Enemy/>
       <Class>Character</Class>
-      <DisplayId>{toxicsewers.DS_Brown_Slime_Trail}</DisplayId>
+      <DisplayId>Sewer Brown Slime</DisplayId>
       <RandomTexture>
          <Texture>
             <File>lofiObj3</File>
@@ -585,7 +582,7 @@
    <Object type="0x7166" id="DS Yellow Slime Trail">
       <Enemy/>
       <Class>Character</Class>
-      <DisplayId>{toxicsewers.DS_Yellow_Slime_Trail}</DisplayId>
+      <DisplayId>Sewer Yellow Slime</DisplayId>
       <RandomTexture>
          <Texture>
             <File>lofiObj3</File>
@@ -628,7 +625,7 @@
    </Object>
    <Object type="0x7164" id="DS Fly">
       <Enemy/>
-      <DisplayId>{toxicsewers.DS_Fly}</DisplayId>
+      <DisplayId>Sewer Fly</DisplayId>
       <Class>Character</Class>
       <Texture>
          <File>lofiObj3</File>

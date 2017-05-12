@@ -34,7 +34,6 @@
          <ArmorPiercing/>
          <MultiHit/>
       </Projectile>
-      <DisplayId>{mountains.White_Demon}</DisplayId>
    </Object>
    <Object type="0x652" id="Sprite God">
       <Enemy/>
@@ -67,7 +66,6 @@
          <MultiHit/>
          <ParticleTrail/>
       </Projectile>
-      <DisplayId>{mountains.Sprite_God}</DisplayId>
    </Object>
    <Object type="0x653" id="Sprite Child">
       <Enemy/>
@@ -83,7 +81,6 @@
       <Defense>0</Defense>
       <Terrain>Mountains</Terrain>
       <Flying/>
-      <DisplayId>{mountains.Sprite_Child}</DisplayId>
    </Object>
    <Object type="0x654" id="Medusa">
       <Group>Gods</Group>
@@ -113,7 +110,6 @@
          <Speed>70</Speed>
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
-      <DisplayId>{mountains.Medusa}</DisplayId>
    </Object>
    <Object type="0x655" id="Ent God">
       <Group>Gods</Group>
@@ -144,7 +140,6 @@
          <LifetimeMS>2000</LifetimeMS>
          <MultiHit/>
       </Projectile>
-      <DisplayId>{mountains.Ent_God}</DisplayId>
    </Object>
    <Object type="0x656" id="Beholder">
       <Group>Gods</Group>
@@ -183,7 +178,6 @@
          <LifetimeMS>3000</LifetimeMS>
          <ConditionEffect duration="5">Blind</ConditionEffect>
       </Projectile>
-      <DisplayId>{mountains.Beholder}</DisplayId>
    </Object>
    <Object type="0x657" id="Flying Brain">
       <Group>Gods</Group>
@@ -214,7 +208,6 @@
          <Speed>120</Speed>
          <LifetimeMS>1800</LifetimeMS>
       </Projectile>
-      <DisplayId>{mountains.Flying_Brain}</DisplayId>
    </Object>
    <Object type="0x658" id="Slime God">
       <Group>Gods</Group>
@@ -245,7 +238,6 @@
          <LifetimeMS>2000</LifetimeMS>
          <ConditionEffect duration="6">Slowed</ConditionEffect>
       </Projectile>
-      <DisplayId>{mountains.Slime_God}</DisplayId>
    </Object>
    <Object type="0x659" id="Ghost God">
       <Group>Gods</Group>
@@ -277,13 +269,12 @@
          <LifetimeMS>2700</LifetimeMS>
          <Size>110</Size>
       </Projectile>
-      <DisplayId>{mountains.Ghost_God}</DisplayId>
    </Object>
    <Object type="0x0905" id="Rock Bot">
       <Group>Rocks</Group>
       <Enemy/>
       <Class>Character</Class>
-      <DisplayId>{mountains.Rock_Bot}</DisplayId>
+      <DisplayId>Rock Construct</DisplayId>
       <Texture>
          <File>lofiChar216x16</File>
          <Index>0x24</Index>
@@ -310,7 +301,7 @@
       <Group>Papers</Group>
       <Enemy/>
       <Class>Character</Class>
-      <DisplayId>{mountains.Paper_Bot}</DisplayId>
+      <DisplayId>Wood Construct</DisplayId>
       <Texture>
          <File>lofiChar216x16</File>
          <Index>0x25</Index>
@@ -335,7 +326,7 @@
       <Group>Steels</Group>
       <Enemy/>
       <Class>Character</Class>
-      <DisplayId>{mountains.Steel_Bot}</DisplayId>
+      <DisplayId>Steel Construct</DisplayId>
       <Texture>
          <File>lofiChar216x16</File>
          <Index>0x26</Index>
@@ -387,7 +378,6 @@
          <LifetimeMS>1500</LifetimeMS>
          <MultiHit/>
       </Projectile>
-      <DisplayId>{mountains.Djinn}</DisplayId>
    </Object>
    <Object type="0x0935" id="Mysterious Crystal">
       <Group>Crystals</Group>
@@ -413,7 +403,104 @@
          <LifetimeMS>6000</LifetimeMS>
          <ConditionEffect duration="20">Quiet</ConditionEffect>
       </Projectile>
-      <DisplayId>{mountains.Mysterious_Crystal}</DisplayId>
+   </Object>
+   <Object type="0x0941" id="Crystal Prisoner">
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>chars16x16dEncounters</File>
+         <Index>6</Index>
+      </AnimatedTexture>
+      <HitSound>monster/ghost_god_hit</HitSound>
+      <DeathSound>monster/ghost_god_death</DeathSound>
+      <Size>100</Size>
+      <MaxHitPoints>27000</MaxHitPoints>
+      <Defense>25</Defense>
+      <God/>
+      <StasisImmune/>
+      <XpMult>0.5</XpMult>
+      <Projectile id="0">
+         <ObjectId>White Bullet</ObjectId>
+         <Speed>80</Speed>
+         <Damage>95</Damage>
+         <Size>65</Size>
+         <LifetimeMS>1500</LifetimeMS>
+         <ConditionEffect duration="6">Weak</ConditionEffect>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="2">
+         <ObjectId>Purple Star</ObjectId>
+         <Speed>60</Speed>
+         <Damage>110</Damage>
+         <Size>90</Size>
+         <LifetimeMS>1700</LifetimeMS>
+         <MultiHit/>
+         <ConditionEffect duration="1.0">Confused</ConditionEffect>
+      </Projectile>
+      <Projectile id="3">
+         <ObjectId>Blue Star</ObjectId>
+         <Speed>60</Speed>
+         <Damage>120</Damage>
+         <Size>100</Size>
+         <LifetimeMS>1700</LifetimeMS>
+         <MultiHit/>
+         <ConditionEffect duration="8">Slowed</ConditionEffect>
+      </Projectile>
+      <Projectile id="5">
+         <ObjectId>Silver Shield</ObjectId>
+         <Speed>47</Speed>
+         <Damage>140</Damage>
+         <Size>130</Size>
+         <LifetimeMS>2400</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+   </Object>
+   <Object type="0x0942" id="Crystal Prisoner Clone">
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>chars16x16dEncounters</File>
+         <Index>6</Index>
+      </AnimatedTexture>
+      <HitSound>monster/ghost_god_hit</HitSound>
+      <DeathSound>monster/ghost_god_death</DeathSound>
+      <Size>100</Size>
+      <MaxHitPoints>15000</MaxHitPoints>
+      <Defense>12</Defense>
+      <Level>1</Level>
+      <XpMult>0.1</XpMult>
+      <Projectile id="0">
+         <ObjectId>White Bullet</ObjectId>
+         <Speed>70</Speed>
+         <Damage>85</Damage>
+         <Size>65</Size>
+         <LifetimeMS>1500</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+   </Object>
+   <Object type="0x0943" id="Crystal Prisoner Steed">
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>chars16x16rEncounters</File>
+         <Index>0</Index>
+      </AnimatedTexture>
+      <HitSound>monster/cyclops_hit</HitSound>
+      <DeathSound>monster/cyclops_death</DeathSound>
+      <Size>100</Size>
+      <MaxHitPoints>6000</MaxHitPoints>
+      <Defense>11</Defense>
+      <Level>1</Level>
+      <XpMult>0.25</XpMult>
+      <Projectile id="0">
+         <ObjectId>Fire Bolt</ObjectId>
+         <Speed>67</Speed>
+         <Damage>70</Damage>
+         <Size>90</Size>
+         <LifetimeMS>2000</LifetimeMS>
+         <ConditionEffect duration="2">Weak</ConditionEffect>
+         <MultiHit/>
+      </Projectile>
    </Object>
    <Object type="0x6d8" id="Leviathan">
       <Group>Gods</Group>
@@ -443,7 +530,6 @@
          <Speed>85</Speed>
          <LifetimeMS>1800</LifetimeMS>
       </Projectile>
-      <DisplayId>{mountains.Leviathan}</DisplayId>
    </Object>
    <Object type="0x6e8" id="Lucky Ent God">
       <Group>Gods</Group>
@@ -472,7 +558,6 @@
          <LifetimeMS>2000</LifetimeMS>
          <MultiHit/>
       </Projectile>
-      <DisplayId>{mountains.Lucky_Ent_God}</DisplayId>
    </Object>
    <Object type="0x6f8" id="Lucky Djinn">
       <Group>Gods</Group>
@@ -503,6 +588,5 @@
          <LifetimeMS>1500</LifetimeMS>
          <MultiHit/>
       </Projectile>
-      <DisplayId>{mountains.Lucky_Djinn}</DisplayId>
    </Object>
 </Objects>

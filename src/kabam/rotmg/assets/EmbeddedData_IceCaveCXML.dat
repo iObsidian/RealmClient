@@ -2,7 +2,7 @@
 
 <Objects>
    <Object type="0x762" id="ic CreepyTime">
-      <DisplayId>{icecave.ic_CreepyTime}</DisplayId>
+      <DisplayId>Creepy Weird Dark Spirit Mirror Image Monster</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -27,7 +27,7 @@
       </Projectile>
    </Object>
    <Object type="0x765" id="ic Whirlwind">
-      <DisplayId>{icecave.ic_Whirlwind}</DisplayId>
+      <DisplayId>Icy Whirlwind</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -60,7 +60,7 @@
       </Projectile>
    </Object>
    <Object type="0x748e" id="ic boss spawner live">
-      <DisplayId>{icecave.ic_boss_spawner_live}</DisplayId>
+      <DisplayId>A Strange Presence</DisplayId>
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -74,7 +74,7 @@
       <StasisImmune/>
    </Object>
    <Object type="0x764" id="ic boss manager">
-      <DisplayId>{icecave.ic_boss_manager}</DisplayId>
+      <DisplayId>A Voice From Beyond</DisplayId>
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -115,10 +115,9 @@
          <LifetimeMS>2000</LifetimeMS>
          <ConditionEffect duration="0.5">Paralyzed</ConditionEffect>
       </Projectile>
-      <DisplayId>{icecave.ic_boss_purifier_generator}</DisplayId>
    </Object>
    <Object type="0x760" id="ic boss purifier">
-      <DisplayId>{icecave.ic_boss_purifier}</DisplayId>
+      <DisplayId>Cursed Grave</DisplayId>
       <Class>Character</Class>
       <Model>Monument 3</Model>
       <Texture>
@@ -142,7 +141,7 @@
       </Projectile>
    </Object>
    <Object type="0x763" id="ic shielded king">
-      <DisplayId>{icecave.ic_shielded_king}</DisplayId>
+      <DisplayId>Creepy Weird Dark Spirit Mirror Image Monster</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -167,7 +166,7 @@
       </Projectile>
    </Object>
    <Object type="0x75F" id="ic Esben the Unwilling">
-      <DisplayId>{icecave.ic_Esben_the_Unwilling}</DisplayId>
+      <DisplayId>Esben the Unwilling</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -290,7 +289,6 @@
          <LifetimeMS>2000</LifetimeMS>
          <ConditionEffect duration="2.75">Unstable</ConditionEffect>
       </Projectile>
-      <DisplayId>{icecave.Snow_Bat_Mama}</DisplayId>
    </Object>
    <Object type="0x0e5a" id="Snow Bat">
       <Enemy/>
@@ -315,7 +313,6 @@
          <Size>80</Size>
          <LifetimeMS>100</LifetimeMS>
       </Projectile>
-      <DisplayId>{icecave.Snow_Bat}</DisplayId>
    </Object>
    <Object type="0x0e59" id="Mini Yeti">
       <Enemy/>
@@ -338,7 +335,6 @@
          <ArmorPiercing/>
          <Size>100</Size>
       </Projectile>
-      <DisplayId>{icecave.Mini_Yeti}</DisplayId>
    </Object>
    <Object type="0x0e58" id="Big Yeti">
       <Enemy/>
@@ -364,10 +360,9 @@
          <ArmorPiercing/>
          <Size>100</Size>
       </Projectile>
-      <DisplayId>{icecave.Big_Yeti}</DisplayId>
    </Object>
    <Object type="0x768" id="ic Loot Balloon">
-      <DisplayId>{icecave.ic_Loot_Balloon}</DisplayId>
+      <DisplayId>Test Chest</DisplayId>
       <Class>Character</Class>
       <Enemy/>
       <Texture>

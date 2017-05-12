@@ -30,7 +30,6 @@
          <Speed>130</Speed>
          <LifetimeMS>1100</LifetimeMS>
       </Projectile>
-      <DisplayId>{pirateCave.Dreadstump_the_Pirate_King}</DisplayId>
    </Object>
    <Object type="0x683" id="Pirate Lieutenant">
       <Group>Cave Pirate Bosses</Group>
@@ -51,7 +50,6 @@
          <Speed>180</Speed>
          <LifetimeMS>500</LifetimeMS>
       </Projectile>
-      <DisplayId>{pirateCave.Pirate_Lieutenant}</DisplayId>
    </Object>
    <Object type="0x684" id="Pirate Commander">
       <Group>Cave Pirate Bosses</Group>
@@ -72,7 +70,6 @@
          <Speed>180</Speed>
          <LifetimeMS>500</LifetimeMS>
       </Projectile>
-      <DisplayId>{pirateCave.Pirate_Commander}</DisplayId>
    </Object>
    <Object type="0x685" id="Pirate Captain">
       <Group>Cave Pirate Bosses</Group>
@@ -93,7 +90,6 @@
          <Speed>180</Speed>
          <LifetimeMS>500</LifetimeMS>
       </Projectile>
-      <DisplayId>{pirateCave.Pirate_Captain}</DisplayId>
    </Object>
    <Object type="0x686" id="Pirate Admiral">
       <Group>Cave Pirate Bosses</Group>
@@ -114,7 +110,6 @@
          <Speed>180</Speed>
          <LifetimeMS>500</LifetimeMS>
       </Projectile>
-      <DisplayId>{pirateCave.Pirate_Admiral}</DisplayId>
    </Object>
    <Object type="0x687" id="Cave Pirate Brawler">
       <Group>Cave Pirates</Group>
@@ -135,7 +130,6 @@
          <Speed>60</Speed>
          <LifetimeMS>600</LifetimeMS>
       </Projectile>
-      <DisplayId>{pirateCave.Cave_Pirate_Brawler}</DisplayId>
    </Object>
    <Object type="0x688" id="Cave Pirate Sailor">
       <Group>Cave Pirates</Group>
@@ -156,7 +150,6 @@
          <Speed>60</Speed>
          <LifetimeMS>600</LifetimeMS>
       </Projectile>
-      <DisplayId>{pirateCave.Cave_Pirate_Sailor}</DisplayId>
    </Object>
    <Object type="0x689" id="Cave Pirate Veteran">
       <Group>Cave Pirates</Group>
@@ -177,7 +170,6 @@
          <Speed>60</Speed>
          <LifetimeMS>600</LifetimeMS>
       </Projectile>
-      <DisplayId>{pirateCave.Cave_Pirate_Veteran}</DisplayId>
    </Object>
    <Object type="0x68a" id="Cave Pirate Moll">
       <Group>Cave Pirate Pets</Group>
@@ -192,7 +184,6 @@
       <Size>100</Size>
       <MaxHitPoints>5</MaxHitPoints>
       <Defense>0</Defense>
-      <DisplayId>{pirateCave.Cave_Pirate_Moll}</DisplayId>
    </Object>
    <Object type="0x68b" id="Cave Pirate Parrot">
       <Group>Cave Pirate Pets</Group>
@@ -207,7 +198,6 @@
       <Size>70</Size>
       <MaxHitPoints>5</MaxHitPoints>
       <Defense>0</Defense>
-      <DisplayId>{pirateCave.Cave_Pirate_Parrot}</DisplayId>
    </Object>
    <Object type="0x68c" id="Cave Pirate Macaw">
       <Group>Cave Pirate Pets</Group>
@@ -222,7 +212,6 @@
       <Size>70</Size>
       <MaxHitPoints>5</MaxHitPoints>
       <Defense>0</Defense>
-      <DisplayId>{pirateCave.Cave_Pirate_Macaw}</DisplayId>
    </Object>
    <Object type="0x68d" id="Cave Pirate Monkey">
       <Group>Cave Pirate Pets</Group>
@@ -237,7 +226,6 @@
       <Size>70</Size>
       <MaxHitPoints>5</MaxHitPoints>
       <Defense>0</Defense>
-      <DisplayId>{pirateCave.Cave_Pirate_Monkey}</DisplayId>
    </Object>
    <Object type="0x68e" id="Cave Pirate Hunchback">
       <Group>Cave Pirate Pets</Group>
@@ -252,7 +240,6 @@
       <Size>70</Size>
       <MaxHitPoints>5</MaxHitPoints>
       <Defense>0</Defense>
-      <DisplayId>{pirateCave.Cave_Pirate_Hunchback}</DisplayId>
    </Object>
    <Object type="0x68f" id="Cave Pirate Cabin Boy">
       <Group>Cave Pirate Pets</Group>
@@ -267,6 +254,5 @@
       <Size>70</Size>
       <MaxHitPoints>5</MaxHitPoints>
       <Defense>0</Defense>
-      <DisplayId>{pirateCave.Cave_Pirate_Cabin_Boy}</DisplayId>
    </Object>
 </Objects>

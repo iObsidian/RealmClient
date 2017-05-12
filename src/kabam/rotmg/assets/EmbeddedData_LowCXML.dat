@@ -21,7 +21,6 @@
          <Speed>85</Speed>
          <LifetimeMS>1400</LifetimeMS>
       </Projectile>
-      <DisplayId>{low.Sandsman_Archer}</DisplayId>
    </Object>
    <Object type="0x60c" id="Sandsman Sorcerer">
       <Group>Sandsmen</Group>
@@ -51,7 +50,6 @@
          <Speed>80</Speed>
          <LifetimeMS>300</LifetimeMS>
       </Projectile>
-      <DisplayId>{low.Sandsman_Sorcerer}</DisplayId>
    </Object>
    <Object type="0x60d" id="Sandsman King">
       <Enemy/>
@@ -76,7 +74,6 @@
          <Speed>70</Speed>
          <LifetimeMS>1200</LifetimeMS>
       </Projectile>
-      <DisplayId>{low.Sandsman_King}</DisplayId>
    </Object>
    <Object type="0x6c4" id="Giant Crab">
       <Enemy/>
@@ -130,7 +127,6 @@
          <LifetimeMS>1800</LifetimeMS>
          <Size>90</Size>
       </Projectile>
-      <DisplayId>{low.Giant_Crab}</DisplayId>
    </Object>
    <Object type="0x6c7" id="Sand Devil">
       <Enemy/>
@@ -156,7 +152,6 @@
          <Wavy/>
          <ConditionEffect duration="1">Confused</ConditionEffect>
       </Projectile>
-      <DisplayId>{low.Sand_Devil}</DisplayId>
    </Object>
    <Object type="0x615" id="Hobbit Rogue">
       <Group>Hobbits</Group>
@@ -178,7 +173,6 @@
          <Speed>60</Speed>
          <LifetimeMS>800</LifetimeMS>
       </Projectile>
-      <DisplayId>{low.Hobbit_Rogue}</DisplayId>
    </Object>
    <Object type="0x616" id="Hobbit Archer">
       <Group>Hobbits</Group>
@@ -200,7 +194,6 @@
          <Speed>60</Speed>
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
-      <DisplayId>{low.Hobbit_Archer}</DisplayId>
    </Object>
    <Object type="0x617" id="Hobbit Mage">
       <Enemy/>
@@ -237,7 +230,6 @@
          <Speed>50</Speed>
          <LifetimeMS>340</LifetimeMS>
       </Projectile>
-      <DisplayId>{low.Hobbit_Mage}</DisplayId>
    </Object>
    <Object type="0x618" id="Undead Hobbit Rogue">
       <Group>Undead Hobbits</Group>
@@ -259,7 +251,6 @@
          <Speed>60</Speed>
          <LifetimeMS>800</LifetimeMS>
       </Projectile>
-      <DisplayId>{low.Undead_Hobbit_Rogue}</DisplayId>
    </Object>
    <Object type="0x619" id="Undead Hobbit Archer">
       <Group>Undead Hobbits</Group>
@@ -281,7 +272,6 @@
          <Speed>60</Speed>
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
-      <DisplayId>{low.Undead_Hobbit_Archer}</DisplayId>
    </Object>
    <Object type="0x61a" id="Undead Hobbit Mage">
       <Enemy/>
@@ -325,7 +315,6 @@
          <LifetimeMS>1100</LifetimeMS>
          <Size>150</Size>
       </Projectile>
-      <DisplayId>{low.Undead_Hobbit_Mage}</DisplayId>
    </Object>
    <Object type="0x7F00" id="Sumo Master">
       <Group>Sumo</Group>
@@ -384,7 +373,6 @@
       <Size>100</Size>
       <Defense>5</Defense>
       <XpMult>1.65</XpMult>
-      <DisplayId>{low.Sumo_Master}</DisplayId>
    </Object>
    <Object type="0x7F01" id="Lil Sumo">
       <Group>Sumo</Group>
@@ -407,7 +395,6 @@
       <Size>100</Size>
       <Defense>4</Defense>
       <XpMult>2.0</XpMult>
-      <DisplayId>{low.Lil_Sumo}</DisplayId>
    </Object>
    <Object type="0x605" id="Elf Archer">
       <Group>Elves</Group>
@@ -429,7 +416,6 @@
          <Speed>65</Speed>
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
-      <DisplayId>{low.Elf_Archer}</DisplayId>
    </Object>
    <Object type="0x606" id="Elf Swordsman">
       <Group>Elves</Group>
@@ -451,7 +437,6 @@
          <Speed>100</Speed>
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
-      <DisplayId>{low.Elf_Swordsman}</DisplayId>
    </Object>
    <Object type="0x607" id="Elf Mage">
       <Group>Elves</Group>
@@ -473,7 +458,6 @@
          <Speed>65</Speed>
          <LifetimeMS>1500</LifetimeMS>
       </Projectile>
-      <DisplayId>{low.Elf_Mage}</DisplayId>
    </Object>
    <Object type="0x609" id="Elf Wizard">
       <Enemy/>
@@ -499,7 +483,6 @@
          <LifetimeMS>2000</LifetimeMS>
          <Size>90</Size>
       </Projectile>
-      <DisplayId>{low.Elf_Wizard}</DisplayId>
    </Object>
    <Object type="0x612" id="Goblin Rogue">
       <Group>Goblins</Group>
@@ -521,7 +504,6 @@
          <Speed>60</Speed>
          <LifetimeMS>800</LifetimeMS>
       </Projectile>
-      <DisplayId>{low.Goblin_Rogue}</DisplayId>
    </Object>
    <Object type="0x613" id="Goblin Warrior">
       <Group>Goblins</Group>
@@ -543,7 +525,6 @@
          <Speed>60</Speed>
          <LifetimeMS>600</LifetimeMS>
       </Projectile>
-      <DisplayId>{low.Goblin_Warrior}</DisplayId>
    </Object>
    <Object type="0x614" id="Goblin Mage">
       <Enemy/>
@@ -577,7 +558,6 @@
          <Size>130</Size>
          <LifetimeMS>1600</LifetimeMS>
       </Projectile>
-      <DisplayId>{low.Goblin_Mage}</DisplayId>
    </Object>
    <Object type="0x6c8" id="Easily Enraged Bunny">
       <Enemy/>
@@ -594,7 +574,6 @@
       <Terrain>LowForest</Terrain>
       <XpMult>0</XpMult>
       <SpawnProb>0.7</SpawnProb>
-      <DisplayId>{low.Easily_Enraged_Bunny}</DisplayId>
    </Object>
    <Object type="0x6c9" id="Enraged Bunny">
       <Enemy/>
@@ -616,7 +595,6 @@
          <Size>90</Size>
          <LifetimeMS>1600</LifetimeMS>
       </Projectile>
-      <DisplayId>{low.Enraged_Bunny}</DisplayId>
    </Object>
    <Object type="0x6d1" id="Forest Nymph">
       <Enemy/>
@@ -649,6 +627,5 @@
          <LifetimeMS>2900</LifetimeMS>
          <Boomerang/>
       </Projectile>
-      <DisplayId>{low.Forest_Nymph}</DisplayId>
    </Object>
 </Objects>

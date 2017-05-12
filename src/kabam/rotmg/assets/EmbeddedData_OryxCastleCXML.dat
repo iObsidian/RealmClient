@@ -23,16 +23,13 @@
       <Enemy/>
       <XpMult>0.0</XpMult>
       <BlocksSight/>
-      <DisplayId>{oryxCastle.Destructible_Castle_Wall}</DisplayId>
    </Object>
    <Object type="0x0d71" id="Suit of Armor">
       <Class>Character</Class>
       <Texture>
-         <File>d3LofiObjEmbed16</File>
-         <Index>0x18</Index>
+         <File>lofiChar216x16</File>
+         <Index>0x07</Index>
       </Texture>
-      <ShadowSize>80</ShadowSize>
-      <ShadowColor>0xa0cde9</ShadowColor>
       <HitSound>monster/stone_walls_hit</HitSound>
       <DeathSound>monster/stone_walls_death</DeathSound>
       <MaxHitPoints>4000</MaxHitPoints>
@@ -40,10 +37,9 @@
       <StasisImmune/>
       <Enemy/>
       <XpMult>0.0</XpMult>
-      <DisplayId>{oryxCastle.Suit_of_Armor}</DisplayId>
    </Object>
    <Object type="0x0d72" id="Suit of Armor Sm">
-      <DisplayId>{oryxCastle.Suit_of_Armor_Sm}</DisplayId>
+      <DisplayId>Suit of Armor</DisplayId>
       <Class>GameObject</Class>
       <AnimatedTexture>
          <File>chars8x8dEncounters</File>
@@ -59,7 +55,7 @@
       <XpMult>0.0</XpMult>
    </Object>
    <Object type="0x0d73" id="CastleArch Wall Flame">
-      <DisplayId>{oryxCastle.CastleArch_Wall_Flame}</DisplayId>
+      <DisplayId>Castle Arch Wall</DisplayId>
       <Class>Wall</Class>
       <Texture>
          <File>lofiEnvironment2</File>
@@ -92,7 +88,7 @@
       <BlocksSight/>
    </Object>
    <Object type="0x0d74" id="CastleArch Wall">
-      <DisplayId>{oryxCastle.CastleArch_Wall}</DisplayId>
+      <DisplayId>Castle Arch Wall</DisplayId>
       <Class>Wall</Class>
       <Texture>
          <File>lofiEnvironment2</File>
@@ -131,10 +127,9 @@
       <OccupySquare/>
       <EnemyOccupySquare/>
       <BlocksSight/>
-      <DisplayId>{oryxCastle.Castle_Wall_Blank}</DisplayId>
    </Object>
    <Object type="0x0d76" id="Castle Brick Wall2">
-      <DisplayId>{oryxCastle.Castle_Brick_Wall2}</DisplayId>
+      <DisplayId>Brick Castle Wall</DisplayId>
       <Class>Wall</Class>
       <Texture>
          <File>lofiEnvironment2</File>
@@ -155,7 +150,7 @@
       <BlocksSight/>
    </Object>
    <Object type="0x0d77" id="Castle Brick Wall3">
-      <DisplayId>{oryxCastle.Castle_Brick_Wall3}</DisplayId>
+      <DisplayId>Brick Castle Wall</DisplayId>
       <Class>Wall</Class>
       <Texture>
          <File>lofiEnvironment2</File>
@@ -176,7 +171,7 @@
       <BlocksSight/>
    </Object>
    <Object type="0x0d78" id="Oryx Stone Guardian Right">
-      <DisplayId>{oryxCastle.Oryx_Stone_Guardian_Right}</DisplayId>
+      <DisplayId>Stone Guardian</DisplayId>
       <Group>Oryx Minions</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -186,31 +181,31 @@
       <Quest/>
       <Level>20</Level>
       <AnimatedTexture>
-         <File>d3Chars16x16rEmbed</File>
-         <Index>14</Index>
+         <File>chars16x16dEncounters</File>
+         <Index>20</Index>
       </AnimatedTexture>
       <AltTexture id="1">
          <AnimatedTexture>
-            <File>d3Chars16x16rEmbed</File>
-            <Index>15</Index>
+            <File>chars16x16dEncounters</File>
+            <Index>21</Index>
          </AnimatedTexture>
       </AltTexture>
       <AltTexture id="2">
          <AnimatedTexture>
-            <File>d3Chars16x16rEmbed</File>
-            <Index>16</Index>
+            <File>chars16x16dEncounters</File>
+            <Index>22</Index>
          </AnimatedTexture>
       </AltTexture>
       <AltTexture id="3">
          <AnimatedTexture>
-            <File>d3Chars16x16rEmbed</File>
-            <Index>17</Index>
+            <File>chars16x16dEncounters</File>
+            <Index>23</Index>
          </AnimatedTexture>
       </AltTexture>
       <AltTexture id="4">
          <AnimatedTexture>
-            <File>d3Chars16x16rEmbed</File>
-            <Index>18</Index>
+            <File>chars16x16dEncounters2</File>
+            <Index>0</Index>
          </AnimatedTexture>
       </AltTexture>
       <HitSound>monster/stone_walls_death</HitSound>
@@ -242,7 +237,7 @@
       <XpMult>0.135</XpMult>
    </Object>
    <Object type="0x0d79" id="Oryx Stone Guardian Left">
-      <DisplayId>{oryxCastle.Oryx_Stone_Guardian_Left}</DisplayId>
+      <DisplayId>Stone Guardian</DisplayId>
       <Group>Oryx Minions</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -252,31 +247,31 @@
       <Quest/>
       <Level>20</Level>
       <AnimatedTexture>
-         <File>d3Chars16x16rEmbed</File>
-         <Index>19</Index>
+         <File>chars16x16dEncounters2</File>
+         <Index>2</Index>
       </AnimatedTexture>
       <AltTexture id="1">
          <AnimatedTexture>
-            <File>d3Chars16x16rEmbed</File>
-            <Index>20</Index>
+            <File>chars16x16dEncounters2</File>
+            <Index>3</Index>
          </AnimatedTexture>
       </AltTexture>
       <AltTexture id="2">
          <AnimatedTexture>
-            <File>d3Chars16x16rEmbed</File>
-            <Index>21</Index>
+            <File>chars16x16dEncounters2</File>
+            <Index>4</Index>
          </AnimatedTexture>
       </AltTexture>
       <AltTexture id="3">
          <AnimatedTexture>
-            <File>d3Chars16x16rEmbed</File>
-            <Index>22</Index>
+            <File>chars16x16dEncounters2</File>
+            <Index>5</Index>
          </AnimatedTexture>
       </AltTexture>
       <AltTexture id="4">
          <AnimatedTexture>
-            <File>d3Chars16x16rEmbed</File>
-            <Index>23</Index>
+            <File>chars16x16dEncounters2</File>
+            <Index>6</Index>
          </AnimatedTexture>
       </AltTexture>
       <HitSound>monster/stone_walls_death</HitSound>
@@ -322,7 +317,6 @@
       <Size>0</Size>
       <Defense>0</Defense>
       <XpMult>0.0</XpMult>
-      <DisplayId>{oryxCastle.Oryx_Guardian_TaskMaster}</DisplayId>
    </Object>
    <Object type="0x0d7b" id="Oryx's Chamber Portal">
       <Class>Portal</Class>
@@ -332,10 +326,9 @@
          <File>lofiEnvironment</File>
          <Index>0x7c</Index>
       </Texture>
-      <DisplayId>{oryxCastle.OryxAPOSs_Chamber_Portal}</DisplayId>
    </Object>
    <Object type="0x0d7c" id="Oryx Guardian Sword">
-      <DisplayId>{oryxCastle.Oryx_Guardian_Sword}</DisplayId>
+      <DisplayId>Stone Guardian Sword</DisplayId>
       <Group>Oryx Minions</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -381,10 +374,9 @@
       <Size>0</Size>
       <Defense>20</Defense>
       <XpMult>0.0</XpMult>
-      <DisplayId>{oryxCastle.Oryx_Armor_Spawner}</DisplayId>
    </Object>
    <Object type="0x0d7e" id="Oryx Suit of Armor">
-      <DisplayId>{oryxCastle.Oryx_Suit_of_Armor}</DisplayId>
+      <DisplayId>Haunted Armor</DisplayId>
       <Group>Oryx Minions</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -426,7 +418,7 @@
       <XpMult>0.0</XpMult>
    </Object>
    <Object type="0x0d7f" id="Oryx Insect Commander">
-      <DisplayId>{oryxCastle.Oryx_Insect_Commander}</DisplayId>
+      <DisplayId>Commander of Oryx</DisplayId>
       <Group>Oryx Minions</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -450,7 +442,7 @@
       <Defense>30</Defense>
    </Object>
    <Object type="0x0d80" id="Oryx Insect Minion">
-      <DisplayId>{oryxCastle.Oryx_Insect_Minion}</DisplayId>
+      <DisplayId>Insect Minion</DisplayId>
       <Group>Oryx Minions</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -493,7 +485,7 @@
       <XpMult>0.2</XpMult>
    </Object>
    <Object type="0x0d81" id="Oryx Eye Warrior">
-      <DisplayId>{oryxCastle.Oryx_Eye_Warrior}</DisplayId>
+      <DisplayId>Warrior of Oryx</DisplayId>
       <Group>Oryx Minions</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -523,7 +515,7 @@
       <XpMult>0</XpMult>
    </Object>
    <Object type="0x0d82" id="Oryx Brute">
-      <DisplayId>{oryxCastle.Oryx_Brute}</DisplayId>
+      <DisplayId>Brute of Oryx</DisplayId>
       <Group>Oryx Minions</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -570,7 +562,7 @@
       <XpMult>1.6</XpMult>
    </Object>
    <Object type="0x0d83" id="Oryx Knight">
-      <DisplayId>{oryxCastle.Oryx_Knight}</DisplayId>
+      <DisplayId>Knight of Oryx</DisplayId>
       <Group>Oryx Minions</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -616,7 +608,7 @@
       <Defense>20</Defense>
    </Object>
    <Object type="0x0d84" id="Oryx Pet">
-      <DisplayId>{oryxCastle.Oryx_Pet}</DisplayId>
+      <DisplayId>Pet of Oryx</DisplayId>
       <Group>Oryx Minions</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -641,7 +633,7 @@
       <XpMult>0.2</XpMult>
    </Object>
    <Object type="0x0d85" id="Oryx's Living Floor Fire Down">
-      <DisplayId>{oryxCastle.OryxAPOSs_Living_Floor_Fire_Down}</DisplayId>
+      <DisplayId>Oryx's Living Floor</DisplayId>
       <Group>Oryx's Minions</Group>
       <Class>GameObject</Class>
       <Enemy/>
@@ -650,19 +642,19 @@
       <MaxHitPoints>2600</MaxHitPoints>
       <DrawOnGround/>
       <Texture>
-         <File>d3LofiObjEmbed</File>
-         <Index>0x4d</Index>
+         <File>lofiEnvironment3</File>
+         <Index>0x1d</Index>
       </Texture>
       <AltTexture id="1">
          <Texture>
-            <File>d3LofiObjEmbed</File>
-            <Index>0x4e</Index>
+            <File>lofiEnvironment3</File>
+            <Index>0x1e</Index>
          </Texture>
       </AltTexture>
       <AltTexture id="2">
          <Texture>
-            <File>d3LofiObjEmbed</File>
-            <Index>0x4f</Index>
+            <File>lofiEnvironment3</File>
+            <Index>0x1f</Index>
          </Texture>
       </AltTexture>
       <Projectile id="0">
@@ -714,7 +706,6 @@
          <ConditionEffect duration="5">Quiet</ConditionEffect>
          <MultiHit/>
       </Projectile>
-      <DisplayId>{oryxCastle.Quiet_Bomb}</DisplayId>
    </Object>
    <Object type="0x0d87" id="Oryx's Living Floor">
       <Group>Oryx's Minions</Group>
@@ -725,19 +716,19 @@
       <MaxHitPoints>2600</MaxHitPoints>
       <DrawOnGround/>
       <Texture>
-         <File>d3LofiObjEmbed</File>
-         <Index>0x4d</Index>
+         <File>lofiEnvironment3</File>
+         <Index>0x1d</Index>
       </Texture>
       <AltTexture id="1">
          <Texture>
-            <File>d3LofiObjEmbed</File>
-            <Index>0x4e</Index>
+            <File>lofiEnvironment3</File>
+            <Index>0x1e</Index>
          </Texture>
       </AltTexture>
       <AltTexture id="2">
          <Texture>
-            <File>d3LofiObjEmbed</File>
-            <Index>0x4f</Index>
+            <File>lofiEnvironment3</File>
+            <Index>0x1f</Index>
          </Texture>
       </AltTexture>
       <Projectile id="0">
@@ -750,10 +741,9 @@
          <ConditionEffect duration="5">Quiet</ConditionEffect>
          <MultiHit/>
       </Projectile>
-      <DisplayId>{oryxCastle.OryxAPOSs_Living_Floor}</DisplayId>
    </Object>
    <Object type="0x0d88" id="Oryx Suit of Armor Snowy">
-      <DisplayId>{oryxCastle.Oryx_Suit_of_Armor_Snowy}</DisplayId>
+      <DisplayId>Snowy Haunted Armor</DisplayId>
       <Group>Oryx Minions</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -794,16 +784,6 @@
       <Defense>20</Defense>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x0d89" id="Oryx's Castle Portal">
-      <Class>Portal</Class>
-      <IntergamePortal/>
-      <DisplayId>{oryxCastle.OryxAPOSs_Castle_Portal}</DisplayId>
-      <DungeonName>Oryx's Castle</DungeonName>
-      <Texture>
-         <File>lofiEnvironment</File>
-         <Index>0x5d</Index>
-      </Texture>
-   </Object>
    <Object type="0x0d8b" id="Grey Pillar Snowy">
       <Class>GameObject</Class>
       <Model>Pillar</Model>
@@ -814,6 +794,5 @@
       <Static/>
       <OccupySquare/>
       <EnemyOccupySquare/>
-      <DisplayId>{oryxCastle.Grey_Pillar_Snowy}</DisplayId>
    </Object>
 </Objects>

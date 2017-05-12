@@ -29,7 +29,6 @@
          <ConditionEffect duration="0.8">Paralyzed</ConditionEffect>
          <Size>40</Size>
       </Projectile>
-      <DisplayId>{iceTomb.Ice_Golem}</DisplayId>
    </Object>
    <Object type="0x7fd1" id="Ice Tomb Chest">
       <Enemy/>
@@ -42,10 +41,31 @@
       <MaxHitPoints>100000</MaxHitPoints>
       <Defense>0</Defense>
       <XpMult>0.0</XpMult>
-      <DisplayId>{iceTomb.Ice_Tomb_Chest}</DisplayId>
+   </Object>
+   <Object type="0x7f51" id="Ice Tomb Event Chest Dropper">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Size>0</Size>
+   </Object>
+   <Object type="0x7fcb" id="Ice Tomb Event Chest">
+      <DisplayId>Event Chest</DisplayId>
+      <Class>Character</Class>
+      <Enemy/>
+      <KeepDamageRecord/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x466</Index>
+      </Texture>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <Defense>0</Defense>
+      <Size>160</Size>
+      <XpMult>5.13</XpMult>
    </Object>
    <Object type="0x7fab" id="Ice Artifact 1">
-      <DisplayId>{iceTomb.Ice_Artifact_1}</DisplayId>
+      <DisplayId>Ice Artifact</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -74,7 +94,7 @@
       </Projectile>
    </Object>
    <Object type="0x7fac" id="Ice Artifact 2">
-      <DisplayId>{iceTomb.Ice_Artifact_2}</DisplayId>
+      <DisplayId>Ice Artifact</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -103,7 +123,7 @@
       </Projectile>
    </Object>
    <Object type="0x7fad" id="Ice Artifact 3">
-      <DisplayId>{iceTomb.Ice_Artifact_3}</DisplayId>
+      <DisplayId>Ice Artifact</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -132,7 +152,7 @@
       </Projectile>
    </Object>
    <Object type="0x7fae" id="Aqua Artifact 1">
-      <DisplayId>{iceTomb.Aqua_Artifact_1}</DisplayId>
+      <DisplayId>Aqua Artifact</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -152,7 +172,7 @@
       </Projectile>
    </Object>
    <Object type="0x7faf" id="Aqua Artifact 2">
-      <DisplayId>{iceTomb.Aqua_Artifact_2}</DisplayId>
+      <DisplayId>Aqua Artifact</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -172,7 +192,7 @@
       </Projectile>
    </Object>
    <Object type="0x7fb0" id="Aqua Artifact 3">
-      <DisplayId>{iceTomb.Aqua_Artifact_3}</DisplayId>
+      <DisplayId>Aqua Artifact</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -192,7 +212,7 @@
       </Projectile>
    </Object>
    <Object type="0x7fb1" id="Shard Artifact 1">
-      <DisplayId>{iceTomb.Shard_Artifact_1}</DisplayId>
+      <DisplayId>Shard Artifact</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -213,7 +233,7 @@
       </Projectile>
    </Object>
    <Object type="0x7fb2" id="Shard Artifact 2">
-      <DisplayId>{iceTomb.Shard_Artifact_2}</DisplayId>
+      <DisplayId>Shard Artifact</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -234,7 +254,7 @@
       </Projectile>
    </Object>
    <Object type="0x7fb3" id="Shard Artifact 3">
-      <DisplayId>{iceTomb.Shard_Artifact_3}</DisplayId>
+      <DisplayId>Shard Artifact</DisplayId>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -264,7 +284,6 @@
       <Defense>0</Defense>
       <XpMult>0.0</XpMult>
       <NoMiniMap/>
-      <DisplayId>{iceTomb.Ice_Tomb_Boss_Anchor}</DisplayId>
    </Object>
    <Object type="0x7fa7" id="Activator">
       <Class>Character</Class>
@@ -277,7 +296,7 @@
       <Defense>0</Defense>
       <XpMult>0.0</XpMult>
       <NoMiniMap/>
-      <DisplayId>{iceTomb.Activator}</DisplayId>
+      <DisplayId>Mysterious Ice Shard</DisplayId>
       <Enemy/>
       <StasisImmune/>
       <AltTexture id="1">
@@ -322,7 +341,7 @@
       <Group>Ice Tomb Boss Statues</Group>
       <Enemy/>
       <Class>Character</Class>
-      <DisplayId>{iceTomb.Ice_Tomb_Support_Statue}</DisplayId>
+      <DisplayId>Polaris Statue</DisplayId>
       <Size>140</Size>
       <MaxHitPoints>100000</MaxHitPoints>
       <Texture>
@@ -334,7 +353,7 @@
       <Group>Ice Tomb Boss Statues</Group>
       <Enemy/>
       <Class>Character</Class>
-      <DisplayId>{iceTomb.Ice_Tomb_Attacker_Statue}</DisplayId>
+      <DisplayId>Glacius Statue</DisplayId>
       <Size>140</Size>
       <MaxHitPoints>100000</MaxHitPoints>
       <Texture>
@@ -346,7 +365,7 @@
       <Group>Ice Tomb Boss Statues</Group>
       <Enemy/>
       <Class>Character</Class>
-      <DisplayId>{iceTomb.Ice_Tomb_Defender_Statue}</DisplayId>
+      <DisplayId>Frimar Statue</DisplayId>
       <Size>140</Size>
       <MaxHitPoints>100000</MaxHitPoints>
       <Texture>
@@ -358,7 +377,7 @@
       <Group>Ice Tomb Bosses</Group>
       <Enemy/>
       <Class>Character</Class>
-      <DisplayId>{iceTomb.Ice_Tomb_Support}</DisplayId>
+      <DisplayId>Polaris</DisplayId>
       <Quest/>
       <Level>1</Level>
       <AnimatedTexture>
@@ -456,7 +475,7 @@
       <Group>Ice Tomb Bosses</Group>
       <Enemy/>
       <Class>Character</Class>
-      <DisplayId>{iceTomb.Ice_Tomb_Attacker}</DisplayId>
+      <DisplayId>Glacius</DisplayId>
       <Quest/>
       <Level>1</Level>
       <AnimatedTexture>
@@ -526,7 +545,7 @@
       <Group>Ice Tomb Bosses</Group>
       <Enemy/>
       <Class>Character</Class>
-      <DisplayId>{iceTomb.Ice_Tomb_Defender}</DisplayId>
+      <DisplayId>Frimar</DisplayId>
       <Quest/>
       <Level>1</Level>
       <AnimatedTexture>
@@ -587,7 +606,7 @@
    <Object type="0x7fb8" id="Ice Tomb Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
-      <DisplayId>{iceTomb.Ice_Tomb_Portal}</DisplayId>
+      <DisplayId>Ice Tomb</DisplayId>
       <DungeonName>Ice Tomb</DungeonName>
       <Texture>
          <File>d2LofiObjEmbed</File>

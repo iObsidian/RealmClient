@@ -36,7 +36,6 @@
       </Projectile>
       <Size>100</Size>
       <Defense>52</Defense>
-      <DisplayId>{oceanTrench.Fishman_Warrior}</DisplayId>
    </Object>
    <Object type="0x1701" id="Deep Sea Beast Spawner">
       <Group>Ocean Trench</Group>
@@ -56,7 +55,6 @@
       <XpMult>0.0</XpMult>
       <Size>110</Size>
       <Defense>50</Defense>
-      <DisplayId>{oceanTrench.Deep_Sea_Beast_Spawner}</DisplayId>
    </Object>
    <Object type="0x1702" id="Coral Bomb Big">
       <Group>Ocean Trench</Group>
@@ -78,8 +76,9 @@
          <Damage>40</Damage>
          <Size>100</Size>
          <LifetimeMS>800</LifetimeMS>
+         <ConditionEffect duration="8" target="1">Stasis</ConditionEffect>
+         <MultiHit/>
       </Projectile>
-      <DisplayId>{oceanTrench.Coral_Bomb_Big}</DisplayId>
    </Object>
    <Object type="0x1703" id="Coral Bomb Small">
       <Group>Ocean Trench</Group>
@@ -101,11 +100,12 @@
          <Damage>40</Damage>
          <Size>80</Size>
          <LifetimeMS>800</LifetimeMS>
+         <ConditionEffect duration="8" target="1">Stasis</ConditionEffect>
+         <MultiHit/>
       </Projectile>
-      <DisplayId>{oceanTrench.Coral_Bomb_Small}</DisplayId>
    </Object>
    <Object type="0x1704" id="Thessal the Mermaid Goddess Wounded">
-      <DisplayId>{oceanTrench.Thessal_the_Mermaid_Goddess_Wounded}</DisplayId>
+      <DisplayId>Thessal the Mermaid Goddess</DisplayId>
       <Group>Ocean Trench</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -122,7 +122,7 @@
       </AltTexture>
       <HitSound>monster/medusa_hit</HitSound>
       <DeathSound>monster/medusa_death</DeathSound>
-      <MaxHitPoints>10000</MaxHitPoints>
+      <MaxHitPoints>960000</MaxHitPoints>
       <ShadowSize>0</ShadowSize>
       <God/>
       <Quest/>
@@ -138,7 +138,7 @@
          <Damage>100</Damage>
          <Size>110</Size>
          <LifetimeMS>1600</LifetimeMS>
-         <ConditionEffect duration="2.4">Armor Broken</ConditionEffect>
+         <ConditionEffect duration="4.0">Armor Broken</ConditionEffect>
       </Projectile>
       <Projectile id="1">
          <ObjectId>Trident</ObjectId>
@@ -190,7 +190,6 @@
       </AltTexture>
       <HitSound>monster/djinn_hit</HitSound>
       <DeathSound>monster/flaming_skulls_death</DeathSound>
-      <DisplayId>{oceanTrench.Coral_Gift}</DisplayId>
    </Object>
    <Object type="0x1706" id="Thessal the Mermaid Goddess">
       <Group>Ocean Trench</Group>
@@ -202,14 +201,15 @@
       </AnimatedTexture>
       <HitSound>monster/medusa_hit</HitSound>
       <DeathSound>monster/medusa_death</DeathSound>
-      <MaxHitPoints>69000</MaxHitPoints>
+      <MaxHitPoints>96000</MaxHitPoints>
+      <XpMult>5.13</XpMult>
       <ShadowSize>0</ShadowSize>
       <God/>
       <StasisImmune/>
+      <ParalyzeImmune/>
       <Quest/>
       <PerRealmMax>1</PerRealmMax>
       <Level>20</Level>
-      <XpMult>0.22</XpMult>
       <Size>140</Size>
       <Defense>60</Defense>
       <NoArticle/>
@@ -219,7 +219,8 @@
          <Damage>100</Damage>
          <Size>110</Size>
          <LifetimeMS>1600</LifetimeMS>
-         <ConditionEffect duration="2.4">Armor Broken</ConditionEffect>
+         <ConditionEffect duration="4.0">Armor Broken</ConditionEffect>
+         <MultiHit/>
       </Projectile>
       <Projectile id="1">
          <ObjectId>Trident</ObjectId>
@@ -227,6 +228,7 @@
          <Damage>65</Damage>
          <Size>100</Size>
          <LifetimeMS>3000</LifetimeMS>
+         <MultiHit/>
       </Projectile>
       <Projectile id="2">
          <ObjectId>Super Trident</ObjectId>
@@ -234,6 +236,7 @@
          <Damage>100</Damage>
          <Size>110</Size>
          <LifetimeMS>3000</LifetimeMS>
+         <MultiHit/>
       </Projectile>
       <Projectile id="3">
          <ObjectId>Yellow Wall</ObjectId>
@@ -241,8 +244,9 @@
          <Damage>120</Damage>
          <Size>160</Size>
          <LifetimeMS>3000</LifetimeMS>
+         <ConditionEffect duration="6">Weak</ConditionEffect>
+         <MultiHit/>
       </Projectile>
-      <DisplayId>{oceanTrench.Thessal_the_Mermaid_Goddess}</DisplayId>
    </Object>
    <Object type="0x1554" id="Thessal Dropper">
       <Enemy/>
@@ -256,7 +260,6 @@
       <Size>0</Size>
       <NoMiniMap/>
       <StasisImmune/>
-      <DisplayId>{oceanTrench.Thessal_Dropper}</DisplayId>
    </Object>
    <Object type="0x1707" id="Deep Sea Beast">
       <Group>Ocean Trench</Group>
@@ -306,8 +309,8 @@
          <Size>270</Size>
          <LifetimeMS>600</LifetimeMS>
          <MultiHit/>
+         <ConditionEffect duration="2">Slowed</ConditionEffect>
       </Projectile>
-      <DisplayId>{oceanTrench.Deep_Sea_Beast}</DisplayId>
    </Object>
    <Object type="0x1708" id="Fishman">
       <Group>Ocean Trench</Group>
@@ -337,7 +340,6 @@
       </Projectile>
       <Size>100</Size>
       <Defense>40</Defense>
-      <DisplayId>{oceanTrench.Fishman}</DisplayId>
    </Object>
    <Object type="0x1709" id="Sea Horse">
       <Group>Ocean Trench</Group>
@@ -350,10 +352,10 @@
       <HitSound>monster/elves_death</HitSound>
       <DeathSound>monster/night_elves_death</DeathSound>
       <MaxHitPoints>1000</MaxHitPoints>
+      <XpMult>0.6</XpMult>
       <Flying/>
       <Z>0.26</Z>
       <ShadowSize>80</ShadowSize>
-      <XpMult>0.0</XpMult>
       <Projectile id="0">
          <ObjectId>Bubble</ObjectId>
          <Speed>35</Speed>
@@ -363,7 +365,6 @@
       </Projectile>
       <Size>60</Size>
       <Defense>20</Defense>
-      <DisplayId>{oceanTrench.Sea_Horse}</DisplayId>
    </Object>
    <Object type="0x170a" id="Sea Mare">
       <Group>Ocean Trench</Group>
@@ -376,6 +377,7 @@
       <HitSound>monster/ogres_hit</HitSound>
       <DeathSound>monster/medusa_death</DeathSound>
       <MaxHitPoints>6000</MaxHitPoints>
+      <XpMult>2.0</XpMult>
       <Projectile id="0">
          <ObjectId>Squid Shot</ObjectId>
          <Speed>50</Speed>
@@ -393,7 +395,6 @@
       </Projectile>
       <Size>100</Size>
       <Defense>60</Defense>
-      <DisplayId>{oceanTrench.Sea_Mare}</DisplayId>
    </Object>
    <Object type="0x170b" id="Ink Bubble">
       <Group>Ocean Trench</Group>
@@ -419,7 +420,6 @@
       <Size>120</Size>
       <Defense>40</Defense>
       <XpMult>0</XpMult>
-      <DisplayId>{oceanTrench.Ink_Bubble}</DisplayId>
    </Object>
    <Object type="0x170c" id="Giant Squid">
       <Group>Ocean Trench</Group>
@@ -449,7 +449,6 @@
       </Projectile>
       <Size>120</Size>
       <Defense>40</Defense>
-      <DisplayId>{oceanTrench.Giant_Squid}</DisplayId>
    </Object>
    <Object type="0x170d" id="Sea Slurp Home">
       <Group>Ocean Trench</Group>
@@ -468,6 +467,7 @@
       <HitSound>monster/trees_hit</HitSound>
       <DeathSound>monster/stone_walls_hit</DeathSound>
       <MaxHitPoints>5000</MaxHitPoints>
+      <XpMult>1.5</XpMult>
       <Projectile id="0">
          <ObjectId>Oryx Insect Sting</ObjectId>
          <Speed>65</Speed>
@@ -484,7 +484,6 @@
       </Projectile>
       <Size>120</Size>
       <Defense>40</Defense>
-      <DisplayId>{oceanTrench.Sea_Slurp_Home}</DisplayId>
    </Object>
    <Object type="0x170e" id="Grey Sea Slurp">
       <Group>Ocean Trench</Group>
@@ -497,6 +496,7 @@
       <HitSound>monster/cubes_hit</HitSound>
       <DeathSound>monster/blobs_death</DeathSound>
       <MaxHitPoints>1000</MaxHitPoints>
+      <XpMult>0.25</XpMult>
       <Projectile id="0">
          <ObjectId>Purple Spit</ObjectId>
          <Speed>60</Speed>
@@ -513,8 +513,6 @@
       </Projectile>
       <Size>100</Size>
       <Defense>20</Defense>
-      <XpMult>0.05</XpMult>
-      <DisplayId>{oceanTrench.Grey_Sea_Slurp}</DisplayId>
    </Object>
    <Object type="0x170f" id="OceanRock">
       <Class>GameObject</Class>
@@ -534,7 +532,6 @@
       </RandomTexture>
       <Size>80</Size>
       <Static/>
-      <DisplayId>{oceanTrench.OceanRock}</DisplayId>
    </Object>
    <Object type="0x1710" id="Seaweed">
       <Class>GameObject</Class>
@@ -550,7 +547,6 @@
       </RandomTexture>
       <Size>80</Size>
       <Static/>
-      <DisplayId>{oceanTrench.Seaweed}</DisplayId>
    </Object>
    <Object type="0x1711" id="Coral">
       <Class>GameObject</Class>
@@ -574,7 +570,6 @@
       </RandomTexture>
       <Size>80</Size>
       <Static/>
-      <DisplayId>{oceanTrench.Coral}</DisplayId>
    </Object>
    <Object type="0x1712" id="Ocean Wall2">
       <Class>Wall</Class>
@@ -595,7 +590,6 @@
       <OccupySquare/>
       <EnemyOccupySquare/>
       <BlocksSight/>
-      <DisplayId>{oceanTrench.Ocean_Wall2}</DisplayId>
    </Object>
    <Object type="0x1713" id="Ocean Wall">
       <Class>Wall</Class>
@@ -616,6 +610,14 @@
       <OccupySquare/>
       <EnemyOccupySquare/>
       <BlocksSight/>
-      <DisplayId>{oceanTrench.Ocean_Wall}</DisplayId>
+   </Object>
+   <Object type="0x0731" id="Ocean Vent">
+      <Class>GameObject</Class>
+      <DrawOnGround/>
+      <Effect>Vent</Effect>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x26</Index>
+      </Texture>
    </Object>
 </Objects>

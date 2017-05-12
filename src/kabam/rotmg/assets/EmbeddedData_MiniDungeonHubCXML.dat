@@ -2,7 +2,7 @@
 
 <Objects>
    <Object type="0x746A" id="md LightKey">
-      <DisplayId>{miniDungeonHub.md_LightKey}</DisplayId>
+      <DisplayId>Key of Light</DisplayId>
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -86,7 +86,7 @@
       </Animation>
    </Object>
    <Object type="0x746B" id="md DarkKey">
-      <DisplayId>{miniDungeonHub.md_DarkKey}</DisplayId>
+      <DisplayId>Key of Darkness</DisplayId>
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -170,7 +170,7 @@
       </Animation>
    </Object>
    <Object type="0x2009" id="md dwGenerator">
-      <DisplayId>{miniDungeonHub.md_dwGenerator}</DisplayId>
+      <DisplayId>Janus the Doorwarden</DisplayId>
       <Class>Character</Class>
       <Texture>
          <File>invisible</File>
@@ -193,10 +193,9 @@
       <ShadowSize>0</ShadowSize>
       <StasisImmune/>
       <XpMult>0.0</XpMult>
-      <DisplayId>{miniDungeonHub.md_dwspawner}</DisplayId>
    </Object>
    <Object type="0x2008" id="md Janus the Doorwarden">
-      <DisplayId>{miniDungeonHub.md_Janus_the_Doorwarden}</DisplayId>
+      <DisplayId>Janus the Doorwarden</DisplayId>
       <Class>Character</Class>
       <Enemy/>
       <Z>0.4</Z>
@@ -362,7 +361,6 @@
       <ShadowSize>0</ShadowSize>
       <StasisImmune/>
       <XpMult>0.0</XpMult>
-      <DisplayId>{miniDungeonHub.md_placer1}</DisplayId>
    </Object>
    <Object type="0x2002" id="md placer3">
       <Class>Character</Class>
@@ -375,7 +373,6 @@
       <ShadowSize>0</ShadowSize>
       <StasisImmune/>
       <XpMult>0.0</XpMult>
-      <DisplayId>{miniDungeonHub.md_placer3}</DisplayId>
    </Object>
    <Object type="0x2003" id="md placer2">
       <Class>Character</Class>
@@ -388,7 +385,6 @@
       <ShadowSize>0</ShadowSize>
       <StasisImmune/>
       <XpMult>0.0</XpMult>
-      <DisplayId>{miniDungeonHub.md_placer2}</DisplayId>
    </Object>
    <Object type="0x2004" id="md placer4">
       <Class>Character</Class>
@@ -401,7 +397,6 @@
       <ShadowSize>0</ShadowSize>
       <StasisImmune/>
       <XpMult>0.0</XpMult>
-      <DisplayId>{miniDungeonHub.md_placer4}</DisplayId>
    </Object>
    <Object type="0x2005" id="Craig, Intern of the Mad God">
       <Class>Character</Class>
@@ -413,7 +408,6 @@
       <DeathSound>monster/flying_brain_death</DeathSound>
       <Size>100</Size>
       <ShadowSize>50</ShadowSize>
-      <DisplayId>{miniDungeonHub.Craig,_Intern_of_the_Mad_God}</DisplayId>
    </Object>
    <Object type="0x2006" id="md placer5">
       <Class>Character</Class>
@@ -426,10 +420,9 @@
       <ShadowSize>0</ShadowSize>
       <StasisImmune/>
       <XpMult>0.0</XpMult>
-      <DisplayId>{miniDungeonHub.md_placer5}</DisplayId>
    </Object>
    <Object type="0x2007" id="md Loot Balloon Doorwarden">
-      <DisplayId>{miniDungeonHub.md_Loot_Balloon_Doorwarden}</DisplayId>
+      <DisplayId>Janus Chest</DisplayId>
       <Class>Character</Class>
       <Enemy/>
       <Texture>
