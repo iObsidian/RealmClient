@@ -57,6 +57,7 @@ import robotlegs.bender.extensions.signalCommandMap.SignalCommandMapExtension;
 import robotlegs.bender.framework.api.IContext;
 import robotlegs.bender.framework.api.LogLevel;
 
+
 public class WebMain extends Sprite {
 
     public static var STAGE:Stage;

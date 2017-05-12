@@ -1202,6 +1202,7 @@ public class GameServerConnectionConcrete extends GameServerConnection {
         }
     }
 
+
     private function handleNewPlayer(_arg_1:Player, _arg_2:AbstractMap):void {
         this.setPlayerSkinTemplate(_arg_1, 0);
         if (_arg_1.objectId_ == this.playerId_) {

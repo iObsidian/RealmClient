@@ -3,13 +3,13 @@
   <component name="FlexBuildConfigurationManager" active="rotmg-client-release">
     <configurations>
       <configuration name="rotmg-client-debug" main-class="WebMain" output-file="rotmg-client-debug.swf" output-folder="$MODULE_DIR$/out/production">
-        <dependencies target-player="20.0" framework-linkage="Merged">
+        <dependencies target-player="16.0" framework-linkage="Merged">
           <entries>
             <entry library-id="5aae583f-abea-482e-9c5e-e8ffaead6593">
               <dependency linkage="Merged" />
             </entry>
           </entries>
-          <sdk name="Flex" />
+          <sdk name="Flex SDK" />
         </dependencies>
         <compiler-options>
           <map>
@@ -23,13 +23,13 @@
         <packaging-ios />
       </configuration>
       <configuration name="rotmg-client-release" main-class="WebMain" output-file="rotmg-client-release.swf" output-folder="$MODULE_DIR$/out/production">
-        <dependencies target-player="20.0" framework-linkage="Merged">
+        <dependencies target-player="16.0" framework-linkage="Merged">
           <entries>
             <entry library-id="68ed3a57-2b8d-4d8d-85b0-93e6cf9cb38f">
               <dependency linkage="Merged" />
             </entry>
           </entries>
-          <sdk name="Flex (1)" />
+          <sdk name="Flex SDK" />
         </dependencies>
         <compiler-options>
           <map>
@@ -50,7 +50,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="Flex&#9;Flex (1)" jdkType="__CompositeFlexSdk__" />
+    <orderEntry type="jdk" jdkName="Flex SDK" jdkType="Flex SDK Type (new)" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library" exported="">
       <library type="flex">
